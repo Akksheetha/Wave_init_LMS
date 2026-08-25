@@ -1,18 +1,18 @@
 [
   {
-    "description": "",
+    "description": "    This feature checks whether a trainer can log in to WaveInit LMS\n    using valid or invalid login details.",
     "elements": [
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-an-existing-course-using-the-exact-course-name",
+        "id": "trainer-login-25_08_2026;login-with-valid-trainer-details",
         "keyword": "Scenario",
         "line": 10,
-        "name": "User search for an existing course using the exact course name",
+        "name": "Login with valid trainer details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 447559600
+              "duration": 209900699
             },
             "keyword": "Before",
             "hidden": true
@@ -20,190 +20,85 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1039873200
+              "duration": 2247119999
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 5491063600
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 207197900
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 39667599
+              "duration": 72745100
             },
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "the user enter the existing course name in the search field",
+            "name": "the trainer selects Trainer login",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 211233699
+              "duration": 42436700
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the user search for the course",
+            "name": "the trainer enters valid login details",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:45"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 19499400
+              "duration": 62333000
             },
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 13,
-            "name": "the matching course should be displayed in the course list",
+            "name": "the trainer clicks the Sign in button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:59"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 89323200
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@validcourse",
-            "line": 9
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-a-partial-course-name",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "User search for a course using a partial course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 341744600
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1144001599
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 6226145700
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 80744600
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 90915799
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 17,
-            "name": "the user enter a partial course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:72"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 25198099
+              "duration": 3958039900
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "the courses matching the search text should be displayed",
+            "line": 14,
+            "name": "the trainer should be logged in",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:86"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:60"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 61497299
+              "duration": 4423200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44083599
             },
             "keyword": "After",
             "hidden": true
@@ -211,149 +106,23 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Vithya",
             "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@partialSearch",
-            "line": 15
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-that-does-not-exist",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "User search for a course that does not exist",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 301619200
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 890157699
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5871146399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 358063500
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 196298399
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "the user enter a non-existing course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:99"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 29219100
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "no courses should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:113"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1633094399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user should see \"No courses found matching your criteria\" message",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:127"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 69820400
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@invalidcourse",
-            "line": 20
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-clear-the-course-search-field",
-        "keyword": "Scenario",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
         "line": 27,
-        "name": "User clear the course search field",
+        "name": "Login with invalid trainer details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 235560899
+              "duration": 400422699
             },
             "keyword": "Before",
             "hidden": true
@@ -361,111 +130,98 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2044332999
+              "duration": 2279229799
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4359873899
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 277280200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 252021099
+              "duration": 68352199
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
-            "name": "the user enter a course name in the search field",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:134"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 40462699
+              "duration": 15253199
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
-            "name": "the matching course should be displayed",
+            "line": 19,
+            "name": "the trainer enters \"fake@wave.com\" as email",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:148"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 110383099
+              "duration": 30801199
             },
             "arguments": [],
-            "keyword": "When ",
-            "line": 30,
-            "name": "the user clear the search field",
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"wrong@123\" as password",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:162"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 16362600
+              "duration": 97099400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4077600
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 31,
-            "name": "the search field should be empty",
+            "line": 22,
+            "name": "the trainer should not be logged in",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:167"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 11768499
+              "duration": 1892691000
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 32,
-            "name": "all available courses should be displayed",
+            "line": 23,
+            "name": "the message \"Invalid email or password\" should be displayed",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:172"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 72744900
+              "duration": 51931599
             },
             "keyword": "After",
             "hidden": true
@@ -473,31 +229,23 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Vithya",
             "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@clear",
-            "line": 26
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-different-letter-casing",
-        "keyword": "Scenario",
-        "line": 35,
-        "name": "User search for a course using different letter casing",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Login with invalid trainer details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 217143600
+              "duration": 374734800
             },
             "keyword": "Before",
             "hidden": true
@@ -505,85 +253,98 @@
           {
             "result": {
               "status": "passed",
-              "duration": 983144200
+              "duration": 1977560899
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 5867988400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 170530200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 146275399
+              "duration": 78159800
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 36,
-            "name": "the user enter an existing course name with different letter casing in the search field",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:176"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 64213599
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 37,
-            "name": "all the matching course should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:190"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 38495900
+              "duration": 17944500
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 38,
-            "name": "the search result should match the entered course",
+            "line": 19,
+            "name": "the trainer enters \"trainer@wave.com\" as email",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:204"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 73569199
+              "duration": 42504100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"wrong@123\" as password",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75351799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 71925400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the trainer should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1453428099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the message \"Invalid email or password\" should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37924299
             },
             "keyword": "After",
             "hidden": true
@@ -591,35 +352,515 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Vithya",
             "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Login with invalid trainer details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 264520400
+            },
+            "keyword": "Before",
+            "hidden": true
           },
           {
-            "name": "@searchcourse",
-            "line": 1
+            "result": {
+              "status": "passed",
+              "duration": 2281280699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
           },
           {
-            "name": "@casing",
-            "line": 34
+            "result": {
+              "status": "passed",
+              "duration": 80445900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14785599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the trainer enters \"wrong@wave.com\" as email",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26426099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"trainer123\" as password",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 98208999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13126400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the trainer should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1453389699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the message \"Invalid email or password\" should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 47706200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Login with invalid trainer details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 255220199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1912755100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 88929399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12064500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the trainer enters \"\" as email",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17091500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"trainer123\" as password",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 61638200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4598099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the trainer should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52948599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the message \"Please fill out this field.\" should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51440500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Login with invalid trainer details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 286697499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2636863099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 570733500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 212405200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the trainer enters \"trainer@wave.com\" as email",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 62797800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"\" as password",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 187030200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12496299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the trainer should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 196250000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the message \"Please fill out this field.\" should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 120193099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "trainer-login-25_08_2026;login-with-invalid-trainer-details",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Login with invalid trainer details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 471491700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1919657899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 169265200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10404699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the trainer enters \"\" as email",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13788599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer enters \"\" as password",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 65469600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2840000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the trainer should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49256899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the message \"Please fill out this field.\" should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:88"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 41183199
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "akksheetha---25th-july---search-courses",
+    "id": "trainer-login-25_08_2026",
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha - 25th July - Search courses",
+    "name": "Trainer Login 25_08_2026",
     "tags": [
       {
-        "name": "@Akksheetha",
-        "line": 1
-      },
-      {
-        "name": "@searchcourse",
+        "name": "@Vithya",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\CourseSearch.feature"
+    "uri": "src\\test\\feature\\TrainerLogin.feature"
   }
 ]
