@@ -5,7 +5,7 @@
   "main": "cucumber.js",
   "scripts": {
     "Akksheetha": "cucumber-js src/test/Features --tags @Akksheetha --format summary",
-    "posttest": "node generate-multiple-report.js"
+    "posttest": "tsx src/test/Utils/report.mts"
   },
   "keywords": [],
   "author": "",
