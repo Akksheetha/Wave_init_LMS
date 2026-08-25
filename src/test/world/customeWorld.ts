@@ -8,3 +8,4 @@ export class customeworld extends World{
     page!:Page
     login!:loginpage
 }setWorldConstructor(customeworld)
+//

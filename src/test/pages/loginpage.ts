@@ -2,7 +2,7 @@ import { Locator, Page } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 import { basePage } from './basePage';
-
+//
 dotenv.config({ path: path.resolve(process.cwd(), 'env/.env.qa') });
 
 export class loginpage extends basePage {
