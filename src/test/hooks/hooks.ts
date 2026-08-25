@@ -1,8 +1,12 @@
 import { Browser, chromium } from '@playwright/test';
 import { customworld } from '../world/customWorld';
 import { loginpage } from '../pages/loginpage';
+<<<<<<< HEAD
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
+=======
+import { trainerloginPage } from '../pages/trainerloginPage';
+>>>>>>> 28843e69b6a018ed0d1f2c4b4b296d64c93479f4
 import {
     BeforeAll,
     AfterAll,
@@ -26,8 +30,12 @@ Before(async function (this:customworld) {
     this.page= await this.context.newPage()
     this.login = new loginpage(this.page)
     this.search = new courseSearchPage(this.page);
+<<<<<<< HEAD
     this.dashboard = new dashboardpage(this.page)
     this.exploretraining = new ExploreTrainingPage(this.page)
+=======
+    this.trainerLogin =new trainerloginPage(this.page);
+>>>>>>> 28843e69b6a018ed0d1f2c4b4b296d64c93479f4
 })
 
 After(async function(this:customworld,{result ,pickle}){
