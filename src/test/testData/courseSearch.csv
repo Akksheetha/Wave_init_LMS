@@ -1,0 +1,5 @@
+courseName,searchType,expectedResult
+react,exact,react
+rea,partial,react
+abc,invalid,No courses found matching your criteria
+REACT,casing,react

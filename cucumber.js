@@ -1,35 +1,34 @@
-module.exports={
-    default:{
-        "formatOptions":{
-            "snippetInterface":"async-await"
+module.exports = {
+    default: {
+
+        formatOptions: {
+            snippetInterface: "async-await"
         },
-        requireModule:[
+
+        requireModule: [
             "tsx/cjs"
         ],
 
-        require:[
+        require: [
             "src/test/step/**/*.ts",
             "src/test/hooks/**/*.ts",
-            "src/test/world/**/*.ts",
-           
+            "src/test/world/**/*.ts"
         ],
 
-        
-
-        paths:[
-            "src/test/feature/**/*.feature",
+        paths: [
+            "src/test/feature/**/*.feature"
         ],
 
-        publishQuiet:true,
-        dryRun:false,  //false for real automation
+        publishQuiet: true,
+
+        dryRun: false,
 
         format: [
             "progress",
-            "html:Report/cucumber-html-report/cucumber-report.html",
-             "json:Report/cucumber-json-report/report.json",
-             "allure-cucumberjs/reporter:report/allure/report/allure-results",
+            "html:report/cucumber-html-report/cucumber-report.html",
+            "json:report/cucumber-json-report/report.json",
+            "allure-cucumberjs/reporter:report/allure-results",
             "rerun:rerun/rerun.txt"
-]
-
+        ]
     }
 };
