@@ -35,12 +35,13 @@ export class courseSearchPage extends basePage {
     }
 
     async verifyCourseDisplayed(courseName: string) {
-        const course = this.page.getByText(courseName, {
-            exact: true
-        });
+    const course = this.page.getByRole('heading', {
+        name: courseName,
+        exact: true
+    });
 
-        await expect(course).toBeVisible();
-    }
+    await expect(course).toBeVisible();
+}
 
     async verifyNoCoursesMessage(message: string) {
         const noCoursesMessage = this.page.getByText(message, {
