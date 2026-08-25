@@ -1,14 +1,17 @@
-const report = require("multiple-cucumber-html-reporter");
+import { generate } from "multiple-cucumber-html-reporter";
 import * as os from "os";
 
-report.generate({
+generate({
     jsonDir: "./report/cucumber-json-report",
+
     reportPath: "./report/reports/html",
 
     reportName: "Wave init LMS Report",
+
     pageTitle: "Wave init LMS Report",
 
     displayDuration: true,
+
     openReportInBrowser: false,
 
     metadata: {
@@ -18,6 +21,8 @@ report.generate({
         },
 
         device: os.hostname(),
+
+        executionPlatform: "local",
 
         platform: {
             name: os.platform(),
@@ -31,20 +36,20 @@ report.generate({
         data: [
             {
                 label: "Project",
-                value: "Wave init LMS"
+                value: "Wave init LMS",
             },
             {
                 label: "Framework",
-                value: "Playwright + TypeScript + Cucumber"
+                value: "Playwright + TypeScript + Cucumber",
             },
             {
                 label: "Environment",
-                value: process.env.ENV || "QA"
+                value: process.env.ENV || "QA",
             },
             {
                 label: "Executed On",
-                value: new Date().toLocaleString()
-            }
-        ]
-    }
+                value: new Date().toLocaleString(),
+            },
+        ],
+    },
 });
