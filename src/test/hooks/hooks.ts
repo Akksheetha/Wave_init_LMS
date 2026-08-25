@@ -1,22 +1,32 @@
 import { Browser, chromium } from '@playwright/test';
-import{After, AfterAll, Before, BeforeAll, Status} from '@cucumber/cucumber';
-import { customeworld } from '../world/customeWorld';
+import { customworld } from '../world/customWorld';
 import { loginpage } from '../pages/loginpage';
+import {
+    BeforeAll,
+    AfterAll,
+    Status,
+    Before,
+    After,
+    setDefaultTimeout
+} from '@cucumber/cucumber';
+
+setDefaultTimeout(60 * 1000);
+import { courseSearchPage } from '../pages/courseSearchPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
-browser=await chromium.launch({headless:true});
+browser=await chromium.launch({headless:false});
 })
 
-Before(async function (this:customeworld) {
+Before(async function (this:customworld) {
     this.browser=browser
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
     this.login = new loginpage(this.page)
-    
+    this.search = new courseSearchPage(this.page);
 })
 
-After(async function(this:customeworld,{result ,pickle}){
+After(async function(this:customworld,{result ,pickle}){
 
      if (result?.status === Status.FAILED) {
         const img = await this.page.screenshot({

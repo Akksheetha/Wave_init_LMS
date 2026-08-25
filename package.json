@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "cucumber.js",
-  "scripts": {},
+  "scripts": {
+    "Akksheetha": "cucumber-js src/test/Features --tags @Akksheetha --format summary",
+    "posttest": "node generate-multiple-report.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
