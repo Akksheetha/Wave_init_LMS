@@ -1,11 +1,11 @@
 import { expect } from '@playwright/test';
 import { Given, When, Then } from '@cucumber/cucumber';
-import { customeworld } from '../world/customeWorld';
+import { customworld } from '../world/customWorld';
 import trainerLoginData from '../testdata/trainerLogin.json';
 
 Given(
     'the trainer is on the WaveInit login page',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         await this.trainerLogin.launch();
     }
@@ -13,7 +13,7 @@ Given(
 
 When(
     'the trainer selects Trainer login',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         await this.trainerLogin.switchToTrainer();
     }
@@ -21,7 +21,7 @@ When(
 
 When(
     'the trainer enters valid login details',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         await this.trainerLogin.EnterUnsername(
             trainerLoginData.validTrainer.email
@@ -35,7 +35,7 @@ When(
 
 When(
     'the trainer enters {string} as email',
-    async function (this: customeworld, email: string) {
+    async function (this: customworld, email: string) {
 
         await this.trainerLogin.EnterUnsername(email);
     }
@@ -43,7 +43,7 @@ When(
 
 When(
     'the trainer enters {string} as password',
-    async function (this: customeworld, password: string) {
+    async function (this: customworld, password: string) {
 
         await this.trainerLogin.EnterPass(password);
     }
@@ -51,7 +51,7 @@ When(
 
 When(
     'the trainer clicks the Sign in button',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         await this.trainerLogin.signClick();
     }
@@ -59,7 +59,7 @@ When(
 
 Then(
     'the trainer should be logged in',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         const welcome = await this.trainerLogin.WelcomText();
 
@@ -69,7 +69,7 @@ Then(
 
 Then(
     'the Trainer Dashboard should be displayed',
-    async function (this: customeworld) {
+    async function (this: customworld) {
 
         const welcome = await this.trainerLogin.WelcomText();
 
@@ -79,7 +79,7 @@ Then(
 
 Then(
     'the trainer should not be logged in',
-    async function (this: customeworld) {
+    async function (this: customworld) {
         await expect(this.page).toHaveURL(
             'https://www.waveinitlms.online/'
         );
@@ -87,7 +87,7 @@ Then(
 );
 Then(
     'the message {string} should be displayed',
-    async function (this: customeworld, message: string) {
+    async function (this: customworld, message: string) {
 
         if (message === 'Please fill out this field.') {
 
