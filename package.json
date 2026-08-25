@@ -7,6 +7,7 @@
     "test": "cross-env ENV=qa cucumber-js",
     "Vithya": "cucumber-js src/test/feature --tags @Vithya",
     "Akksheetha": "cucumber-js --tags \"@Akksheetha\"",
+    "Janani": "cucumber-js --tags \"@Janani\"",
     "posttest": "tsx src/test/Utils/report.mts"
   },
   "keywords": [],

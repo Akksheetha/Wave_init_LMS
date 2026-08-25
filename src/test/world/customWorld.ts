@@ -1,3 +1,4 @@
+import { DiscussionPage } from './../pages/discussionpage';
 import { setWorldConstructor } from '@cucumber/cucumber';
 import { Browser, BrowserContext, Page } from '@playwright/test';
 import { World } from '@cucumber/cucumber';
@@ -6,6 +7,7 @@ import { trainerloginPage } from '../pages/trainerloginPage';
 import { courseSearchPage } from '../pages/courseSearchPage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
+
 export class customworld extends World{
     browser!:Browser
     context!:BrowserContext
@@ -15,5 +17,6 @@ export class customworld extends World{
     dashboard!:dashboardpage
     exploretraining!:ExploreTrainingPage
     trainerLogin!: trainerloginPage;
+    DiscussionPage!: DiscussionPage;
 
 }setWorldConstructor(customworld)
