@@ -2,6 +2,7 @@ import { Browser, chromium } from '@playwright/test';
 import{After, AfterAll, Before, BeforeAll, Status} from '@cucumber/cucumber';
 import { customeworld } from '../world/customeWorld';
 import { loginpage } from '../pages/loginpage';
+import { trainerloginPage } from '../pages/trainerloginPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -13,6 +14,7 @@ Before(async function (this:customeworld) {
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
     this.login = new loginpage(this.page)
+    this.trainerLogin = new trainerloginPage(this.page);
     
 })
 
