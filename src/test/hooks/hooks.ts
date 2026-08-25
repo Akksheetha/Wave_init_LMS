@@ -1,6 +1,8 @@
 import { Browser, chromium } from '@playwright/test';
 import { customworld } from '../world/customWorld';
 import { loginpage } from '../pages/loginpage';
+import { dashboardpage } from '../pages/dashboardpage';
+import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import {
     BeforeAll,
     AfterAll,
@@ -24,6 +26,8 @@ Before(async function (this:customworld) {
     this.page= await this.context.newPage()
     this.login = new loginpage(this.page)
     this.search = new courseSearchPage(this.page);
+    this.dashboard = new dashboardpage(this.page)
+    this.exploretraining = new ExploreTrainingPage(this.page)
 })
 
 After(async function(this:customworld,{result ,pickle}){

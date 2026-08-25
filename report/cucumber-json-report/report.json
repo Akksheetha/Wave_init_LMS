@@ -4,15 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-an-existing-course-using-the-exact-course-name",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "User search for an existing course using the exact course name",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "User search for an existing training course by the exact course name",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 447559600
+              "duration": 236998799
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +20,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1039873200
+              "duration": 5268899999
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,7 +33,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 5491063600
+              "duration": 5793941500
             },
             "arguments": [],
             "keyword": "And ",
@@ -46,59 +46,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 207197900
+              "duration": 9629999
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the user navigate to the Dashboard",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 39667599
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user enter the existing course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 211233699
+              "duration": 120573400
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
-            "name": "the user search for the course",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:45"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 19499400
+              "duration": 19258599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"Manual Testing\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2346840799
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "the matching course should be displayed in the course list",
+            "name": "the matching training course should be displayed in the list",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:59"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 89323200
+              "duration": 63388199
             },
             "keyword": "After",
             "hidden": true
@@ -106,31 +106,31 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Darshan",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@trainingsearch",
             "line": 1
           },
           {
-            "name": "@validcourse",
-            "line": 9
+            "name": "@ValidSearch",
+            "line": 10
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-a-partial-course-name",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "User search for a course using a partial course name",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "User search for an existing training course by the exact course name",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 341744600
+              "duration": 257566699
             },
             "keyword": "Before",
             "hidden": true
@@ -138,7 +138,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1144001599
+              "duration": 6987315000
             },
             "arguments": [],
             "keyword": "Given ",
@@ -151,7 +151,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 6226145700
+              "duration": 5184163000
             },
             "arguments": [],
             "keyword": "And ",
@@ -164,46 +164,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 80744600
+              "duration": 6126100
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the user navigate to the Dashboard",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 90915799
+              "duration": 173732299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17587000
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 17,
-            "name": "the user enter a partial course name in the search field",
+            "line": 12,
+            "name": "the user enters the \"manual testing\" in the search bar field",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:72"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 25198099
+              "duration": 1858063200
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "the courses matching the search text should be displayed",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:86"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 61497299
+              "duration": 67301400
             },
             "keyword": "After",
             "hidden": true
@@ -211,31 +224,31 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Darshan",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@trainingsearch",
             "line": 1
           },
           {
-            "name": "@partialSearch",
-            "line": 15
+            "name": "@ValidSearch",
+            "line": 10
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-that-does-not-exist",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "User search for a course that does not exist",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "User search for an existing training course by the exact course name",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 301619200
+              "duration": 253212999
             },
             "keyword": "Before",
             "hidden": true
@@ -243,7 +256,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 890157699
+              "duration": 4426352600
             },
             "arguments": [],
             "keyword": "Given ",
@@ -256,7 +269,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 5871146399
+              "duration": 4958294300
             },
             "arguments": [],
             "keyword": "And ",
@@ -269,59 +282,295 @@
           {
             "result": {
               "status": "passed",
-              "duration": 358063500
+              "duration": 10167800
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the user navigate to the Dashboard",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 196298399
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "the user enter a non-existing course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:99"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 29219100
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "no courses should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:113"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1633094399
+              "duration": 158394699
             },
             "arguments": [],
             "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 69621700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"MANUAL TESTING\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 845600700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94727999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "User search for an existing training course by the exact course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 237399299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4578038599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4390269599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12837400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 353219699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32633199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"ManUAL TesTIng\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 860312299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 102898699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-invalid-course-name",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "User search for an existing training course by the invalid course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 292103199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4418906900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4899674899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44717499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 170810199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44602200
+            },
+            "arguments": [],
+            "keyword": "When ",
             "line": 24,
-            "name": "the user should see \"No courses found matching your criteria\" message",
+            "name": "the user enters the invalid value in the search bar field",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:127"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:23"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 69820400
+              "duration": 45123300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the system should display no matches message",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 104468800
             },
             "keyword": "After",
             "hidden": true
@@ -329,31 +578,31 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Darshan",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@trainingsearch",
             "line": 1
           },
           {
-            "name": "@invalidcourse",
-            "line": 20
+            "name": "@InvalidSearch",
+            "line": 22
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-clear-the-course-search-field",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-a-training-course-using-a-partial-course-name",
         "keyword": "Scenario",
-        "line": 27,
-        "name": "User clear the course search field",
+        "line": 28,
+        "name": "User search for a training course using a partial course name",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 235560899
+              "duration": 215041799
             },
             "keyword": "Before",
             "hidden": true
@@ -361,7 +610,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2044332999
+              "duration": 3567163300
             },
             "arguments": [],
             "keyword": "Given ",
@@ -374,7 +623,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4359873899
+              "duration": 4867283900
             },
             "arguments": [],
             "keyword": "And ",
@@ -387,85 +636,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 277280200
+              "duration": 12251200
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the user navigate to the Dashboard",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 252021099
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 28,
-            "name": "the user enter a course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:134"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 40462699
+              "duration": 194587599
             },
             "arguments": [],
             "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48331300
+            },
+            "arguments": [],
+            "keyword": "When ",
             "line": 29,
-            "name": "the matching course should be displayed",
+            "name": "the user enters a partial course name in the search bar field",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:148"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:32"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 110383099
+              "duration": 867877500
             },
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "Then ",
             "line": 30,
-            "name": "the user clear the search field",
+            "name": "the matching training course should be displayed in the list",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:162"
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 16362600
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 31,
-            "name": "the search field should be empty",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:167"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 11768499
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "all available courses should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:172"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 72744900
+              "duration": 105150099
             },
             "keyword": "After",
             "hidden": true
@@ -473,153 +696,35 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Darshan",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@trainingsearch",
             "line": 1
           },
           {
-            "name": "@clear",
-            "line": 26
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-different-letter-casing",
-        "keyword": "Scenario",
-        "line": 35,
-        "name": "User search for a course using different letter casing",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 217143600
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 983144200
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5867988400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 170530200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 146275399
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 36,
-            "name": "the user enter an existing course name with different letter casing in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:176"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 64213599
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 37,
-            "name": "all the matching course should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:190"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 38495900
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 38,
-            "name": "the search result should match the entered course",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:204"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 73569199
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@casing",
-            "line": 34
+            "name": "@PartialSearch",
+            "line": 27
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "akksheetha---25th-july---search-courses",
+    "id": "darshanraj---25th-july---search-courses",
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha - 25th July - Search courses",
+    "name": "DarshanRaj - 25th July - Search courses",
     "tags": [
       {
-        "name": "@Akksheetha",
+        "name": "@Darshan",
         "line": 1
       },
       {
-        "name": "@searchcourse",
+        "name": "@trainingsearch",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\CourseSearch.feature"
+    "uri": "src\\test\\feature\\TrainingSearch.feature"
   }
 ]
