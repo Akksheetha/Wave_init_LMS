@@ -1,0 +1,473 @@
+[
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "jeevapranesh_24-08-2026_login_functionality;user-login-in-the-waveinit-website-usingvalid-input",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "user login in the waveInit website usingValid Input",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 199739099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 914193800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 287720199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25721800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enter the valid password as \"sriram123@\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 705898000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3881123100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should see the dashboard page after successfully login",
+            "match": {
+              "location": "src\\test\\step\\login.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18677700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_24-08-2026_login_functionality;user-login-with-invalid-input-in-waveinit-website",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "user login with invalid Input in waveInit website",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 124609800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 528286699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 215151799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enter the userName as \"titooram123@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30683800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"srira\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 942621100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1880536000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user unable to login and get error message as \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17332100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_24-08-2026_login_functionality;user-login-with-invalid-input-in-waveinit-website",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "user login with invalid Input in waveInit website",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100923500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 644330400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 248639900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enter the userName as \"jeeva1234\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33236300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"sriram123@\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 961692199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1324714799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user unable to login and get error message as \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13417399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_24-08-2026_login_functionality;user-login-with-invalid-input-in-waveinit-website",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "user login with invalid Input in waveInit website",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96526699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 546887200
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 222470099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enter the userName as \"hari@123\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25716800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 949996200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50235499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user unable to login and get error message as \"Please fill out this field\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8394000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_24-08-2026_login_functionality;user-login-with-invalid-input-in-waveinit-website",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "user login with invalid Input in waveInit website",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92669799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 548670399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 200717300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enter the userName as \"\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18401999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"password12345\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 61262999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53232200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user unable to login and get error message as \"Please fill out this field\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11778999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "jeevapranesh_24-08-2026_login_functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "JeevaPranesh_24-08-2026_Login_functionality",
+    "tags": [],
+    "uri": "src\\test\\feature\\login.feature"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "playwright_project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure": "^3.15.0",
+    "allure-cucumberjs": "^3.10.2",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2"
+  }
+}
