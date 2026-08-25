@@ -26,4 +26,12 @@ export class basePage{
     
     }
 
+    async getText(locator: Locator) {
+        try {
+            return await locator.innerText();
+        } catch (error) {
+            throw error;
+        }
+    }
+
 }
