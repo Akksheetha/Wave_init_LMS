@@ -5,6 +5,8 @@ export class courseSearchPage extends basePage {
 
     readonly mycourses: Locator;
     readonly searchbtn: Locator;
+    readonly noCoursesMessage: Locator;
+    readonly courseResults: Locator;
 
     constructor(page: Page) {
         super(page);
@@ -16,6 +18,16 @@ export class courseSearchPage extends basePage {
         this.searchbtn = page.getByRole('textbox', {
             name: 'Search courses by title...'
         });
+
+        this.noCoursesMessage = page.getByText(
+            'No courses found matching your criteria',
+            { exact: true }
+        );
+
+        // Only actual course result headings
+        this.courseResults = page.locator(
+            'h3.tmt-course-name'
+        );
     }
 
     async clickMycourses() {
@@ -27,7 +39,7 @@ export class courseSearchPage extends basePage {
     }
 
     async clearSearchField() {
-        await this.searchbtn.fill('');
+        await this.searchbtn.clear();
     }
 
     async verifySearchFieldEmpty() {
@@ -35,33 +47,28 @@ export class courseSearchPage extends basePage {
     }
 
     async verifyCourseDisplayed(courseName: string) {
-    const course = this.page.getByRole('heading', {
-        name: courseName,
-        exact: true
-    });
 
-    await expect(course).toBeVisible();
-}
-
-    async verifyNoCoursesMessage(message: string) {
-        const noCoursesMessage = this.page.getByText(message, {
+        const course = this.page.getByRole('heading', {
+            name: courseName,
             exact: true
         });
 
-        await expect(noCoursesMessage).toBeVisible();
+        await expect(course).toBeVisible();
     }
 
-    async verifyNoCourseDisplayed(courseName: string) {
-        const course = this.page.getByText(courseName, {
-            exact: true
-        });
-
-        await expect(course).not.toBeVisible();
+    async verifyNoCoursesMessage() {
+        await expect(this.noCoursesMessage).toBeVisible();
     }
 
     async verifyCoursesDisplayed() {
-        const courses = this.page.locator('text=react');
+        await expect(this.courseResults.first()).toBeVisible();
+    }
 
-        await expect(courses.first()).toBeVisible();
+    async verifySearchResultCount() {
+        const resultCount = this.page.getByText(
+            /Showing \d+ courses?/i
+        );
+
+        await expect(resultCount).toBeVisible();
     }
 }
