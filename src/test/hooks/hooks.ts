@@ -15,6 +15,8 @@ import {
 
 setDefaultTimeout(60 * 1000);
 import { courseSearchPage } from '../pages/courseSearchPage';
+import { ModuleCreationPage } from '../pages/modulecreationpage';
+import { DiscussionPage } from '../pages/discussionpage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -30,6 +32,8 @@ Before(async function (this:customworld) {
     this.dashboard = new dashboardpage(this.page)
     this.exploretraining = new ExploreTrainingPage(this.page)
     this.trainerLogin =new trainerloginPage(this.page);
+    this.DiscussionPage = new DiscussionPage(this.page);
+    this.moduleCreation = new ModuleCreationPage(this.page);
 })
 
 After(async function(this:customworld,{result ,pickle}){

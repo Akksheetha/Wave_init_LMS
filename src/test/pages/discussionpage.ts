@@ -21,7 +21,7 @@ export class DiscussionPage extends basePage {
 
     async openCourseByName(courseName: string) {
         logger.info(`Opening course: ${courseName}`);
-        const courseHeading = this.page.getByRole('heading', { name: courseName });
+        const courseHeading =this.page.getByRole('heading', { name: courseName }).first();
         await courseHeading.waitFor({ state: 'visible', timeout: 30000 });
         await this.click(courseHeading);
     }
