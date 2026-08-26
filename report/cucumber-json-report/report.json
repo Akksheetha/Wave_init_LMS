@@ -12,7 +12,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 155083499
+              "duration": 196937599
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +20,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 979182700
+              "duration": 1110683399
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,7 +33,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 52871500
+              "duration": 56711499
             },
             "arguments": [],
             "keyword": "When ",
@@ -46,7 +46,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 25405600
+              "duration": 26704400
             },
             "arguments": [],
             "keyword": "And ",
@@ -59,7 +59,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 849027500
+              "duration": 217155300
             },
             "arguments": [],
             "keyword": "And ",
@@ -72,7 +72,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 3376166200
+              "duration": 3365593999
             },
             "arguments": [],
             "keyword": "Then ",
@@ -85,7 +85,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 66363699
+              "duration": 95547299
             },
             "arguments": [],
             "keyword": "And ",
@@ -98,7 +98,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 422327299
+              "duration": 1422867199
             },
             "arguments": [],
             "keyword": "And ",
@@ -111,7 +111,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1390226400
+              "duration": 1172523900
             },
             "arguments": [],
             "keyword": "And ",
@@ -124,7 +124,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 313603199
+              "duration": 235070900
             },
             "arguments": [],
             "keyword": "When ",
@@ -137,7 +137,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 15137099
+              "duration": 10954499
             },
             "arguments": [],
             "keyword": "And ",
@@ -150,7 +150,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 91094399
+              "duration": 253912200
             },
             "arguments": [],
             "keyword": "And ",
@@ -163,7 +163,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 251030300
+              "duration": 1447255600
             },
             "arguments": [],
             "keyword": "Then ",
@@ -176,7 +176,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 208668299
+              "duration": 33287600
             },
             "arguments": [],
             "keyword": "And ",
@@ -189,7 +189,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 62602200
+              "duration": 28595599
             },
             "keyword": "After",
             "hidden": true
@@ -213,7 +213,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 209696899
+              "duration": 230733200
             },
             "keyword": "Before",
             "hidden": true
@@ -221,7 +221,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 936759000
+              "duration": 1064014400
             },
             "arguments": [],
             "keyword": "Given ",
@@ -234,7 +234,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 43471900
+              "duration": 47438500
             },
             "arguments": [],
             "keyword": "When ",
@@ -247,7 +247,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 19115900
+              "duration": 19656100
             },
             "arguments": [],
             "keyword": "And ",
@@ -260,7 +260,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 853586300
+              "duration": 332146200
             },
             "arguments": [],
             "keyword": "And ",
@@ -273,7 +273,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4402729100
+              "duration": 3388954200
             },
             "arguments": [],
             "keyword": "Then ",
@@ -286,7 +286,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 87101599
+              "duration": 70224700
             },
             "arguments": [],
             "keyword": "And ",
@@ -299,7 +299,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 874155199
+              "duration": 1382666999
             },
             "arguments": [],
             "keyword": "And ",
@@ -312,7 +312,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1042946100
+              "duration": 2071499599
             },
             "arguments": [],
             "keyword": "And ",
@@ -325,7 +325,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 214103599
+              "duration": 226553400
             },
             "arguments": [],
             "keyword": "When ",
@@ -338,7 +338,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 17473000
+              "duration": 24824999
             },
             "arguments": [],
             "keyword": "And ",
@@ -351,7 +351,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 197306599
+              "duration": 215951700
             },
             "arguments": [],
             "keyword": "And ",
@@ -364,7 +364,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 209630299
+              "duration": 209950500
             },
             "arguments": [],
             "keyword": "Then ",
@@ -377,7 +377,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 318915499
+              "duration": 472695999
             },
             "arguments": [],
             "keyword": "And ",
@@ -390,7 +390,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 51396700
+              "duration": 34191200
             },
             "keyword": "After",
             "hidden": true
@@ -416,5 +416,392 @@
       }
     ],
     "uri": "src\\test\\feature\\Discussion.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "trainer-creates-a-module-inside-a-course;trainer-tries-to-create-a-module-without-a-title",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Trainer tries to create a module without a title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 275280300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1118527799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 365401799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 98774499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89425299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2916321500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59528999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 414444200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the trainer clicks the course \"React Fundamental\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 893389200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the trainer clicks the \"Lessons\" tab",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 525602999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the trainer clicks the \"Add Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 531200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the trainer enters \"\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 238918499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the trainer clicks the \"Create Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5486697300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the error message \"Title is required\" should be displayed briefly",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:76"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31600700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "trainer-creates-a-module-inside-a-course;trainer-tries-to-create-a-module-without-a-title",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Trainer tries to create a module without a title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 340473799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2326200100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 348083500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 101821300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 78693399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3414712600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48581300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 861671100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the trainer clicks the course \"react\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 860679400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the trainer clicks the \"Lessons\" tab",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 426195800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the trainer clicks the \"Add Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 323200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the trainer enters \"\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 230601899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the trainer clicks the \"Create Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5504336600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the error message \"Title is required\" should be displayed briefly",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:76"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 34491599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "trainer-creates-a-module-inside-a-course",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Trainer creates a Module inside a course",
+    "tags": [],
+    "uri": "src\\test\\feature\\Modulecreation.feature"
   }
 ]
