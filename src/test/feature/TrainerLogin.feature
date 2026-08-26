@@ -1,4 +1,4 @@
-@Vithya
+
 Feature: Trainer Login 25_08_2026 
 
     This feature checks whether a trainer can log in to WaveInit LMS
