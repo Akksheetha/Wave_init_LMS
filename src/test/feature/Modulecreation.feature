@@ -1,5 +1,5 @@
 
-Feature: Trainer creates a Module inside a course
+Feature: Janani_25AUG2026_Trainer_creates_a_Module_inside_a_course
 
    
     Background:
