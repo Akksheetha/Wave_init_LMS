@@ -4,15 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-normal-post-and-verifies-it-appears-in-the-correct-tab",
-        "keyword": "Scenario Outline",
-        "line": 23,
-        "name": "Learner creates a Normal Post and verifies it appears in the correct tab",
+        "id": "admin-login-functionality;admin-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Admin Login with valid credentials",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 196937599
+              "duration": 343420700
             },
             "keyword": "Before",
             "hidden": true
@@ -20,176 +20,85 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1110683399
+              "duration": 1727660400
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user is lanuch the application",
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\login.ts:5"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 56711499
+              "duration": 1140527099
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 26704400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 217155300
-            },
-            "arguments": [],
-            "keyword": "And ",
             "line": 8,
-            "name": "the user click sigin button",
+            "name": "the admin selects the Admin Login option",
             "match": {
-              "location": "src\\test\\step\\login.ts:17"
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 3365593999
+              "duration": 135935799
             },
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\login.ts:21"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 95547299
+              "duration": 52970299
             },
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "the learner opens \"My Courses\"",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:11"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1422867199
+              "duration": 3429480500
             },
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 11,
-            "name": "the learner opens the course from test data",
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1172523900
+              "duration": 3408699
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the learner clicks on the \"Discussions\" tab",
+            "name": "the admin should be redirected to the Admin Dashboard",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:42"
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 235070900
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "the learner selects \"Normal Post\" from the post type dropdown",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:57"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 10954499
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "the learner enters the message for \"Normal Post\" from test data",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:70"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 253912200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the learner clicks the \"Post\" button",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:101"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1447255600
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "the posted message should be visible under the \"Discussions\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 33287600
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the posted message should be visible under the \"All Posts\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 28595599
+              "duration": 87649000
             },
             "keyword": "After",
             "hidden": true
@@ -197,7 +106,7 @@
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@Vithya",
             "line": 1
           }
         ],
@@ -205,15 +114,15 @@
       },
       {
         "description": "",
-        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-question-and-verifies-it-appears-in-the-correct-tab",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
         "keyword": "Scenario Outline",
         "line": 24,
-        "name": "Learner creates a Question and verifies it appears in the correct tab",
+        "name": "Admin Login with invalid or missing credentials",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 230733200
+              "duration": 236355200
             },
             "keyword": "Before",
             "hidden": true
@@ -221,176 +130,98 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1064014400
+              "duration": 1077792000
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user is lanuch the application",
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\login.ts:5"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 47438500
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 19656100
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 332146200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 3388954200
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 70224700
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the learner opens \"My Courses\"",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:11"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1382666999
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the learner opens the course from test data",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 2071499599
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the learner clicks on the \"Discussions\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 226553400
+              "duration": 933354700
             },
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "the learner selects \"Question\" from the post type dropdown",
+            "name": "the admin selects the Admin Login option",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:57"
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 24824999
+              "duration": 16651299
             },
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "the learner enters the message for \"Question\" from test data",
+            "name": "the admin enters \"invalid@test.com\" as username",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:70"
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 215951700
+              "duration": 29223500
             },
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "the learner clicks the \"Post\" button",
+            "name": "the admin enters \"wrong123\" as password",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:101"
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 209950500
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "the posted message should be visible under the \"Q&A\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 472695999
+              "duration": 79373500
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 19,
-            "name": "the posted message should be visible under the \"All Posts\" tab",
+            "line": 18,
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 34191200
+              "duration": 3291900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1370126700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 35272300
             },
             "keyword": "After",
             "hidden": true
@@ -398,410 +229,638 @@
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Admin Login with invalid or missing credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 224370299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1273449799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 447767699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 39553699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin enters \"admin@test.com\" as username",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 19414499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin enters \"wrong123\" as password",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53840900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4040999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2902782300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74058899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Admin Login with invalid or missing credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 221674500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2076498399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 66717099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9507799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin enters \"wrong@test.com\" as username",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24240700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin enters \"admin123\" as password",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51945500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4177400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1373979699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 88521500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Admin Login with invalid or missing credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 204642600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1270509699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 436417600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33498599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin enters \"\" as username",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13571499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin enters \"admin123\" as password",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 70966900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3405599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31073199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Please fill out this field.\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59641400
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Admin Login with invalid or missing credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 199452899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1479149299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 289685100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25209699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin enters \"admin@test.com\" as username",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24449000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin enters \"\" as password",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53477200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9192799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37229799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Please fill out this field.\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25043200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Admin Login with invalid or missing credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 245571499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1257065899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 460053299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11526200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin enters \"\" as username",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27740100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin enters \"\" as password",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57040500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7854999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should not be logged in",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:106"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31006500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the admin should see \"Please fill out this field.\"",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:119"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26142399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility",
+    "id": "admin-login-functionality",
     "line": 2,
     "keyword": "Feature",
-    "name": "Janani_25AUG2026_Learner Discussions - Create Posts and Verify Visibility",
+    "name": "Admin Login Functionality",
     "tags": [
       {
-        "name": "@Janani",
+        "name": "@Vithya",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Discussion.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "trainer-creates-a-module-inside-a-course;trainer-tries-to-create-a-module-without-a-title",
-        "keyword": "Scenario Outline",
-        "line": 39,
-        "name": "Trainer tries to create a module without a title",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 275280300
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1118527799
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "the trainer is on the WaveInit login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 365401799
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "the trainer selects Trainer login",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 98774499
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer enters valid login details",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 89425299
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the trainer clicks the Sign in button",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 2916321500
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "the Trainer Dashboard should be displayed",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 59528999
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 29,
-            "name": "the trainer clicks \"My Trainings\"",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:7"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 414444200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
-            "name": "the trainer clicks the course \"React Fundamental\"",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:20"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 893389200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "the trainer clicks the \"Lessons\" tab",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 525602999
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "the trainer clicks the \"Add Module\" button",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 531200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "the trainer enters \"\" as the module title",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:57"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 238918499
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 34,
-            "name": "the trainer clicks the \"Create Module\" button",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5486697300
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 35,
-            "name": "the error message \"Title is required\" should be displayed briefly",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:76"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 31600700
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Janani",
-            "line": 27
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "trainer-creates-a-module-inside-a-course;trainer-tries-to-create-a-module-without-a-title",
-        "keyword": "Scenario Outline",
-        "line": 40,
-        "name": "Trainer tries to create a module without a title",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 340473799
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 2326200100
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "the trainer is on the WaveInit login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 348083500
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "the trainer selects Trainer login",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 101821300
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer enters valid login details",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 78693399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the trainer clicks the Sign in button",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 3414712600
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "the Trainer Dashboard should be displayed",
-            "match": {
-              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 48581300
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 29,
-            "name": "the trainer clicks \"My Trainings\"",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:7"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 861671100
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
-            "name": "the trainer clicks the course \"react\"",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:20"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 860679400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "the trainer clicks the \"Lessons\" tab",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 426195800
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "the trainer clicks the \"Add Module\" button",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 323200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "the trainer enters \"\" as the module title",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:57"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 230601899
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 34,
-            "name": "the trainer clicks the \"Create Module\" button",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5504336600
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 35,
-            "name": "the error message \"Title is required\" should be displayed briefly",
-            "match": {
-              "location": "src\\test\\step\\modulecreationstep.ts:76"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 34491599
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Janani",
-            "line": 27
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "trainer-creates-a-module-inside-a-course",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Trainer creates a Module inside a course",
-    "tags": [],
-    "uri": "src\\test\\feature\\Modulecreation.feature"
+    "uri": "src\\test\\feature\\AdminLogin.feature"
   }
 ]
