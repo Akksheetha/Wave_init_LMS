@@ -5,6 +5,7 @@ import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { trainerloginPage } from '../pages/trainerloginPage';
 import { adminloginPage } from '../pages/adminloginPage';
+import { addTrainerPage } from '../pages/addtrainerPage';
 import {
     BeforeAll,
     AfterAll,
@@ -38,7 +39,9 @@ Before(async function (this:customworld) {
     this.moduleCreation = new ModuleCreationPage(this.page);
     this.adminLogin = new adminloginPage(this.page);
     this.signUp = new signUpPage(this.page);
+    this.addTrainer =new addTrainerPage(this.page);
 })
+
 
 After(async function(this:customworld,{result ,pickle}){
 

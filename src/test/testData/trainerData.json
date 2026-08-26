@@ -1,0 +1,12 @@
+{
+  "fullName": "John",
+  "email": "john@company.com",
+  "invalidEmail": "john#company.com",
+  "mobile": "9876543210",
+  "department": "Engineering",
+  "designation": "Senior Software Engineer",
+  "experience": "1-3 years",
+  "password": "john@644",
+  "confirmPassword": "john@644",
+  "mismatchedConfirmPassword": "john@655"
+}
