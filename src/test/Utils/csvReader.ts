@@ -10,6 +10,6 @@ export function readCsvData<T>(filename: string): T[] {
     return parse(content, {
         columns: true,
         skip_empty_lines: true,
-        trim: true,
+        // trim: true,
     }) as T[];
 }

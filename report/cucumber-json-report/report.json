@@ -4,15 +4,26 @@
     "elements": [
       {
         "description": "",
+<<<<<<< HEAD
         "id": "admin-login-functionality;admin-login-with-valid-credentials",
         "keyword": "Scenario",
         "line": 7,
         "name": "Admin Login with valid credentials",
+=======
+        "id": "akksheetha---25th-july---search-courses;user-search-for-an-existing-course-using-the-exact-course-name",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User search for an existing course using the exact course name",
+>>>>>>> main
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 343420700
+=======
+              "duration": 245976299
+>>>>>>> main
             },
             "keyword": "Before",
             "hidden": true
@@ -20,19 +31,30 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1727660400
+=======
+              "duration": 1524604099
+>>>>>>> main
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
+<<<<<<< HEAD
             "name": "the admin is on the WaveInit login page",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:8"
+=======
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+>>>>>>> main
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1140527099
             },
             "arguments": [],
@@ -80,25 +102,88 @@
             "name": "the admin should be logged in successfully",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:80"
+=======
+              "duration": 5531911800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
+              "duration": 108388199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122060199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enter the existing course name in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:44"
+>>>>>>> main
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD
               "duration": 3408699
+=======
+              "duration": 1486550600
+>>>>>>> main
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
+<<<<<<< HEAD
             "name": "the admin should be redirected to the Admin Dashboard",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:93"
+=======
+            "name": "the user search for the course",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:55"
+>>>>>>> main
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 87649000
+=======
+              "duration": 8974699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching course should be displayed in the course list",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:68"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 80573400
+>>>>>>> main
             },
             "keyword": "After",
             "hidden": true
@@ -106,23 +191,46 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@Vithya",
+=======
+            "name": "@Akksheetha",
+>>>>>>> main
             "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@validcourse",
+            "line": 9
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
         "id": "admin-login-functionality;admin-login-with-invalid-or-missing-credentials",
         "keyword": "Scenario Outline",
         "line": 24,
         "name": "Admin Login with invalid or missing credentials",
+=======
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-a-partial-course-name",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User search for a course using a partial course name",
+>>>>>>> main
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 236355200
+=======
+              "duration": 313397400
+>>>>>>> main
             },
             "keyword": "Before",
             "hidden": true
@@ -130,19 +238,30 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1077792000
+=======
+              "duration": 928689699
+>>>>>>> main
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
+<<<<<<< HEAD
             "name": "the admin is on the WaveInit login page",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:8"
+=======
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+>>>>>>> main
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 933354700
             },
             "arguments": [],
@@ -177,11 +296,48 @@
             "name": "the admin enters \"wrong123\" as password",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:57"
+=======
+              "duration": 5810102099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
+              "duration": 342399100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 204489600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user enter a partial course name in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:80"
+>>>>>>> main
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD
               "duration": 79373500
             },
             "arguments": [],
@@ -203,11 +359,22 @@
             "name": "the admin should not be logged in",
             "match": {
               "location": "src\\test\\step\\AdminLoginStep.ts:106"
+=======
+              "duration": 573923500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the courses matching the search text should be displayed",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:93"
+>>>>>>> main
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1370126700
             },
             "arguments": [],
@@ -222,6 +389,9 @@
             "result": {
               "status": "passed",
               "duration": 35272300
+=======
+              "duration": 76279099
+>>>>>>> main
             },
             "keyword": "After",
             "hidden": true
@@ -229,6 +399,7 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@Vithya",
             "line": 1
           }
@@ -845,12 +1016,837 @@
         "tags": [
           {
             "name": "@Vithya",
+=======
+            "name": "@Akksheetha",
+>>>>>>> main
             "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@partialSearch",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-that-does-not-exist",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User search for a course that does not exist",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 257910400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1641638800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4362332200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 136683000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 170934200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user enter a non-existing course name in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:105"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 968207299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should see \"No courses found matching your criteria\" message",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:118"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55056400
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@invalidcourse",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-clear-the-course-search-field",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User clear the course search field",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 216515499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1588777300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4564939499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 183656300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 165433699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the user enter a course name in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:140"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 977915199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the matching course should be displayed",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:153"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55459100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the user clear the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:166"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14183399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the search field should be empty",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:175"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11360300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "all available courses should be displayed",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:184"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 108612099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@clear",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-different-letter-casing",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "User search for a course using different letter casing",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 272911399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1720141600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4437637500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 158322999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 217554100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "the user enter an existing course name with different letter casing in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:192"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 290438499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "all the matching course should be displayed",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:205"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14825599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the search result should match the entered course",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:218"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67147700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@casing",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-with-leading-and-trailing-spaces",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "User search for a course with leading and trailing spaces",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 211465799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1198225299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4786433900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 148669300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 84526099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "the user enter an existing course name with spaces in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:230"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 350800100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the user should see \"No courses found matching your criteria\" message",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:118"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51229700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@spaces",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-special-characters",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "User search for a course using special characters",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 153608200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1273644599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4295290699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 142004200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122607200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "the user enter special characters in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:245"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 465018100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the user should see \"No courses found matching your criteria\" message",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:118"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52949500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@specialcharacters",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-numeric-characters",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "User search for a course using numeric characters",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 143259900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1629613700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4345296800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 147007499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 120089400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "the user enter numeric characters in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:257"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 470885600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the user should see \"No courses found matching your criteria\" message",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:118"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52810299
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@numericSearch",
+            "line": 49
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---25th-july---search-courses;user-modify-the-course-search-text-and-verify-updated-results",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "User modify the course search text and verify updated results",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 156752599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1343653700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4297802200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 137098900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92728799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "the user enter the existing course name in the search field",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 367318800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the matching course should be displayed in the course list",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:68"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25906499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "the user modify the search text with a partial course name",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:269"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11770900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "the courses matching the updated search text should be displayed",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:281"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 46971099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@searchcourse",
+            "line": 1
+          },
+          {
+            "name": "@modifySearch",
+            "line": 54
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "admin-login-functionality",
     "line": 2,
     "keyword": "Feature",
@@ -862,5 +1858,130 @@
       }
     ],
     "uri": "src\\test\\feature\\AdminLogin.feature"
+=======
+    "id": "akksheetha---25th-july---search-courses",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Akksheetha - 25th July - Search courses",
+    "tags": [
+      {
+        "name": "@Akksheetha",
+        "line": 1
+      },
+      {
+        "name": "@searchcourse",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\CourseSearch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "akksheetha---26th-july---sign-up;user-should-not-sign-up-with-mismatched-passwords",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User should not sign up with mismatched passwords",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 152587899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1917363600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the Sign Up page",
+            "match": {
+              "location": "src\\test\\step\\signUp.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1115239200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the sign up details",
+            "match": {
+              "location": "src\\test\\step\\signUp.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 63886500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user submits the sign up form",
+            "match": {
+              "location": "src\\test\\step\\signUp.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9883700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the password mismatch message should be displayed",
+            "match": {
+              "location": "src\\test\\step\\signUp.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55434699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@signup",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "akksheetha---26th-july---sign-up",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Akksheetha - 26th July - Sign Up",
+    "tags": [
+      {
+        "name": "@Akksheetha",
+        "line": 1
+      },
+      {
+        "name": "@signup",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\signUp.feature"
+>>>>>>> main
   }
 ]
