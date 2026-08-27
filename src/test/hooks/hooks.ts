@@ -4,6 +4,8 @@ import { loginpage } from '../pages/loginpage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { trainerloginPage } from '../pages/trainerloginPage';
+import { adminloginPage } from '../pages/adminloginPage';
+import { addTrainerPage } from '../pages/addtrainerPage';
 import {
     BeforeAll,
     AfterAll,
@@ -16,6 +18,9 @@ import {
 setDefaultTimeout(60 * 1000);
 import { courseSearchPage } from '../pages/courseSearchPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
+import { ModuleCreationPage } from '../pages/modulecreationpage';
+import { DiscussionPage } from '../pages/discussionpage';
+import { signUpPage } from '../pages/signUpPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -32,7 +37,13 @@ Before(async function (this:customworld) {
     this.exploretraining = new ExploreTrainingPage(this.page)
     this.trainerLogin =new trainerloginPage(this.page);
     this.MyProfile= new MyProfileUpdate(this.page)
+    this.DiscussionPage = new DiscussionPage(this.page);
+    this.moduleCreation = new ModuleCreationPage(this.page);
+    this.adminLogin = new adminloginPage(this.page);
+    this.signUp = new signUpPage(this.page);
+    this.addTrainer =new addTrainerPage(this.page);
 })
+
 
 After(async function(this:customworld,{result ,pickle}){
 
