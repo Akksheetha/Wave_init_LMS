@@ -20,4 +20,17 @@ Feature Description
               And the user click the Add Skill button
              Then the skill should be added to the profile
 
-       
+        Scenario: user add a suggested skill using CSV
+             When the user click the user name in the left bottom coner
+              And click the My Profile
+              And the user click Add Skill
+              And the user select the skill suggestion from CSV
+             Then the suggested skill should be added to the profile
+
+     #    Scenario:user delete the existing skill
+     #         When the user click the user name in the left bottom coner
+     #          And click the My Profile
+     #          And the user click the xmake of one skill
+     #          And the user clik the delete button
+     #         Then the particular skill is deleted from the skill position
+          
