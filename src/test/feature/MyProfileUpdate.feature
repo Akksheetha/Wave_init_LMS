@@ -1,5 +1,5 @@
 @jeeva
-Feature: JeevaPranesh_26-08-2026_Update the skill in the my profile page
+Feature: JeevaPranesh_26-08-2026_Update the skill in the my profile page-updated_27-08-2026
 
 Feature Description
 
@@ -20,7 +20,7 @@ Feature Description
               And the user click the Add Skill button
              Then the skill should be added to the profile
 
-        Scenario: user add a suggested skill using CSV
+        Scenario: user add a suggested skill
              When the user click the user name in the left bottom coner
               And click the My Profile
               And the user click Add Skill
