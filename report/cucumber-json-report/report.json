@@ -1,18 +1,18 @@
 [
   {
-    "description": "",
+    "description": "Feature Description",
     "elements": [
       {
         "description": "",
-        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-normal-post-and-verifies-it-appears-in-the-correct-tab",
-        "keyword": "Scenario Outline",
-        "line": 23,
-        "name": "Learner creates a Normal Post and verifies it appears in the correct tab",
+        "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page;user-go-to-the-my-profile-website",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "user go to the My Profile website",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 155083499
+              "duration": 419387799
             },
             "keyword": "Before",
             "hidden": true
@@ -20,176 +20,72 @@
           {
             "result": {
               "status": "passed",
-              "duration": 979182700
+              "duration": 1146588500
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is lanuch the application",
+            "line": 7,
+            "name": "user launch the waveInit application",
             "match": {
-              "location": "src\\test\\step\\login.ts:5"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 52871500
+              "duration": 925680499
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 25405600
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 849027500
-            },
-            "arguments": [],
-            "keyword": "And ",
             "line": 8,
-            "name": "the user click sigin button",
+            "name": "the user login with validData using excel",
             "match": {
-              "location": "src\\test\\step\\login.ts:17"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 3376166200
+              "duration": 5973216100
             },
             "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 66363699
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the learner opens \"My Courses\"",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:11"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 422327299
-            },
-            "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "line": 11,
-            "name": "the learner opens the course from test data",
+            "name": "the user click the user name in the left bottom coner",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:27"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:22"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1390226400
+              "duration": 311350500
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the learner clicks on the \"Discussions\" tab",
+            "name": "click the My Profile",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:42"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:26"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 313603199
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "the learner selects \"Normal Post\" from the post type dropdown",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:57"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 15137099
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "the learner enters the message for \"Normal Post\" from test data",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:70"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 91094399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the learner clicks the \"Post\" button",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:101"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 251030300
+              "duration": 2955138000
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "the posted message should be visible under the \"Discussions\" tab",
+            "line": 13,
+            "name": "user should navigate to the My Profile Page",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:34"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 208668299
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the posted message should be visible under the \"All Posts\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 62602200
+              "duration": 60271300
             },
             "keyword": "After",
             "hidden": true
@@ -197,7 +93,7 @@
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@jeeva",
             "line": 1
           }
         ],
@@ -205,15 +101,15 @@
       },
       {
         "description": "",
-        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-question-and-verifies-it-appears-in-the-correct-tab",
-        "keyword": "Scenario Outline",
-        "line": 24,
-        "name": "Learner creates a Question and verifies it appears in the correct tab",
+        "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page;user-add-a-skill-using-csv",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "user add a skill using CSV",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 209696899
+              "duration": 320954799
             },
             "keyword": "Before",
             "hidden": true
@@ -221,176 +117,111 @@
           {
             "result": {
               "status": "passed",
-              "duration": 936759000
+              "duration": 1379424799
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is lanuch the application",
-            "match": {
-              "location": "src\\test\\step\\login.ts:5"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 43471900
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 19115900
-            },
-            "arguments": [],
-            "keyword": "And ",
             "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
+            "name": "user launch the waveInit application",
             "match": {
-              "location": "src\\test\\step\\login.ts:13"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:14"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 853586300
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 4402729100
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 87101599
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the learner opens \"My Courses\"",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:11"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 874155199
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the learner opens the course from test data",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1042946100
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the learner clicks on the \"Discussions\" tab",
-            "match": {
-              "location": "src\\test\\step\\discussionstep.ts:42"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 214103599
+              "duration": 211671600
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
-            "name": "the learner selects \"Question\" from the post type dropdown",
+            "line": 8,
+            "name": "the user login with validData using excel",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:57"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:18"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 17473000
+              "duration": 3877140699
             },
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "line": 16,
-            "name": "the learner enters the message for \"Question\" from test data",
+            "name": "the user click the user name in the left bottom coner",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:70"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:22"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 197306599
+              "duration": 317666600
             },
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "the learner clicks the \"Post\" button",
+            "name": "click the My Profile",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:101"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:26"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 209630299
+              "duration": 2007671600
             },
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 18,
-            "name": "the posted message should be visible under the \"Q&A\" tab",
+            "name": "the user click Add Skill",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:30"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 318915499
+              "duration": 23625700
             },
             "arguments": [],
             "keyword": "And ",
             "line": 19,
-            "name": "the posted message should be visible under the \"All Posts\" tab",
+            "name": "the user enter the skill from CSV",
             "match": {
-              "location": "src\\test\\step\\discussionstep.ts:116"
+              "location": "src\\test\\step\\MyProfileUpdate.ts:39"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 51396700
+              "duration": 24887199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user click the Add Skill button",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:43"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2042496999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the skill should be added to the profile",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:47"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32371500
             },
             "keyword": "After",
             "hidden": true
@@ -398,23 +229,146 @@
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page;user-add-a-suggested-skill-using-csv",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "user add a suggested skill using CSV",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 232581500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1550970099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user launch the waveInit application",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 172540199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user login with validData using excel",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3899425999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user click the user name in the left bottom coner",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 268957000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "click the My Profile",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1955418100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user click Add Skill",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85123899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user select the skill suggestion from CSV",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:51"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2016569499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the suggested skill should be added to the profile",
+            "match": {
+              "location": "src\\test\\step\\MyProfileUpdate.ts:56"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 39029699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility",
+    "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page",
     "line": 2,
     "keyword": "Feature",
-    "name": "Janani_25AUG2026_Learner Discussions - Create Posts and Verify Visibility",
+    "name": "JeevaPranesh_26-08-2026_Update the skill in the my profile page",
     "tags": [
       {
-        "name": "@Janani",
+        "name": "@jeeva",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Discussion.feature"
+    "uri": "src\\test\\feature\\MyProfileUpdate.feature"
   }
 ]

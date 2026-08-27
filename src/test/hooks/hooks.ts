@@ -15,6 +15,7 @@ import {
 
 setDefaultTimeout(60 * 1000);
 import { courseSearchPage } from '../pages/courseSearchPage';
+import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -30,6 +31,7 @@ Before(async function (this:customworld) {
     this.dashboard = new dashboardpage(this.page)
     this.exploretraining = new ExploreTrainingPage(this.page)
     this.trainerLogin =new trainerloginPage(this.page);
+    this.MyProfile= new MyProfileUpdate(this.page)
 })
 
 After(async function(this:customworld,{result ,pickle}){
