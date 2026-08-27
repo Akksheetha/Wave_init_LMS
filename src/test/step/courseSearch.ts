@@ -10,7 +10,20 @@ interface CourseSearchData {
 }
 
 const courseData = readCsvData<CourseSearchData>('courseSearch.csv');
+function getCourseData(searchType: string): CourseSearchData {
 
+    const data = courseData.find(
+        row => row.searchType === searchType
+    );
+
+    if (!data) {
+        throw new Error(
+            `Search data not found for searchType: ${searchType}`
+        );
+    }
+
+    return data;
+}
 Given('user is on the LMS application', async function (this:customworld) {
   await this.login.launch()
 });
@@ -28,188 +41,251 @@ Given('the user navigate to the My Courses page', async function (this:customwor
   await this.search.clickMycourses()
 });
 
-When('the user enter the existing course name in the search field', async function (this: customworld) {
+When(
+    'the user enter the existing course name in the search field',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'exact'
-    );
+        const data = getCourseData('exact');
 
-    if (!data) {
-        throw new Error('Exact search data not found in CSV');
+        await this.search.enterCourseName(data.courseName);
     }
-
-    await this.search.enterCourseName(data.courseName);
-});
+);
 
 
-When('the user search for the course', async function (this: customworld) {
+When(
+    'the user search for the course',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'exact'
-    );
+        const data = getCourseData('exact');
 
-    if (!data) {
-        throw new Error('Exact search data not found in CSV');
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
     }
-
-    await this.search.verifyCourseDisplayed(data.courseName);
-});
+);
 
 
-Then('the matching course should be displayed in the course list', async function (this: customworld) {
+Then(
+    'the matching course should be displayed in the course list',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'exact'
-    );
+        const data = getCourseData('exact');
 
-    if (!data) {
-        throw new Error('Exact search data not found in CSV');
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
     }
+);
 
-    await this.search.verifyCourseDisplayed(data.courseName);
-});
+When(
+    'the user enter a partial course name in the search field',
+    async function (this: customworld) {
 
-When('the user enter a partial course name in the search field', async function (this: customworld) {
+        const data = getCourseData('partial');
 
-    const data = courseData.find(
-        row => row.searchType === 'partial'
-    );
-
-    if (!data) {
-        throw new Error('Partial search data not found in CSV');
+        await this.search.enterCourseName(
+            data.courseName
+        );
     }
-
-    await this.search.enterCourseName(data.courseName);
-});
+);
 
 
-Then('the courses matching the search text should be displayed', async function (this: customworld) {
+Then(
+    'the courses matching the search text should be displayed',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'partial'
-    );
+        const data = getCourseData('partial');
 
-    if (!data) {
-        throw new Error('Partial search data not found in CSV');
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
     }
+);
 
-    await this.search.verifyCourseDisplayed(data.expectedResult);
-});
+When(
+    'the user enter a non-existing course name in the search field',
+    async function (this: customworld) {
 
-When('the user enter a non-existing course name in the search field', async function (this: customworld) {
+        const data = getCourseData('invalid');
 
-    const data = courseData.find(
-        row => row.searchType === 'invalid'
-    );
-
-    if (!data) {
-        throw new Error('Invalid search data not found in CSV');
+        await this.search.enterCourseName(
+            data.courseName
+        );
     }
-
-    await this.search.enterCourseName(data.courseName);
-});
+);
 
 
-Then('no courses should be displayed', async function (this: customworld) {
+Then(
+    'the user should see {string} message',
+    async function (
+        this: customworld,
+        message: string
+    ) {
 
-    const data = courseData.find(
-        row => row.searchType === 'invalid'
-    );
+        const data = courseData.find(
+            row => row.expectedResult === message
+        );
 
-    if (!data) {
-        throw new Error('Invalid search data not found in CSV');
+        if (!data) {
+            throw new Error(
+                `Expected message not found in CSV: ${message}`
+            );
+        }
+
+        await this.search.verifyNoCoursesMessage();
     }
-
-    await this.search.verifyNoCourseDisplayed('react');
-});
+);
 
 
-Then('the user should see {string} message', async function (
-    this: customworld,
-    message: string
-) {
-    await this.search.verifyNoCoursesMessage(message);
-});
+When(
+    'the user enter a course name in the search field',
+    async function (this: customworld) {
 
-When('the user enter a course name in the search field', async function (this: customworld) {
+        const data = getCourseData('exact');
 
-    const data = courseData.find(
-        row => row.searchType === 'exact'
-    );
-
-    if (!data) {
-        throw new Error('Exact search data not found in CSV');
+        await this.search.enterCourseName(
+            data.courseName
+        );
     }
-
-    await this.search.enterCourseName(data.courseName);
-});
+);
 
 
-When('the matching course should be displayed', async function (this: customworld) {
+When(
+    'the matching course should be displayed',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'exact'
-    );
+        const data = getCourseData('exact');
 
-    if (!data) {
-        throw new Error('Exact search data not found in CSV');
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
     }
-
-    await this.search.verifyCourseDisplayed(data.expectedResult);
-});
+);
 
 
-When('the user clear the search field', async function (this: customworld) {
-    await this.search.clearSearchField();
-});
+When(
+    'the user clear the search field',
+    async function (this: customworld) {
 
-
-Then('the search field should be empty', async function (this: customworld) {
-    await this.search.verifySearchFieldEmpty();
-});
-
-
-Then('all available courses should be displayed', async function (this: customworld) {
-    await this.search.verifyCoursesDisplayed();
-});
-
-When('the user enter an existing course name with different letter casing in the search field', async function (this: customworld) {
-
-    const data = courseData.find(
-        row => row.searchType === 'casing'
-    );
-
-    if (!data) {
-        throw new Error('Casing search data not found in CSV');
+        await this.search.clearSearchField();
     }
-
-    await this.search.enterCourseName(data.courseName);
-});
+);
 
 
-Then('all the matching course should be displayed', async function (this: customworld) {
+Then(
+    'the search field should be empty',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'casing'
-    );
-
-    if (!data) {
-        throw new Error('Casing search data not found in CSV');
+        await this.search.verifySearchFieldEmpty();
     }
-
-    await this.search.verifyCourseDisplayed(data.expectedResult);
-});
+);
 
 
-Then('the search result should match the entered course', async function (this: customworld) {
+Then(
+    'all available courses should be displayed',
+    async function (this: customworld) {
 
-    const data = courseData.find(
-        row => row.searchType === 'casing'
-    );
-
-    if (!data) {
-        throw new Error('Casing search data not found in CSV');
+        await this.search.verifyCoursesDisplayed();
     }
+);
 
-    await this.search.verifyCourseDisplayed(data.expectedResult);
-});
+When(
+    'the user enter an existing course name with different letter casing in the search field',
+    async function (this: customworld) {
+
+        const data = getCourseData('casing');
+
+        await this.search.enterCourseName(
+            data.courseName
+        );
+    }
+);
+
+
+Then(
+    'all the matching course should be displayed',
+    async function (this: customworld) {
+
+        const data = getCourseData('casing');
+
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
+    }
+);
+
+
+Then(
+    'the search result should match the entered course',
+    async function (this: customworld) {
+
+        const data = getCourseData('casing');
+
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
+    }
+);
+
+When(
+    'the user enter an existing course name with spaces in the search field',
+    async function (this: customworld) {
+
+        const data = getCourseData('spaces');
+
+        const courseWithSpaces =
+            ` ${data.courseName} `;
+
+        await this.search.enterCourseName(
+            courseWithSpaces
+        );
+    }
+);
+
+When(
+    'the user enter special characters in the search field',
+    async function (this: customworld) {
+
+        const data = getCourseData('specialcharacters');
+
+        await this.search.enterCourseName(
+            data.courseName
+        );
+    }
+);
+
+When(
+    'the user enter numeric characters in the search field',
+    async function (this: customworld) {
+
+        const data = getCourseData('numeric');
+
+        await this.search.enterCourseName(
+            data.courseName
+        );
+    }
+);
+
+When(
+    'the user modify the search text with a partial course name',
+    async function (this: customworld) {
+
+        const data = getCourseData('partial');
+
+        await this.search.enterCourseName(
+            data.courseName
+        );
+    }
+);
+
+Then(
+    'the courses matching the updated search text should be displayed',
+    async function (this: customworld) {
+
+        const data = getCourseData('partial');
+
+        await this.search.verifyCourseDisplayed(
+            data.expectedResult
+        );
+    }
+);
