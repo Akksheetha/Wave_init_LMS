@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+src\test\feature\SignUpParticipant.feature:21:36:37:38:42:47
+=======
 src\test\feature\AddTrainer.feature:8:15
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a

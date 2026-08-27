@@ -1,5 +1,15 @@
 [
   {
+<<<<<<< HEAD
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-valid-details",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "User signup with valid details",
+=======
     "description": "Feature Description",
     "elements": [
       {
@@ -15,15 +25,20 @@
         "line": 8,
         "name": "Verify trainer is created successfully with valid details",
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
         "steps": [
           {
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+              "duration": 272112699
+=======
+<<<<<<< HEAD
               "duration": 419387799
 =======
               "duration": 168059600
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "Before",
             "hidden": true
@@ -31,6 +46,16 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1593689600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+=======
 <<<<<<< HEAD
               "duration": 1146588500
             },
@@ -50,10 +75,25 @@
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:19"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+=======
               "status": "passed",
 <<<<<<< HEAD
               "duration": 925680499
@@ -94,10 +134,19 @@
               "status": "passed",
 <<<<<<< HEAD
               "duration": 5973216100
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "arguments": [],
             "keyword": "When ",
             "line": 11,
+<<<<<<< HEAD
+            "name": "the user enters the \"Darshan\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+=======
             "name": "the user click the user name in the left bottom coner",
             "match": {
               "location": "src\\test\\step\\MyProfileUpdate.ts:22"
@@ -131,10 +180,69 @@
 <<<<<<< HEAD
               "status": "passed",
               "duration": 311350500
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
+<<<<<<< HEAD
+            "name": "the user enters the \"darshan10@gmail.com\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters the \"1234567890\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the \"darshan@10\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enters the \"darshan@10\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks create account button"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user gets a success message"
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74888900
+=======
             "name": "click the My Profile",
             "match": {
               "location": "src\\test\\step\\MyProfileUpdate.ts:26"
@@ -173,6 +281,7 @@
 =======
               "duration": 208463499
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "After",
             "hidden": true
@@ -180,6 +289,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@ValidSignup",
+            "line": 9
+=======
 <<<<<<< HEAD
             "name": "@jeeva",
             "line": 1
@@ -191,12 +312,19 @@
             "name": "@CreateTrainerValidDetails",
             "line": 7
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-invalid-details",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "User signup with invalid details",
+=======
 <<<<<<< HEAD
         "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page;user-add-a-skill-using-csv",
         "keyword": "Scenario",
@@ -208,15 +336,20 @@
         "line": 15,
         "name": "Verify trainer is created successfully with only mandatory fields",
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
         "steps": [
           {
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+              "duration": 198921999
+=======
+<<<<<<< HEAD
               "duration": 320954799
 =======
               "duration": 110227300
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "Before",
             "hidden": true
@@ -224,6 +357,16 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1053164800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+=======
 <<<<<<< HEAD
               "duration": 1379424799
             },
@@ -243,10 +386,90 @@
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:19"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters the \"Darshan\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enters the \"\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user enters the \"1234567890\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the user enters the \"darshan@10\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user enters the \"darshan@!0\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user clicks create account button"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user gets an error message"
+=======
               "status": "passed",
 <<<<<<< HEAD
               "duration": 211671600
@@ -291,10 +514,14 @@
               "location": "src\\test\\step\\AddTrainerStep.ts:53"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
             }
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 89272100
+=======
 <<<<<<< HEAD
               "duration": 317666600
 =======
@@ -400,6 +627,7 @@
 =======
               "duration": 188149600
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "After",
             "hidden": true
@@ -407,6 +635,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 24
+=======
 <<<<<<< HEAD
             "name": "@jeeva",
             "line": 1
@@ -418,12 +658,19 @@
             "name": "@CreateTrainerMandatoryFields",
             "line": 14
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-invalid-details",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "User signup with invalid details",
+=======
 <<<<<<< HEAD
         "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page;user-add-a-suggested-skill-using-csv",
         "keyword": "Scenario",
@@ -435,15 +682,20 @@
         "line": 22,
         "name": "Verify trainer creation fails when Confirm Password is left blank",
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
         "steps": [
           {
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+              "duration": 247762800
+=======
+<<<<<<< HEAD
               "duration": 232581500
 =======
               "duration": 111009400
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "Before",
             "hidden": true
@@ -451,6 +703,16 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1223778200
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+=======
 <<<<<<< HEAD
               "duration": 1550970099
             },
@@ -470,10 +732,90 @@
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:19"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters the \"Darshan\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enters the \"darshan10@gmail.com\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user enters the \"1234567890\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the user enters the \"\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user enters the \"\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user clicks create account button"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user gets an error message"
+=======
               "status": "passed",
 <<<<<<< HEAD
               "duration": 172540199
@@ -495,10 +837,14 @@
               "location": "src\\test\\step\\AddTrainerStep.ts:43"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
             }
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 51048099
+=======
 <<<<<<< HEAD
               "duration": 3899425999
             },
@@ -614,6 +960,7 @@
 =======
               "duration": 62863499
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "After",
             "hidden": true
@@ -621,6 +968,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 24
+=======
 <<<<<<< HEAD
             "name": "@jeeva",
             "line": 1
@@ -631,21 +990,33 @@
           {
             "name": "@CreateTrainerConfirmPasswordRequired",
             "line": 21
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-invalid-details",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "User signup with invalid details",
+=======
         "id": "create-trainer-account-in-admin-module;verify-trainer-creation-fails-with-an-invalid-email-address",
         "keyword": "Scenario",
         "line": 29,
         "name": "Verify trainer creation fails with an invalid email address",
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 216918499
+=======
               "duration": 104060199
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "Before",
             "hidden": true
@@ -653,6 +1024,16 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1112675600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+=======
               "duration": 2197609699
             },
             "arguments": [],
@@ -661,10 +1042,90 @@
             "name": "the admin logs into the application",
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:19"
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters the \"Darshan\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enters the \"darshan10@gmail.com\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user enters the \"\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the user enters the \"darshan@10\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user enters the \"darshan@10\" in the create account page"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user clicks create account button"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user gets an error message"
+=======
               "status": "passed",
               "duration": 3440772100
             },
@@ -727,11 +1188,16 @@
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:270"
             }
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 73272799
+=======
               "duration": 58629300
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "After",
             "hidden": true
@@ -739,27 +1205,51 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 24
+=======
             "name": "@Vithya",
             "line": 28
           },
           {
             "name": "@CreateTrainerInvalidEmail",
             "line": 28
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "User create account with empty fields",
+=======
         "id": "create-trainer-account-in-admin-module;verify-trainer-creation-fails-when-password-and-confirm-password-do-not-match",
         "keyword": "Scenario",
         "line": 36,
         "name": "Verify trainer creation fails when Password and Confirm Password do not match",
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 211284999
+=======
               "duration": 146776600
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "Before",
             "hidden": true
@@ -767,6 +1257,16 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1111988699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+=======
               "duration": 2709609499
             },
             "arguments": [],
@@ -775,10 +1275,40 @@
             "name": "the admin logs into the application",
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:19"
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "the user clicks create account button without filling any details"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user gets the details should be filled message"
+=======
               "status": "passed",
               "duration": 3507800600
             },
@@ -841,11 +1371,16 @@
             "match": {
               "location": "src\\test\\step\\AddTrainerStep.ts:270"
             }
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 73120400
+=======
               "duration": 56139099
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
             },
             "keyword": "After",
             "hidden": true
@@ -853,6 +1388,111 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "User create account with already registered mail",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 212797999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1064594600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "the user enter the already registered details"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "the user clicks create account button"
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the user gets the error message"
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 56358799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 46
+=======
             "name": "@Vithya",
             "line": 35
           },
@@ -860,11 +1500,29 @@
             "name": "@CreateTrainerPasswordMismatch",
             "line": 35
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
+    "id": "darshanraj---27th-july---participant-sign-up",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "DarshanRaj - 27th July - Participant Sign Up",
+    "tags": [
+      {
+        "name": "@Darshan",
+        "line": 1
+      },
+      {
+        "name": "@Signup",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\SignUpParticipant.feature"
+=======
 <<<<<<< HEAD
     "id": "jeevapranesh_26-08-2026_update-the-skill-in-the-my-profile-page",
     "line": 2,
@@ -885,5 +1543,6 @@
     "tags": [],
     "uri": "src\\test\\feature\\AddTrainer.feature"
 >>>>>>> af40b58cc6244e407cd825b937efbbfcb42ccd82
+>>>>>>> eb930901f75a7fad3e68e8c2c2a2bb259b85d85a
   }
 ]

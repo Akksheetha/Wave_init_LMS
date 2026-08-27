@@ -12,6 +12,7 @@ export class loginpage extends basePage {
     readonly sigin_BTN:Locator;
     readonly welcome:Locator;
     readonly errormsg:Locator;
+    readonly signupBtn:Locator;
 
     constructor(page:Page){
         super(page)
@@ -19,7 +20,8 @@ export class loginpage extends basePage {
         this.password=page.locator("#login-password")
         this.sigin_BTN=page.locator("//button[@type='submit']")
         this.welcome=page.locator("//h1[@class='tdb-header-title']")
-       this.errormsg = page.getByText('Invalid email or password');
+       this.errormsg = page.getByText('Invalid email or password')
+       this.signupBtn = page.locator("//a")
     }
 
     async launch(){
@@ -74,5 +76,12 @@ export class loginpage extends basePage {
         );
     }
 
+    async clickSignup() {
+        try{
+        await this.click(this.signupBtn)
+        }catch(error){
+            throw error;
+        }
+    }
 
 }
