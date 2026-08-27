@@ -11,3 +11,13 @@ Feature Description
              When the user click the user name in the left bottom coner
               And click the My Profile
              Then user should navigate to the My Profile Page
+
+        Scenario: user add a skill using CSV
+             When the user click the user name in the left bottom coner
+              And click the My Profile
+              And the user click Add Skill
+              And the user enter the skill from CSV
+              And the user click the Add Skill button
+             Then the skill should be added to the profile
+
+       
