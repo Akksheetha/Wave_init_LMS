@@ -1,4 +1,4 @@
-@Vithya
+
 Feature: Admin Login Functionality
 
     Background:

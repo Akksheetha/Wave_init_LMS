@@ -1,79 +1,38 @@
-import { Locator, Page, expect } from '@playwright/test';
+import { Locator, Page } from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
 import { basePage } from './basePage';
+//
+dotenv.config({ path: path.resolve(process.cwd(), 'env/.env.qa') });
 
-export class signUpPage extends basePage {
+export class SignupPage extends basePage {
+   
+    readonly username:Locator;
+    readonly email:Locator;
+    readonly phone:Locator;
+    readonly password:Locator;
+    readonly repassword:Locator;
+    readonly termsbox:Locator;
+    readonly createBtn:Locator;
 
-    readonly sign: Locator;
-    readonly fullName: Locator;
-    readonly email: Locator;
-    readonly phone: Locator;
-    readonly password: Locator;
-    readonly confirmPassword: Locator;
-    readonly terms: Locator;
-    readonly createAccount: Locator;
 
-    constructor(page: Page) {
-        super(page);
-
-        this.sign = page.getByRole('link', { name: 'Sign up as Participant' });
-        this.fullName = page.getByRole('textbox', {
-            name: 'Full Name'
-        });
-
-        this.email = page.getByRole('textbox', {
-            name: 'Email Address'
-        });
-
-        this.phone = page.getByRole('textbox', {
-            name: 'Phone Number'
-        });
-
-        this.password = page.getByRole('textbox', {
-    name: 'Password',
-    exact: true
-});
-
-this.confirmPassword = page.getByRole('textbox', {
-    name: 'Confirm Password',
-    exact: true
-});
-
-        this.terms = page.getByRole('checkbox');
-
-        this.createAccount = page.getByRole('button', {
-            name: 'Create Account'
-        });
+    constructor(page:Page){
+        super(page)
+        this.username = page.locator("//input[@id='reg-name']")
+        this.email = page.locator("//input[@id='reg-email']")
+        this.phone = page.locator("//input[@id='reg-phone']")
+        this.password = page.locator("//input[@id='reg-pw']")
+        this.repassword = page.locator("//input[@id='reg-confirm']")
+        this.termsbox = page.locator("//*[@id='root']/div[1]/div[2]/div[2]/form/div[6]/label/input")
+        this.createBtn = page.locator("//*[@id='root']/div[1]/div[2]/div[2]/form/button")
     }
 
-    async signupClick() {
-    console.log('Current URL:', this.page.url());
-    console.log('Page title:', await this.page.title());
-
-    await this.page.screenshot({
-        path: 'report/signup-page.png',
-        fullPage: true
-    });
-
-    await this.sign.click();
-}
-    async enterSignUpDetails(data: any) {
-        await this.fullName.fill(data.fullName);
-        await this.email.fill(data.email);
-        await this.phone.fill(data.phone);
-        await this.password.fill(data.password);
-        await this.confirmPassword.fill(data.confirmPassword);
-        await this.terms.check();
+    async launch(){
+        const baseUrl = process.env.BASEURL;
+        if (!baseUrl) {
+            throw new Error('BASEURL is not configured in env/.env.qa');
+        }
+        await this.page.goto(baseUrl);
     }
 
-    async submitForm() {
-        await this.createAccount.click();
-    }
-
-    async verifyPasswordMismatch() {
-    const message = this.page
-        .getByRole('alert')
-        .getByText('Passwords do not match', { exact: true });
-
-    await expect(message).toBeVisible();
-}
 }
