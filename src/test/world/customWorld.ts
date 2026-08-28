@@ -11,7 +11,7 @@ import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { SignupPage } from '../pages/signUpPage';
 import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
-import { SignupPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
 
 export class customworld extends World{
