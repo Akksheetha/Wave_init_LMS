@@ -1,85 +1,121 @@
 import { Locator, Page, expect } from '@playwright/test';
+
 import { basePage } from './basePage';
+
 
 export class addTrainerPage extends basePage {
 
     readonly trainersMenu: Locator;
+
     readonly addTrainerBtn: Locator;
 
     readonly fullNameInput: Locator;
+
     readonly emailInput: Locator;
+
     readonly mobileInput: Locator;
 
     readonly departmentSelect: Locator;
+
     readonly designationSelect: Locator;
+
     readonly experienceSelect: Locator;
 
     readonly passwordInput: Locator;
+
     readonly confirmPasswordInput: Locator;
 
     readonly createTrainerBtn: Locator;
+
 
     constructor(page: Page) {
 
         super(page);
 
+
         this.trainersMenu = page.getByRole(
             'button',
-            { name: 'Trainers', exact: true }
+            {
+                name: 'Trainers',
+                exact: true
+            }
         );
+
 
         this.addTrainerBtn = page.getByRole(
             'button',
-            { name: 'Add Trainer', exact: true }
+            {
+                name: 'Add Trainer',
+                exact: true
+            }
         );
+
 
         this.fullNameInput = page.getByPlaceholder(
             'e.g. Sarah Johnson'
         );
 
+
         this.emailInput = page.getByPlaceholder(
             'trainer@company.com'
         );
 
+
         this.mobileInput = page.getByPlaceholder(
-            /e\.g\.\s*\+91\s*98765\s*4321\s*0/i
+            /e\.g\.\s*\+91\s*98765\s*43210/i
         );
+
 
         this.departmentSelect = page
             .locator('select.reg-select')
             .nth(0);
 
+
         this.designationSelect = page
             .locator('select.reg-select')
             .nth(1);
+
 
         this.experienceSelect = page
             .locator('select.reg-select')
             .nth(2);
 
+
         this.passwordInput = page.getByPlaceholder(
             'Min. 8 characters'
         );
+
 
         this.confirmPasswordInput = page.getByPlaceholder(
             'Re-enter password'
         );
 
+
         this.createTrainerBtn = page.getByRole(
             'button',
-            { name: 'Create Trainer', exact: true }
+            {
+                name: 'Create Trainer',
+                exact: true
+            }
         );
     }
 
+
     async clickTrainers() {
 
-        await this.click(this.trainersMenu);
+        await this.click(
+            this.trainersMenu
+        );
     }
+
 
     async clickAddTrainer() {
 
-        await this.click(this.addTrainerBtn);
+        await this.click(
+            this.addTrainerBtn
+        );
     }
+
 
     async enterFullName(fullName: string) {
 
@@ -89,6 +125,7 @@ export class addTrainerPage extends basePage {
         );
     }
 
+
     async enterEmail(email: string) {
 
         await this.Type(
@@ -96,6 +133,7 @@ export class addTrainerPage extends basePage {
             email
         );
     }
+
 
     async enterMobile(mobile: string) {
 
@@ -105,12 +143,14 @@ export class addTrainerPage extends basePage {
         );
     }
 
+
     async selectDepartment(department: string) {
 
         await this.departmentSelect.selectOption({
             label: department
         });
     }
+
 
     async selectDesignation(designation: string) {
 
@@ -119,12 +159,14 @@ export class addTrainerPage extends basePage {
         });
     }
 
+
     async selectExperience(experience: string) {
 
         await this.experienceSelect.selectOption({
             label: experience
         });
     }
+
 
     async enterPassword(password: string) {
 
@@ -133,6 +175,7 @@ export class addTrainerPage extends basePage {
             password
         );
     }
+
 
     async enterConfirmPassword(
         confirmPassword: string
@@ -144,24 +187,38 @@ export class addTrainerPage extends basePage {
         );
     }
 
+
     async fillAllTrainerDetails(data: {
 
         fullName: string;
+
         email: string;
+
         mobile: string;
+
         department: string;
+
         designation: string;
+
         experience: string;
+
         password: string;
+
         confirmPassword: string;
 
     }) {
 
-        await this.enterFullName(data.fullName);
+        await this.enterFullName(
+            data.fullName
+        );
 
-        await this.enterEmail(data.email);
+        await this.enterEmail(
+            data.email
+        );
 
-        await this.enterMobile(data.mobile);
+        await this.enterMobile(
+            data.mobile
+        );
 
         await this.selectDepartment(
             data.department
@@ -179,7 +236,6 @@ export class addTrainerPage extends basePage {
             data.password
         );
 
-        // If empty, leave the field blank
         if (data.confirmPassword) {
 
             await this.enterConfirmPassword(
@@ -188,25 +244,36 @@ export class addTrainerPage extends basePage {
         }
     }
 
+
     async fillMandatoryTrainerDetails(data: {
 
         fullName: string;
+
         email: string;
+
         password: string;
+
         confirmPassword: string;
 
     }) {
 
-        await this.enterFullName(data.fullName);
+        await this.enterFullName(
+            data.fullName
+        );
 
-        await this.enterEmail(data.email);
+        await this.enterEmail(
+            data.email
+        );
 
-        await this.enterPassword(data.password);
+        await this.enterPassword(
+            data.password
+        );
 
         await this.enterConfirmPassword(
             data.confirmPassword
         );
     }
+
 
     async clickCreateTrainer() {
 
@@ -215,16 +282,25 @@ export class addTrainerPage extends basePage {
         );
     }
 
-    async getMessage(expectedMessage: string) {
+
+    async getMessage(
+        expectedMessage: string
+    ) {
 
         return this.page
-            .getByText(expectedMessage, {
-                exact: false
-            })
+            .getByText(
+                expectedMessage,
+                {
+                    exact: false
+                }
+            )
             .first();
     }
 
-    async verifyMessage(expectedMessage: string) {
+
+    async verifyMessage(
+        expectedMessage: string
+    ) {
 
         const message = await this.getMessage(
             expectedMessage
@@ -235,11 +311,25 @@ export class addTrainerPage extends basePage {
         });
     }
 
-    // Verify successful trainer creation
-    async verifyTrainerCreated(email: string) {
+
+    /*
+     * Verify the exact trainer using
+     * the unique email.
+     */
+    async verifyTrainerCreated(
+        email: string
+    ) {
+
+        const trainerRow = this.page
+            .locator('tr')
+            .filter({
+                hasText: email
+            })
+            .first();
+
 
         await expect(
-            this.page.getByText(email)
+            trainerRow
         ).toBeVisible({
             timeout: 10000
         });
