@@ -12,7 +12,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 255294200
+              "duration": 281665700
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +20,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1098401300
+              "duration": 1466130400
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,7 +33,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 555953799
+              "duration": 2060316100
             },
             "arguments": [],
             "keyword": "And ",
@@ -46,7 +46,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 127729600
+              "duration": 239545699
             },
             "arguments": [],
             "keyword": "When ",
@@ -59,7 +59,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 25552200
+              "duration": 58863900
             },
             "arguments": [],
             "keyword": "And ",
@@ -72,7 +72,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 25557500
+              "duration": 42946100
             },
             "arguments": [],
             "keyword": "And ",
@@ -85,7 +85,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 35794600
+              "duration": 49062600
             },
             "arguments": [],
             "keyword": "And ",
@@ -98,7 +98,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1004226300
+              "duration": 530786500
             },
             "arguments": [],
             "keyword": "And ",
@@ -111,7 +111,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 77191399
+              "duration": 97793499
             },
             "arguments": [],
             "keyword": "And ",
@@ -124,7 +124,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 10568099
+              "duration": 17819900
             },
             "arguments": [],
             "keyword": "Then ",
@@ -137,7 +137,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 64590000
+              "duration": 65930199
             },
             "keyword": "After",
             "hidden": true
@@ -169,7 +169,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 206444900
+              "duration": 268007099
             },
             "keyword": "Before",
             "hidden": true
@@ -177,7 +177,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1119790899
+              "duration": 1506541499
             },
             "arguments": [],
             "keyword": "Given ",
@@ -190,7 +190,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 538873999
+              "duration": 199987100
             },
             "arguments": [],
             "keyword": "And ",
@@ -202,8 +202,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1147838600
+              "status": "failed",
+              "duration": 1118891400,
+              "error_message": "locator.check: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('checkbox')\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"checkbox\" class=\"auth-checkbox\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at SignupPage.selectTerms (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\signUpPage.ts:64:26)\n    at SignupPage.enterAlreadyRegisteredDetails (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\signUpPage.ts:99:20)\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\SignupParticipant.ts:47:8)"
             },
             "arguments": [],
             "keyword": "When ",
@@ -215,8 +216,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 82995299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -228,8 +229,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1429055000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -241,8 +242,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 52191300
+              "status": "failed",
+              "duration": 2527500,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -274,15 +276,16 @@
           {
             "result": {
               "status": "passed",
-              "duration": 184038599
+              "duration": 247115599
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1204604799
+              "status": "failed",
+              "duration": 1268502599,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
             },
             "arguments": [],
             "keyword": "Given ",
@@ -294,8 +297,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 403292600
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -307,8 +310,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1248532999
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -320,8 +323,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 76896799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -333,8 +336,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 917549399
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -346,8 +349,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 95234199
+              "status": "failed",
+              "duration": 2770599,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -379,15 +383,16 @@
           {
             "result": {
               "status": "passed",
-              "duration": 155541400
+              "duration": 274683800
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1325561800
+              "status": "failed",
+              "duration": 985304099,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
             },
             "arguments": [],
             "keyword": "Given ",
@@ -399,8 +404,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 383400900
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -412,8 +417,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1136330800
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -425,8 +430,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 75344700
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -438,8 +443,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 909458000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -451,8 +456,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 106705300
+              "status": "failed",
+              "duration": 1882900,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -484,15 +490,16 @@
           {
             "result": {
               "status": "passed",
-              "duration": 151549100
+              "duration": 214271999
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1267893899
+              "status": "failed",
+              "duration": 972516400,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
             },
             "arguments": [],
             "keyword": "Given ",
@@ -504,8 +511,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 361127799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -517,8 +524,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1158686700
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -530,8 +537,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 69899400
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -543,8 +550,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 7032699
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -556,8 +563,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 65725800
+              "status": "failed",
+              "duration": 3301800,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -589,7 +597,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 174252100
+              "duration": 293293499
             },
             "keyword": "Before",
             "hidden": true
@@ -597,7 +605,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1058741700
+              "duration": 1075663400
             },
             "arguments": [],
             "keyword": "Given ",
@@ -610,7 +618,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 504265600
+              "duration": 220820099
             },
             "arguments": [],
             "keyword": "And ",
@@ -622,8 +630,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1156786199
+              "status": "failed",
+              "duration": 874995999,
+              "error_message": "locator.fill: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\u001b[2m    - locator resolved to <input value=\"\" required=\"\" type=\"email\" id=\"reg-email\" autocomplete=\"email\" placeholder=\"john@example.com\" class=\"auth-form-input auth-form-input--has-icon-left\"/>\u001b[22m\n\u001b[2m    - fill(\"darshan10@gmail.com\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n\n    at SignupPage.enterEmail (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\signUpPage.ts:48:26)\n    at SignupPage.enterRegisterDetails (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\signUpPage.ts:110:20)\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\SignupParticipant.ts:65:8)"
             },
             "arguments": [],
             "keyword": "When ",
@@ -635,8 +644,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 11130100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -648,8 +657,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 72303700
+              "status": "failed",
+              "duration": 1454000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -700,16 +710,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 142561600
+              "status": "failed",
+              "duration": 63235200,
+              "error_message": "browserContext.newPage: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\dhars\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\\Users\\dhars\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-mvNUSW --remote-debugging-pipe --no-startup-window\n<launched> pid=24468\n[pid=24468][err] [24468:424:0828/204841.854:ERROR:chrome\\browser\\ui\\views\\user_education\\impl\\browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=24468][err] [24468:8872:0828/204842.418:ERROR:google_apis\\gcm\\engine\\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR\n[pid=24468][err] [24468:8872:0828/204842.435:ERROR:google_apis\\gcm\\engine\\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR\n[pid=24468][err] [24468:8872:0828/204842.436:ERROR:google_apis\\gcm\\engine\\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR\n[pid=24468][err] [24468:8872:0828/204842.501:ERROR:google_apis\\gcm\\engine\\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret\n[pid=24468][err] [24468:8872:0828/204842.501:ERROR:google_apis\\gcm\\engine\\mcs_client.cc:704] Failed to log in to GCM, resetting connection.\n[pid=24468][err] [24468:424:0828/204844.999:ERROR:chrome\\browser\\ui\\views\\user_education\\impl\\browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=24468][err] [24468:424:0828/204846.607:ERROR:chrome\\browser\\ui\\views\\user_education\\impl\\browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=24468][err] [24468:424:0828/204847.861:ERROR:chrome\\browser\\ui\\views\\user_education\\impl\\browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=24468][err] [24468:424:0828/204849.118:ERROR:chrome\\browser\\ui\\views\\user_education\\impl\\browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=24468] <gracefully close start>\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:33:35)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1127409299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -721,8 +732,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4374170600
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -734,8 +745,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 10645500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -747,8 +758,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 222031399
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -760,8 +771,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 54951799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -773,8 +784,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1850758200
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -786,8 +797,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 90001499
+              "status": "failed",
+              "duration": 412900,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -818,16 +830,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 175157200
+              "status": "failed",
+              "duration": 3902200,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1119007699
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -839,8 +852,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4400552100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -852,8 +865,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 6921299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -865,8 +878,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 156218000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -878,8 +891,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 53947799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -891,8 +904,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1369260499
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -904,8 +917,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 88606299
+              "status": "failed",
+              "duration": 486199,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -936,16 +950,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 157224300
+              "status": "failed",
+              "duration": 11689200,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1104834199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -957,8 +972,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4365342100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -970,8 +985,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 17658300
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -983,8 +998,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 146797500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -996,8 +1011,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 68171600
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -1009,8 +1024,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1362883800
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1022,8 +1037,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 77108200
+              "status": "failed",
+              "duration": 419000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -1054,16 +1070,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 150002599
+              "status": "failed",
+              "duration": 1506999,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1272414899
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1075,8 +1092,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4448969399
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1088,8 +1105,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 19906399
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1101,8 +1118,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 197655299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1114,8 +1131,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 54279499
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -1127,8 +1144,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1373517500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1140,8 +1157,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 71461800
+              "status": "failed",
+              "duration": 622800,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -1172,16 +1190,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 167115999
+              "status": "failed",
+              "duration": 2810600,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1178930899
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1193,8 +1212,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4488277000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1206,8 +1225,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 8465599
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1219,8 +1238,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 149010199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1232,8 +1251,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 64126699
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -1245,8 +1264,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 30981100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1258,8 +1277,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 75864399
+              "status": "failed",
+              "duration": 304200,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -1290,16 +1310,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed",
-              "duration": 145095500
+              "status": "failed",
+              "duration": 1477000,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1261159299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1311,8 +1332,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 4475819000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1324,8 +1345,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 7616800
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1337,8 +1358,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 116455000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1350,8 +1371,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 41592000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -1363,8 +1384,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1360259100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1376,8 +1397,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 77824299
+              "status": "failed",
+              "duration": 369700,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
             },
             "keyword": "After",
             "hidden": true
