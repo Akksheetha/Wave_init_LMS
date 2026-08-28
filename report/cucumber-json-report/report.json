@@ -5,25 +5,35 @@
       {
         "description": "",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "id": "akksheetha---course-details;user-opens-an-existing-course-from-my-courses",
         "keyword": "Scenario",
         "line": 10,
         "name": "User opens an existing course from My Courses",
 =======
+=======
+>>>>>>> d5e9258 (resolved conflicts)
         "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-valid-details",
         "keyword": "Scenario Outline",
         "line": 21,
         "name": "User signup with valid details",
+<<<<<<< HEAD
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+>>>>>>> d5e9258 (resolved conflicts)
         "steps": [
           {
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 685262899
 =======
               "duration": 281665700
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 193545300
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "Before",
             "hidden": true
@@ -32,10 +42,14 @@
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 1692581600
 =======
               "duration": 1466130400
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 29405394400
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "Given ",
@@ -49,14 +63,19 @@
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 5359446700
 =======
               "duration": 2060316100
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 2043314200
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "the user login with valid credentials",
             "match": {
@@ -66,11 +85,17 @@
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:5"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
+>>>>>>> d5e9258 (resolved conflicts)
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 121826900
             },
@@ -89,10 +114,14 @@
 =======
               "duration": 239545699
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 874973400
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "When ",
             "line": 11,
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "the user select the existing course",
             "match": {
@@ -102,11 +131,17 @@
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:10"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+            "name": "the user enters the \"Darshan\" as username in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:10"
+>>>>>>> d5e9258 (resolved conflicts)
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 937874299
 =======
@@ -125,11 +160,87 @@
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:15"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 33963600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user enters the \"darshan\" as email in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:15"
             }
           },
           {
             "result": {
               "status": "passed",
+              "duration": 29933699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters the \"1234567890\" as phone in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60260099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the \"darshan@10\" as password in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:25"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4031334199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enters the \"darshan@10\" as confirm password in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2053409299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 20136800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user gets a success message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:41"
+>>>>>>> d5e9258 (resolved conflicts)
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 100778500
 =======
@@ -200,6 +311,9 @@
               "status": "passed",
               "duration": 65930199
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 74429700
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "After",
             "hidden": true
@@ -208,14 +322,19 @@
         "tags": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "@Akksheetha",
+=======
+            "name": "@Darshan",
+>>>>>>> d5e9258 (resolved conflicts)
             "line": 1
           },
           {
-            "name": "@coursedetails",
+            "name": "@Signup",
             "line": 1
           },
           {
+<<<<<<< HEAD
             "name": "@openCourse",
 =======
             "name": "@Darshan",
@@ -228,6 +347,9 @@
           {
             "name": "@ValidSignup",
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+            "name": "@ValidSignup",
+>>>>>>> d5e9258 (resolved conflicts)
             "line": 9
           }
         ],
@@ -236,25 +358,35 @@
       {
         "description": "",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "id": "akksheetha---course-details;user-verifies-the-course-title",
         "keyword": "Scenario",
         "line": 15,
         "name": "User verifies the course title",
 =======
+=======
+>>>>>>> d5e9258 (resolved conflicts)
         "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-already-registered-mail",
         "keyword": "Scenario Outline",
         "line": 32,
         "name": "User create account with already registered mail",
+<<<<<<< HEAD
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+>>>>>>> d5e9258 (resolved conflicts)
         "steps": [
           {
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 287361099
 =======
               "duration": 268007099
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 143561899
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "Before",
             "hidden": true
@@ -263,10 +395,14 @@
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 1753947100
 =======
               "duration": 1506541499
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 3719338499
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "Given ",
@@ -279,6 +415,7 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 4551006699
 =======
@@ -827,19 +964,23 @@
               "status": "skipped",
               "duration": 0
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 166258500
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
 <<<<<<< HEAD
               "status": "passed",
+<<<<<<< HEAD
               "duration": 163203900
 =======
               "status": "skipped",
@@ -1190,25 +1331,42 @@
             "result": {
               "status": "passed",
               "duration": 619017299
+=======
+              "duration": 905330300
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "When ",
             "line": 26,
-            "name": "the user select the existing course",
+            "name": "the user enter the already registered \"Darshan\" \"darshan10@gmail.com\" \"1234567890\" \"darshan@10\" \"darshan@10\" details",
             "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1449857600
+              "duration": 88430899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1892619699
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 27,
-            "name": "the course content should be displayed",
+            "line": 28,
+            "name": "the user gets the error message",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\CourseDetails.ts:87"
 =======
               "status": "skipped",
@@ -1221,18 +1379,25 @@
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
+>>>>>>> d5e9258 (resolved conflicts)
             }
           },
           {
             "result": {
 <<<<<<< HEAD
               "status": "passed",
+<<<<<<< HEAD
               "duration": 59849900
 =======
               "status": "failed",
               "duration": 486199,
               "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 80525300
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "After",
             "hidden": true
@@ -1241,15 +1406,19 @@
         "tags": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "@Akksheetha",
+=======
+            "name": "@Darshan",
+>>>>>>> d5e9258 (resolved conflicts)
             "line": 1
           },
           {
-            "name": "@coursedetails",
+            "name": "@Signup",
             "line": 1
           },
           {
-            "name": "@courseContent",
+            "name": "@InvalidSignup",
             "line": 24
 =======
             "name": "@Darshan",
@@ -1268,6 +1437,7 @@
       },
       {
         "description": "",
+<<<<<<< HEAD
         "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
         "keyword": "Scenario Outline",
         "line": 19,
@@ -1278,14 +1448,30 @@
               "status": "failed",
               "duration": 11689200,
               "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
+=======
+        "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "User create account with already registered mail",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 114286499
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped",
               "duration": 0
+=======
+              "status": "passed",
+              "duration": 3448766199
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1297,8 +1483,440 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped",
               "duration": 0
+=======
+              "status": "passed",
+              "duration": 194786299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1233504200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enter the already registered \"Raj\" \"DarSHan10@GmaIL.COm\" \"0987654321\" \"darshan10\" \"darshan10\" details",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 99839699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1419807000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user gets the error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89892599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "User create account with already registered mail",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 121576499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6464644299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 204385699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1255679300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enter the already registered \"Jayapal\" \"DARSHAN10@GMAIL.COM\" \"1234509876\" \"darshan@10\" \"darshan@10\" details",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 86835400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1423023999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user gets the error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36916799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---27th-july---participant-sign-up;user-enter-mismatched-password",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "User enter mismatched password",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 140984100
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4876599899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 179885299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1361160199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "the user enters the register details with mismatched password",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:56"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74579599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9789400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the user gets the mismatch error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 69288700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---27th-july---participant-sign-up;user-does-not-agree-terms-of-service",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "User does not agree terms of service",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 107266399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5375389299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 158278999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1252433600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "the user enter the valid register details and does not check terms of service",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:64"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11068399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the user gets the terms of service error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:68"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75040999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "darshanraj---27th-july---participant-sign-up",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "DarshanRaj - 27th July - Participant Sign Up",
+    "tags": [
+      {
+        "name": "@Darshan",
+        "line": 1
+      },
+      {
+        "name": "@Signup",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\SignUpParticipant.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "User search for an existing training course by the exact course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 113166400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5738761100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5804861300
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "And ",
@@ -1310,8 +1928,13 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped",
               "duration": 0
+=======
+              "status": "passed",
+              "duration": 7791000
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "And ",
@@ -1719,6 +2342,7 @@
             "result": {
 <<<<<<< HEAD
               "status": "passed",
+<<<<<<< HEAD
               "duration": 671261399
             },
             "arguments": [],
@@ -1758,12 +2382,16 @@
 <<<<<<< HEAD
               "status": "passed",
               "duration": 1993959499
+=======
+              "duration": 454620999
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 32,
-            "name": "the user click the start course button",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\CourseDetails.ts:97"
             }
           },
@@ -1790,18 +2418,51 @@
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+>>>>>>> d5e9258 (resolved conflicts)
             }
           },
           {
             "result": {
 <<<<<<< HEAD
               "status": "passed",
+<<<<<<< HEAD
               "duration": 373613899
 =======
               "status": "failed",
               "duration": 369700,
               "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+              "duration": 36385799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"Manual Testing\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1841343200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 77380600
+>>>>>>> d5e9258 (resolved conflicts)
             },
             "keyword": "After",
             "hidden": true
@@ -1810,17 +2471,606 @@
         "tags": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "@Akksheetha",
+=======
+            "name": "@Darshan",
+>>>>>>> d5e9258 (resolved conflicts)
             "line": 1
           },
           {
-            "name": "@coursedetails",
+            "name": "@trainingsearch",
             "line": 1
           },
           {
+<<<<<<< HEAD
             "name": "@startCourse",
             "line": 29
 =======
+=======
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "User search for an existing training course by the exact course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 130543200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3832965799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5832327099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3818499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 87632499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75497799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"manual testing\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2393837499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 81975699
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "User search for an existing training course by the exact course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 116174799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4402296199
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6720424499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12168099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 214837199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 42245899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"MANUAL TESTING\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2919376600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 104134999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "User search for an existing training course by the exact course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 136179199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9988164099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8983643400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6967100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94761599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36281300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters the \"ManUAL TesTIng\" in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2896345999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 66727599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@ValidSearch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-invalid-course-name",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "User search for an existing training course by the invalid course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 162472999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12008574900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8326966600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5943200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 312842999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 54143400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user enters the invalid value in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 15886900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the system should display no matches message",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 41678299
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          },
+          {
+            "name": "@trainingsearch",
+            "line": 1
+          },
+          {
+            "name": "@InvalidSearch",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---25th-july---search-courses;user-search-for-a-training-course-using-a-partial-course-name",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "User search for a training course using a partial course name",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 141640899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3381707000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4752706300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4189799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the Dashboard",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 98235100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks Explore Courses Button",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36574900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the user enters a partial course name in the search bar field",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6012441499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the matching training course should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 90810600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+>>>>>>> d5e9258 (resolved conflicts)
             "name": "@Darshan",
             "line": 1
           },
@@ -1831,27 +3081,35 @@
           {
             "name": "@PartialSearch",
             "line": 27
+<<<<<<< HEAD
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+>>>>>>> d5e9258 (resolved conflicts)
           }
         ],
         "type": "scenario"
       }
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "id": "akksheetha---course-details",
+=======
+    "id": "darshanraj---25th-july---search-courses",
+>>>>>>> d5e9258 (resolved conflicts)
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha - Course Details",
+    "name": "DarshanRaj - 25th July - Search courses",
     "tags": [
       {
-        "name": "@Akksheetha",
+        "name": "@Darshan",
         "line": 1
       },
       {
-        "name": "@coursedetails",
+        "name": "@trainingsearch",
         "line": 1
       }
     ],
+<<<<<<< HEAD
     "uri": "src\\test\\feature\\courseDetails.feature"
 =======
     "id": "darshanraj---25th-july---search-courses",
@@ -1870,5 +3128,8 @@
     ],
     "uri": "src\\test\\feature\\TrainingSearch.feature"
 >>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
+=======
+    "uri": "src\\test\\feature\\TrainingSearch.feature"
+>>>>>>> d5e9258 (resolved conflicts)
   }
 ]

@@ -26,9 +26,9 @@ export class customworld extends World{
     DiscussionPage!: DiscussionPage;
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
-    courseDetails!: courseDetailsPage;
     adminLogin!: adminloginPage;
     addTrainer!: addTrainerPage
+    courseDetails!: courseDetailsPage;
     MyProfile!:MyProfileUpdate
 
 }setWorldConstructor(customworld)
