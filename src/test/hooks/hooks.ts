@@ -20,7 +20,7 @@ import { courseSearchPage } from '../pages/courseSearchPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { DiscussionPage } from '../pages/discussionpage';
-import { signUpPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/signUpPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -40,7 +40,7 @@ Before(async function (this:customworld) {
     this.DiscussionPage = new DiscussionPage(this.page);
     this.moduleCreation = new ModuleCreationPage(this.page);
     this.adminLogin = new adminloginPage(this.page);
-    this.signUp = new signUpPage(this.page);
+    this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
 })
 
