@@ -11,57 +11,52 @@ export class signUpPage extends basePage {
     readonly confirmPassword: Locator;
     readonly terms: Locator;
     readonly createAccount: Locator;
+    readonly successmess:Locator;
+    readonly registerederrmes:Locator;
+    readonly passwordmatcherr:Locator;
+    readonly termsError:Locator;
 
     constructor(page: Page) {
         super(page);
-
-        this.sign = page.getByRole('link', { name: 'Sign up as Participant' });
-        this.fullName = page.getByRole('textbox', {
-            name: 'Full Name'
-        });
-
-        this.email = page.getByRole('textbox', {
-            name: 'Email Address'
-        });
-
-        this.phone = page.getByRole('textbox', {
-            name: 'Phone Number'
-        });
-
-        this.password = page.getByRole('textbox', {
-    name: 'Password',
-    exact: true
-});
-
-this.confirmPassword = page.getByRole('textbox', {
-    name: 'Confirm Password',
-    exact: true
-});
-
+        this.sign = page.getByRole('link', {name: 'Sign up as Participant'});
+        this.fullName = page.getByRole('textbox', {name: 'Full Name'});
+        this.email = page.getByRole('textbox', {name: 'Email Address'});
+        this.phone = page.getByRole('textbox', {name: 'Phone Number'});
+        this.password = page.getByRole('textbox', {name: 'Password',exact: true});
+        this.confirmPassword = page.getByRole('textbox', {name: 'Confirm Password',exact: true});
         this.terms = page.getByRole('checkbox');
-
-        this.createAccount = page.getByRole('button', {
-            name: 'Create Account'
-        });
+        this.createAccount = page.getByRole('button', {name: 'Create Account'});
+        this.successmess = page.locator("//div/div[2]/div[2]/div[1]/h2")
+        this.registerederrmes = page.locator("//*[@id='root']/div[1]/div[2]/div[2]/div[2]/div/span")
+        this.passwordmatcherr = page.locator("//p[text()='Passwords do not match']")
+        this.termsError = page.locator("//span[text()='You must agree to the terms']")
     }
 
     async signupClick() {
-    console.log('Current URL:', this.page.url());
-    console.log('Page title:', await this.page.title());
+        await this.sign.click();
+    }
 
-    await this.page.screenshot({
-        path: 'report/signup-page.png',
-        fullPage: true
-    });
+    async enterFullName(username: string) {
+        await this.fullName.fill(username);
+    }
 
-    await this.sign.click();
-}
-    async enterSignUpDetails(data: any) {
-        await this.fullName.fill(data.fullName);
-        await this.email.fill(data.email);
-        await this.phone.fill(data.phone);
-        await this.password.fill(data.password);
-        await this.confirmPassword.fill(data.confirmPassword);
+    async enterEmail(email: string) {
+        await this.email.fill(email);
+    }
+
+    async enterPhone(phone: string) {
+        await this.phone.fill(phone);
+    }
+
+    async enterPassword(password: string) {
+        await this.password.fill(password);
+    }
+
+    async enterConfirmPassword(repassword: string) {
+        await this.confirmPassword.fill(repassword);
+    }
+
+    async selectTerms() {
         await this.terms.check();
     }
 
@@ -69,11 +64,49 @@ this.confirmPassword = page.getByRole('textbox', {
         await this.createAccount.click();
     }
 
-    async verifyPasswordMismatch() {
-    const message = this.page
-        .getByRole('alert')
-        .getByText('Passwords do not match', { exact: true });
+    async verifySuccessMessage() {
+        await expect(this.successmess).toBeVisible();
+    }
 
-    await expect(message).toBeVisible();
-}
+    async verifyRegisteredErrorMessage() {
+        await expect(this.registerederrmes).toBeVisible();
+    }
+
+    async verifyTermsError() {
+        await expect(this.termsError).toBeVisible();
+    }
+
+    async verifyPasswordMismatch() {
+        await expect(this.passwordmatcherr).toBeVisible();
+    }
+
+    async enterAlreadyRegisteredDetails(
+        username: string,
+        email: string,
+        phone: string,
+        password: string,
+        repassword: string
+    ) {
+        await this.enterFullName(username);
+        await this.enterEmail(email);
+        await this.enterPhone(phone);
+        await this.enterPassword(password);
+        await this.enterConfirmPassword(repassword);
+        await this.selectTerms();
+    }
+
+    async enterRegisterDetails(
+        username: string,
+        email: string,
+        phone: string,
+        password: string,
+        repassword: string
+    ) {
+        await this.enterFullName(username);
+        await this.enterEmail(email);
+        await this.enterPhone(phone);
+        await this.enterPassword(password);
+        await this.enterConfirmPassword(repassword);
+        await this.submitForm();
+    }
 }
