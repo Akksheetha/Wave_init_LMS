@@ -10,6 +10,9 @@ import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { SignupPage } from '../pages/signUpPage';
 import { courseDetailsPage } from '../pages/courseDetailsPage';
+import { adminloginPage } from '../pages/adminloginPage';
+import { SignupPage } from '../pages/signUpPage';
+import { addTrainerPage } from '../pages/addtrainerPage';
 
 export class customworld extends World{
     browser!:Browser
@@ -24,5 +27,8 @@ export class customworld extends World{
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
     courseDetails!: courseDetailsPage;
+    adminLogin!: adminloginPage;
+    signUp!: SignupPage;
+    addTrainer!: addTrainerPage
 
 }setWorldConstructor(customworld)
