@@ -21,7 +21,7 @@ import { courseSearchPage } from '../pages/courseSearchPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { DiscussionPage } from '../pages/discussionpage';
-import { SignupPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/SignupPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
