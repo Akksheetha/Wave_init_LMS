@@ -7,8 +7,9 @@ import { trainerloginPage } from '../pages/trainerloginPage';
 import { courseSearchPage } from '../pages/courseSearchPage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
-import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
+import { SignupPage } from '../pages/signUpPage';
+import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { SignupPage } from '../pages/signUpPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
@@ -23,8 +24,9 @@ export class customworld extends World{
     exploretraining!:ExploreTrainingPage
     trainerLogin!: trainerloginPage;
     DiscussionPage!: DiscussionPage;
-    MyProfile!:MyProfileUpdate
     moduleCreation!: ModuleCreationPage;
+    signUp!: SignupPage;
+    courseDetails!: courseDetailsPage;
     adminLogin!: adminloginPage;
     signUp!: SignupPage;
     addTrainer!: addTrainerPage

@@ -6,6 +6,7 @@ import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { trainerloginPage } from '../pages/trainerloginPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
+import { courseDetailsPage } from '../pages/courseDetailsPage';
 import {
     BeforeAll,
     AfterAll,
@@ -42,6 +43,7 @@ Before(async function (this:customworld) {
     this.adminLogin = new adminloginPage(this.page);
     this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
+    this.courseDetails = new courseDetailsPage(this.page);
 })
 
 

@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+src\test\feature\courseDetails.feature:30
+=======
 src\test\feature\SignUpParticipant.feature:32:33:34:38:44
 src\test\feature\TrainingSearch.feature:17:18:19:20:23:28
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b

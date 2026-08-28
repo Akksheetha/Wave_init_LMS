@@ -4,15 +4,26 @@
     "elements": [
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "akksheetha---course-details;user-opens-an-existing-course-from-my-courses",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User opens an existing course from My Courses",
+=======
         "id": "darshanraj---27th-july---participant-sign-up;user-signup-with-valid-details",
         "keyword": "Scenario Outline",
         "line": 21,
         "name": "User signup with valid details",
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 685262899
+=======
               "duration": 281665700
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +31,11 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1692581600
+=======
               "duration": 1466130400
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,45 +48,91 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 5359446700
+=======
               "duration": 2060316100
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
+<<<<<<< HEAD
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+=======
             "name": "the user clicks on sign up as participant link",
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:5"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 121826900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2690817300
+=======
               "duration": 239545699
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "When ",
             "line": 11,
+<<<<<<< HEAD
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+=======
             "name": "the user enters the \"Darshan\" as username in the create account page",
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:10"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 937874299
+=======
               "duration": 58863900
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 12,
+<<<<<<< HEAD
+            "name": "the course details page should be displayed",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:53"
+=======
             "name": "the user enters the \"darshan\" as email in the create account page",
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:15"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 100778500
+=======
               "duration": 42946100
             },
             "arguments": [],
@@ -138,6 +199,7 @@
             "result": {
               "status": "passed",
               "duration": 65930199
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "After",
             "hidden": true
@@ -145,6 +207,17 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@openCourse",
+=======
             "name": "@Darshan",
             "line": 1
           },
@@ -154,6 +227,7 @@
           },
           {
             "name": "@ValidSignup",
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             "line": 9
           }
         ],
@@ -161,15 +235,26 @@
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "akksheetha---course-details;user-verifies-the-course-title",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User verifies the course title",
+=======
         "id": "darshanraj---27th-july---participant-sign-up;user-create-account-with-already-registered-mail",
         "keyword": "Scenario Outline",
         "line": 32,
         "name": "User create account with already registered mail",
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
         "steps": [
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 287361099
+=======
               "duration": 268007099
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "Before",
             "hidden": true
@@ -177,7 +262,11 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1753947100
+=======
               "duration": 1506541499
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "Given ",
@@ -190,6 +279,9 @@
           {
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 4551006699
+=======
               "duration": 199987100
             },
             "arguments": [],
@@ -734,6 +826,7 @@
             "result": {
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
@@ -745,19 +838,41 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 163203900
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+<<<<<<< HEAD
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+=======
             "name": "the user navigate to the Dashboard",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 2176215100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -780,10 +895,22 @@
             "name": "the user enters the \"Manual Testing\" in the search bar field",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 950717400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the selected course title should be displayed",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:63"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -793,13 +920,19 @@
             "name": "the matching training course should be displayed in the list",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 60635399
+=======
               "status": "failed",
               "duration": 412900,
               "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "After",
             "hidden": true
@@ -807,6 +940,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseTitle",
+            "line": 14
+=======
             "name": "@Darshan",
             "line": 1
           },
@@ -817,12 +962,24 @@
           {
             "name": "@ValidSearch",
             "line": 10
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "akksheetha---course-details;user-verifies-the-course-description",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User verifies the course description",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 320119599
+=======
         "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
         "keyword": "Scenario Outline",
         "line": 18,
@@ -833,14 +990,20 @@
               "status": "failed",
               "duration": 3902200,
               "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 1419193499
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "Given ",
@@ -852,8 +1015,13 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 4380256599
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
@@ -865,19 +1033,41 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 156569199
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+<<<<<<< HEAD
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+=======
             "name": "the user navigate to the Dashboard",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 708680899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -900,10 +1090,127 @@
             "name": "the user enters the \"manual testing\" in the search bar field",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 1438616099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the course description should be displayed",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:77"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53021300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseDescription",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---course-details;user-verifies-the-course-content",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User verifies the course content",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 323796699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1986016700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5488048100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 149045900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 619017299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1449857600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the course content should be displayed",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:87"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -913,13 +1220,19 @@
             "name": "the matching training course should be displayed in the list",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 59849900
+=======
               "status": "failed",
               "duration": 486199,
               "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "After",
             "hidden": true
@@ -927,6 +1240,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseContent",
+            "line": 24
+=======
             "name": "@Darshan",
             "line": 1
           },
@@ -1297,12 +1622,24 @@
           {
             "name": "@InvalidSearch",
             "line": 22
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "akksheetha---course-details;user-starts-an-existing-course",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "User starts an existing course",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 309396500
+=======
         "id": "darshanraj---25th-july---search-courses;user-search-for-a-training-course-using-a-partial-course-name",
         "keyword": "Scenario",
         "line": 28,
@@ -1313,14 +1650,20 @@
               "status": "failed",
               "duration": 1477000,
               "error_message": "browser.newContext: Target page, context or browser has been closed\n    at async customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:32:18)"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 855957000
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1332,8 +1675,13 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 4462326300
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
@@ -1345,19 +1693,41 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 145520499
+=======
               "status": "skipped",
               "duration": 0
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
+<<<<<<< HEAD
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+=======
             "name": "the user navigate to the Dashboard",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:5"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 671261399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -1380,10 +1750,36 @@
             "name": "the user enters a partial course name in the search bar field",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:32"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 1993959499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the user click the start course button",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 5009812400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/continue|in progress|started/i).first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/continue|in progress|started/i).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseDetailsPage.verifyCourseStarted (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseDetailsPage.ts:64:11)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\CourseDetails.ts:112:14)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the course should be started successfully",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:107"
+=======
               "status": "skipped",
               "duration": 0
             },
@@ -1393,13 +1789,19 @@
             "name": "the matching training course should be displayed in the list",
             "match": {
               "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             }
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed",
+              "duration": 373613899
+=======
               "status": "failed",
               "duration": 369700,
               "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:51:37)"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
             },
             "keyword": "After",
             "hidden": true
@@ -1407,6 +1809,18 @@
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@startCourse",
+            "line": 29
+=======
             "name": "@Darshan",
             "line": 1
           },
@@ -1417,11 +1831,29 @@
           {
             "name": "@PartialSearch",
             "line": 27
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
+    "id": "akksheetha---course-details",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Akksheetha - Course Details",
+    "tags": [
+      {
+        "name": "@Akksheetha",
+        "line": 1
+      },
+      {
+        "name": "@coursedetails",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\courseDetails.feature"
+=======
     "id": "darshanraj---25th-july---search-courses",
     "line": 2,
     "keyword": "Feature",
@@ -1437,5 +1869,6 @@
       }
     ],
     "uri": "src\\test\\feature\\TrainingSearch.feature"
+>>>>>>> 6b1c55c4af773d8c9eaced10b28156d684feed0b
   }
 ]
