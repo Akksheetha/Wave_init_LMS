@@ -4,15 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "create-trainer-account-in-admin-module;verify-trainer-is-created-successfully-with-valid-details",
+        "id": "akksheetha---course-details;user-opens-an-existing-course-from-my-courses",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Verify trainer is created successfully with valid details",
+        "line": 10,
+        "name": "User opens an existing course from My Courses",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 187365399
+              "duration": 685262899
             },
             "keyword": "Before",
             "hidden": true
@@ -20,86 +20,72 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2042576699
+              "duration": 1692581600
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the admin logs into the application",
+            "name": "user is on the LMS application",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:19"
+              "location": "src\\test\\step\\courseSearch.ts:27"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 5321386899
+              "duration": 5359446700
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the admin navigates to the Trainers page",
+            "name": "the user login with valid credentials",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:45"
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 407804099
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the admin clicks the Add Trainer button",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:55"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 132468700
+              "duration": 121826900
             },
             "arguments": [],
             "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2690817300
+            },
+            "arguments": [],
+            "keyword": "When ",
             "line": 11,
-            "name": "the admin fills all trainer details with valid data",
+            "name": "the user select the existing course",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:65"
+              "location": "src\\test\\step\\CourseDetails.ts:29"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 266255300
+              "duration": 937874299
             },
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 12,
-            "name": "the admin clicks the Create Trainer button",
+            "name": "the course details page should be displayed",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:244"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 10009242400,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tr').filter({ hasText: 'trainer1787852264203@company.com' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tr').filter({ hasText: 'trainer1787852264203@company.com' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at addTrainerPage.verifyTrainerCreated (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\addtrainerPage.ts:333:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\AddTrainerStep.ts:259:31)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the trainer should be created successfully",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:254"
+              "location": "src\\test\\step\\CourseDetails.ts:53"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 141864600
+              "duration": 100778500
             },
             "keyword": "After",
             "hidden": true
@@ -107,27 +93,31 @@
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@Akksheetha",
             "line": 1
           },
           {
-            "name": "@CreateTrainerValidDetails",
-            "line": 8
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@openCourse",
+            "line": 9
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "create-trainer-account-in-admin-module;verify-trainer-is-created-successfully-with-only-mandatory-fields",
+        "id": "akksheetha---course-details;user-verifies-the-course-title",
         "keyword": "Scenario",
-        "line": 16,
-        "name": "Verify trainer is created successfully with only mandatory fields",
+        "line": 15,
+        "name": "User verifies the course title",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 191323400
+              "duration": 287361099
             },
             "keyword": "Before",
             "hidden": true
@@ -135,86 +125,72 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2081703099
+              "duration": 1753947100
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the admin logs into the application",
+            "name": "user is on the LMS application",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:19"
+              "location": "src\\test\\step\\courseSearch.ts:27"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 3439287999
+              "duration": 4551006699
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the admin navigates to the Trainers page",
+            "name": "the user login with valid credentials",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:45"
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 457548399
+              "duration": 163203900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2176215100
             },
             "arguments": [],
             "keyword": "When ",
+            "line": 16,
+            "name": "the user select the existing course",
+            "match": {
+              "location": "src\\test\\step\\CourseDetails.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 950717400
+            },
+            "arguments": [],
+            "keyword": "Then ",
             "line": 17,
-            "name": "the admin clicks the Add Trainer button",
+            "name": "the selected course title should be displayed",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:55"
+              "location": "src\\test\\step\\CourseDetails.ts:63"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 101464799
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the admin fills only the mandatory trainer details",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:104"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 267004700
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the admin clicks the Create Trainer button",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:244"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 10017935399,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tr').filter({ hasText: 'trainer1787852280948@company.com' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tr').filter({ hasText: 'trainer1787852280948@company.com' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at addTrainerPage.verifyTrainerCreated (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\addtrainerPage.ts:333:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\AddTrainerStep.ts:259:31)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the trainer should be created successfully",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:254"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 126255799
+              "duration": 60635399
             },
             "keyword": "After",
             "hidden": true
@@ -222,27 +198,31 @@
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@Akksheetha",
             "line": 1
           },
           {
-            "name": "@CreateTrainerMandatoryFields",
-            "line": 15
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseTitle",
+            "line": 14
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "create-trainer-account-in-admin-module;verify-trainer-creation-fails-when-confirm-password-is-left-blank",
+        "id": "akksheetha---course-details;user-verifies-the-course-description",
         "keyword": "Scenario",
-        "line": 23,
-        "name": "Verify trainer creation fails when Confirm Password is left blank",
+        "line": 20,
+        "name": "User verifies the course description",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 191025400
+              "duration": 320119599
             },
             "keyword": "Before",
             "hidden": true
@@ -250,85 +230,177 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2208688500
+              "duration": 1419193499
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the admin logs into the application",
+            "name": "user is on the LMS application",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:19"
+              "location": "src\\test\\step\\courseSearch.ts:27"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 3925457699
+              "duration": 4380256599
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the admin navigates to the Trainers page",
+            "name": "the user login with valid credentials",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:45"
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 452143399
+              "duration": 156569199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 708680899
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
-            "name": "the admin clicks the Add Trainer button",
+            "line": 21,
+            "name": "the user select the existing course",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:55"
+              "location": "src\\test\\step\\CourseDetails.ts:29"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 119421099
+              "duration": 1438616099
             },
             "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "the admin fills all trainer details except confirm password",
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the course description should be displayed",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:131"
+              "location": "src\\test\\step\\CourseDetails.ts:77"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 264572800
+              "duration": 53021300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          },
+          {
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseDescription",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "akksheetha---course-details;user-verifies-the-course-content",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User verifies the course content",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 323796699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1986016700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5488048100
             },
             "arguments": [],
             "keyword": "And ",
+            "line": 6,
+            "name": "the user login with valid credentials",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 149045900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 619017299
+            },
+            "arguments": [],
+            "keyword": "When ",
             "line": 26,
-            "name": "the admin clicks the Create Trainer button",
+            "name": "the user select the existing course",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:244"
+              "location": "src\\test\\step\\CourseDetails.ts:29"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4844400
+              "duration": 1449857600
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 27,
-            "name": "the admin should see the message \"Please confirm the password\"",
+            "name": "the course content should be displayed",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:266"
+              "location": "src\\test\\step\\CourseDetails.ts:87"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 47853100
+              "duration": 59849900
             },
             "keyword": "After",
             "hidden": true
@@ -336,27 +408,31 @@
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@Akksheetha",
             "line": 1
           },
           {
-            "name": "@CreateTrainerConfirmPasswordRequired",
-            "line": 22
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@courseContent",
+            "line": 24
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "create-trainer-account-in-admin-module;verify-trainer-creation-fails-with-an-invalid-email-address",
+        "id": "akksheetha---course-details;user-starts-an-existing-course",
         "keyword": "Scenario",
         "line": 30,
-        "name": "Verify trainer creation fails with an invalid email address",
+        "name": "User starts an existing course",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 208090900
+              "duration": 309396500
             },
             "keyword": "Before",
             "hidden": true
@@ -364,85 +440,86 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1724957499
+              "duration": 855957000
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the admin logs into the application",
+            "name": "user is on the LMS application",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:19"
+              "location": "src\\test\\step\\courseSearch.ts:27"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 3434325700
+              "duration": 4462326300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the admin navigates to the Trainers page",
+            "name": "the user login with valid credentials",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:45"
+              "location": "src\\test\\step\\courseSearch.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 448058499
+              "duration": 145520499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigate to the My Courses page",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:40"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 671261399
             },
             "arguments": [],
             "keyword": "When ",
             "line": 31,
-            "name": "the admin clicks the Add Trainer button",
+            "name": "the user select the existing course",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:55"
+              "location": "src\\test\\step\\CourseDetails.ts:29"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 137919199
+              "duration": 1993959499
             },
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "the admin fills all trainer details with an invalid email",
+            "name": "the user click the start course button",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:170"
+              "location": "src\\test\\step\\CourseDetails.ts:97"
             }
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 274354300
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "the admin clicks the Create Trainer button",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:244"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 23015700
+              "status": "failed",
+              "duration": 5009812400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/continue|in progress|started/i).first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/continue|in progress|started/i).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseDetailsPage.verifyCourseStarted (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseDetailsPage.ts:64:11)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\CourseDetails.ts:112:14)"
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 34,
-            "name": "the admin should see the message \"enter a valid email address\"",
+            "line": 33,
+            "name": "the course should be started successfully",
             "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:266"
+              "location": "src\\test\\step\\CourseDetails.ts:107"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 42346399
+              "duration": 373613899
             },
             "keyword": "After",
             "hidden": true
@@ -450,141 +527,35 @@
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@Akksheetha",
             "line": 1
           },
           {
-            "name": "@CreateTrainerInvalidEmail",
+            "name": "@coursedetails",
+            "line": 1
+          },
+          {
+            "name": "@startCourse",
             "line": 29
           }
         ],
         "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "create-trainer-account-in-admin-module;verify-trainer-creation-fails-when-password-and-confirm-password-do-not-match",
-        "keyword": "Scenario",
-        "line": 37,
-        "name": "Verify trainer creation fails when Password and Confirm Password do not match",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 198273900
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1590625500
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the admin logs into the application",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:19"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 3416246299
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the admin navigates to the Trainers page",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:45"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 427692999
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 38,
-            "name": "the admin clicks the Add Trainer button",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:55"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 140219199
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 39,
-            "name": "the admin fills all trainer details with mismatched confirm password",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:205"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 268959100
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "the admin clicks the Create Trainer button",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:244"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 6186200
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 41,
-            "name": "the admin should see the message \"Passwords do not match\"",
-            "match": {
-              "location": "src\\test\\step\\AddTrainerStep.ts:266"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 43637999
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vithya",
-            "line": 1
-          },
-          {
-            "name": "@CreateTrainerPasswordMismatch",
-            "line": 36
-          }
-        ],
-        "type": "scenario"
       }
     ],
-    "id": "create-trainer-account-in-admin-module",
+    "id": "akksheetha---course-details",
     "line": 2,
     "keyword": "Feature",
-    "name": "Create Trainer Account in Admin Module",
+    "name": "Akksheetha - Course Details",
     "tags": [
       {
-        "name": "@Vithya",
+        "name": "@Akksheetha",
+        "line": 1
+      },
+      {
+        "name": "@coursedetails",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\AddTrainer.feature"
+    "uri": "src\\test\\feature\\courseDetails.feature"
   }
 ]
