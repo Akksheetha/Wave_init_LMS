@@ -2,36 +2,30 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import { customworld } from '../world/customWorld';
 
 
-
 Given('the user clicks on sign up as participant link',async function (this: customworld) {
         await this.signUp.signupClick();
     }
 );
-
 
 When('the user enters the {string} as username in the create account page',async function (this: customworld,username: string) {
         await this.signUp.enterFullName(username);
     }
 );
 
-
 When('the user enters the {string} as email in the create account page',async function (this: customworld,email: string) {
         await this.signUp.enterEmail(`${email}_${Date.now()}@gmail.com`);
     }
 );
-
 
 When('the user enters the {string} as phone in the create account page',async function (this: customworld,phone: string) {
         await this.signUp.enterPhone(phone);
     }
 );
 
-
 When('the user enters the {string} as password in the create account page',async function (this: customworld,password: string) {
         await this.signUp.enterPassword(password);
     }
 );
-
 
 When('the user enters the {string} as confirm password in the create account page',async function (this: customworld,repassword: string) {
         await this.signUp.enterConfirmPassword(repassword);
@@ -39,12 +33,10 @@ When('the user enters the {string} as confirm password in the create account pag
     }
 );
 
-
 When('the user clicks create account button',async function (this: customworld) {
         await this.signUp.submitForm();
     }
 );
-
 
 Then('the user gets a success message',async function (this: customworld) {
         await this.signUp.verifySuccessMessage();

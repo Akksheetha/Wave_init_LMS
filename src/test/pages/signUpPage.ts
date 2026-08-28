@@ -1,7 +1,11 @@
-import { Locator, Page, expect } from '@playwright/test';
+import { Locator, Page ,expect} from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
 import { basePage } from './basePage';
+//
+dotenv.config({ path: path.resolve(process.cwd(), 'env/.env.qa') });
 
-export class signUpPage extends basePage {
+export class SignupPage extends basePage {
 
     readonly sign: Locator;
     readonly fullName: Locator;

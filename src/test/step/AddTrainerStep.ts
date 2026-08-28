@@ -21,19 +21,21 @@ Given(
 
     async function (this: customworld) {
 
-        // Reuse Admin Login Page Object
-
         await this.adminLogin.launch();
 
+
         await this.adminLogin.switchToAdmin();
+
 
         await this.adminLogin.enterUsername(
             adminLoginData.validAdmin.username
         );
 
+
         await this.adminLogin.enterPassword(
             adminLoginData.validAdmin.password
         );
+
 
         await this.adminLogin.signInClick();
     }
@@ -65,10 +67,9 @@ When(
 
     async function (this: customworld) {
 
-        // Unique email to avoid duplicate trainer creation
-
         createdTrainerEmail =
             `trainer${Date.now()}@company.com`;
+
 
         await this.addTrainer.fillAllTrainerDetails({
 
@@ -108,6 +109,7 @@ When(
         createdTrainerEmail =
             `trainer${Date.now()}@company.com`;
 
+
         await this.addTrainer.fillMandatoryTrainerDetails({
 
             fullName:
@@ -133,6 +135,7 @@ When(
 
         createdTrainerEmail =
             `trainer${Date.now()}@company.com`;
+
 
         await this.addTrainer.fillAllTrainerDetails({
 
@@ -207,6 +210,7 @@ When(
         createdTrainerEmail =
             `trainer${Date.now()}@company.com`;
 
+
         await this.addTrainer.fillAllTrainerDetails({
 
             fullName:
@@ -252,14 +256,6 @@ Then(
 
     async function (this: customworld) {
 
-        // Do NOT verify:
-        // "Trainer created successfully"
-        //
-        // Your previous test proved that message
-        // does not exist in the DOM.
-        //
-        // Verify the created trainer email instead.
-
         await this.addTrainer.verifyTrainerCreated(
             createdTrainerEmail
         );
@@ -275,7 +271,6 @@ Then(
         expectedMessage: string
     ) {
 
-        // Handle browser native email validation separately
 
         if (
             expectedMessage
@@ -285,19 +280,22 @@ Then(
 
             const validationMessage =
                 await this.addTrainer.emailInput.evaluate(
-                    (element: HTMLInputElement) =>
+                    (
+                        element: HTMLInputElement
+                    ) =>
                         element.validationMessage
                 );
+
 
             expect(
                 validationMessage
                     .toLowerCase()
             ).not.toBe('');
 
+
             return;
         }
 
-        // Application validation messages
 
         await this.addTrainer.verifyMessage(
             expectedMessage

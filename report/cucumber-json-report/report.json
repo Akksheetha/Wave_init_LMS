@@ -12,7 +12,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 216920800
+              "duration": 255294200
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +20,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1046566800
+              "duration": 1098401300
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,64 +33,77 @@
           {
             "result": {
               "status": "passed",
-              "duration": 506804299
+              "duration": 555953799
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 119697499
+              "duration": 127729600
             },
             "arguments": [],
             "keyword": "When ",
             "line": 11,
             "name": "the user enters the \"Darshan\" as username in the create account page",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:12"
+              "location": "src\\test\\step\\SignupParticipant.ts:10"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 21559499
+              "duration": 25552200
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
             "name": "the user enters the \"darshan\" as email in the create account page",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:18"
+              "location": "src\\test\\step\\SignupParticipant.ts:15"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 28130599
+              "duration": 25557500
             },
             "arguments": [],
             "keyword": "And ",
             "line": 13,
             "name": "the user enters the \"1234567890\" as phone in the create account page",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:24"
+              "location": "src\\test\\step\\SignupParticipant.ts:20"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 34992000
+              "duration": 35794600
             },
             "arguments": [],
             "keyword": "And ",
             "line": 14,
             "name": "the user enters the \"darshan@10\" as password in the create account page",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:25"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1004226300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enters the \"darshan@10\" as confirm password in the create account page",
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:30"
             }
@@ -98,12 +111,12 @@
           {
             "result": {
               "status": "passed",
-              "duration": 980554199
+              "duration": 77191399
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
-            "name": "the user enters the \"darshan@10\" as confirm password in the create account page",
+            "line": 16,
+            "name": "the user clicks create account button",
             "match": {
               "location": "src\\test\\step\\SignupParticipant.ts:36"
             }
@@ -111,33 +124,20 @@
           {
             "result": {
               "status": "passed",
-              "duration": 52232399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "the user clicks create account button",
-            "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:43"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 17360300
+              "duration": 10568099
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
             "name": "the user gets a success message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:49"
+              "location": "src\\test\\step\\SignupParticipant.ts:41"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 68556599
+              "duration": 64590000
             },
             "keyword": "After",
             "hidden": true
@@ -169,7 +169,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 220864199
+              "duration": 206444900
             },
             "keyword": "Before",
             "hidden": true
@@ -177,7 +177,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 994058099
+              "duration": 1119790899
             },
             "arguments": [],
             "keyword": "Given ",
@@ -190,59 +190,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1019696799
+              "duration": 538873999
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1218724000
+              "duration": 1147838600
             },
             "arguments": [],
             "keyword": "When ",
             "line": 26,
             "name": "the user enter the already registered \"Darshan\" \"darshan10@gmail.com\" \"1234567890\" \"darshan@10\" \"darshan@10\" details",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:54"
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 76808399
+              "duration": 82995299
             },
             "arguments": [],
             "keyword": "And ",
             "line": 27,
             "name": "the user clicks create account button",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:43"
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1883662900
+              "duration": 1429055000
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 28,
             "name": "the user gets the error message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:59"
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 47825600
+              "duration": 52191300
             },
             "keyword": "After",
             "hidden": true
@@ -274,7 +274,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 229388999
+              "duration": 184038599
             },
             "keyword": "Before",
             "hidden": true
@@ -282,7 +282,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1247250500
+              "duration": 1204604799
             },
             "arguments": [],
             "keyword": "Given ",
@@ -295,59 +295,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 352045699
+              "duration": 403292600
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1137616099
+              "duration": 1248532999
             },
             "arguments": [],
             "keyword": "When ",
             "line": 26,
             "name": "the user enter the already registered \"Raj\" \"DarSHan10@GmaIL.COm\" \"0987654321\" \"darshan10\" \"darshan10\" details",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:54"
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 56191800
+              "duration": 76896799
             },
             "arguments": [],
             "keyword": "And ",
             "line": 27,
             "name": "the user clicks create account button",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:43"
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 852705799
+              "duration": 917549399
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 28,
             "name": "the user gets the error message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:59"
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 65029200
+              "duration": 95234199
             },
             "keyword": "After",
             "hidden": true
@@ -379,7 +379,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 232149899
+              "duration": 155541400
             },
             "keyword": "Before",
             "hidden": true
@@ -387,7 +387,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1246914099
+              "duration": 1325561800
             },
             "arguments": [],
             "keyword": "Given ",
@@ -400,59 +400,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 366549900
+              "duration": 383400900
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1125201700
+              "duration": 1136330800
             },
             "arguments": [],
             "keyword": "When ",
             "line": 26,
             "name": "the user enter the already registered \"Jayapal\" \"DARSHAN10@GMAIL.COM\" \"1234509876\" \"darshan@10\" \"darshan@10\" details",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:54"
+              "location": "src\\test\\step\\SignupParticipant.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 69744300
+              "duration": 75344700
             },
             "arguments": [],
             "keyword": "And ",
             "line": 27,
             "name": "the user clicks create account button",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:43"
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 843168599
+              "duration": 909458000
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 28,
             "name": "the user gets the error message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:59"
+              "location": "src\\test\\step\\SignupParticipant.ts:51"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 70542799
+              "duration": 106705300
             },
             "keyword": "After",
             "hidden": true
@@ -484,7 +484,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 270205899
+              "duration": 151549100
             },
             "keyword": "Before",
             "hidden": true
@@ -492,7 +492,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1350780700
+              "duration": 1267893899
             },
             "arguments": [],
             "keyword": "Given ",
@@ -505,59 +505,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 329866899
+              "duration": 361127799
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 796950899
+              "duration": 1158686700
             },
             "arguments": [],
             "keyword": "When ",
             "line": 39,
             "name": "the user enters the register details with mismatched password",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:64"
+              "location": "src\\test\\step\\SignupParticipant.ts:56"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 63704799
+              "duration": 69899400
             },
             "arguments": [],
             "keyword": "And ",
             "line": 40,
             "name": "the user clicks create account button",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:43"
+              "location": "src\\test\\step\\SignupParticipant.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 6328799
+              "duration": 7032699
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 41,
             "name": "the user gets the mismatch error message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:68"
+              "location": "src\\test\\step\\SignupParticipant.ts:60"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 50471799
+              "duration": 65725800
             },
             "keyword": "After",
             "hidden": true
@@ -589,7 +589,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 236324899
+              "duration": 174252100
             },
             "keyword": "Before",
             "hidden": true
@@ -597,7 +597,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1514987100
+              "duration": 1058741700
             },
             "arguments": [],
             "keyword": "Given ",
@@ -610,46 +610,46 @@
           {
             "result": {
               "status": "passed",
-              "duration": 115578799
+              "duration": 504265600
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:6"
+              "location": "src\\test\\step\\SignupParticipant.ts:5"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1317289899
+              "duration": 1156786199
             },
             "arguments": [],
             "keyword": "When ",
             "line": 45,
             "name": "the user enter the valid register details and does not check terms of service",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:72"
+              "location": "src\\test\\step\\SignupParticipant.ts:64"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 10347799
+              "duration": 11130100
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 46,
             "name": "the user gets the terms of service error message",
             "match": {
-              "location": "src\\test\\step\\SignupParticipant.ts:76"
+              "location": "src\\test\\step\\SignupParticipant.ts:68"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 73591899
+              "duration": 72303700
             },
             "keyword": "After",
             "hidden": true
@@ -701,7 +701,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 238881800
+              "duration": 142561600
             },
             "keyword": "Before",
             "hidden": true
@@ -709,7 +709,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1536334199
+              "duration": 1127409299
             },
             "arguments": [],
             "keyword": "Given ",
@@ -722,7 +722,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4181426599
+              "duration": 4374170600
             },
             "arguments": [],
             "keyword": "And ",
@@ -735,7 +735,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 10755799
+              "duration": 10645500
             },
             "arguments": [],
             "keyword": "And ",
@@ -748,7 +748,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 87246800
+              "duration": 222031399
             },
             "arguments": [],
             "keyword": "And ",
@@ -761,7 +761,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 25590899
+              "duration": 54951799
             },
             "arguments": [],
             "keyword": "When ",
@@ -774,7 +774,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2392612799
+              "duration": 1850758200
             },
             "arguments": [],
             "keyword": "Then ",
@@ -787,7 +787,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 77575300
+              "duration": 90001499
             },
             "keyword": "After",
             "hidden": true
@@ -819,7 +819,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 235789400
+              "duration": 175157200
             },
             "keyword": "Before",
             "hidden": true
@@ -827,7 +827,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1640321100
+              "duration": 1119007699
             },
             "arguments": [],
             "keyword": "Given ",
@@ -840,7 +840,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4132736700
+              "duration": 4400552100
             },
             "arguments": [],
             "keyword": "And ",
@@ -853,7 +853,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 6940999
+              "duration": 6921299
             },
             "arguments": [],
             "keyword": "And ",
@@ -866,7 +866,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 57960899
+              "duration": 156218000
             },
             "arguments": [],
             "keyword": "And ",
@@ -879,7 +879,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 23965100
+              "duration": 53947799
             },
             "arguments": [],
             "keyword": "When ",
@@ -892,7 +892,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1353981299
+              "duration": 1369260499
             },
             "arguments": [],
             "keyword": "Then ",
@@ -905,7 +905,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 82472499
+              "duration": 88606299
             },
             "keyword": "After",
             "hidden": true
@@ -937,7 +937,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 217754600
+              "duration": 157224300
             },
             "keyword": "Before",
             "hidden": true
@@ -945,7 +945,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1666135499
+              "duration": 1104834199
             },
             "arguments": [],
             "keyword": "Given ",
@@ -958,7 +958,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4148271199
+              "duration": 4365342100
             },
             "arguments": [],
             "keyword": "And ",
@@ -971,7 +971,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 7329999
+              "duration": 17658300
             },
             "arguments": [],
             "keyword": "And ",
@@ -984,7 +984,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 94110100
+              "duration": 146797500
             },
             "arguments": [],
             "keyword": "And ",
@@ -997,7 +997,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 29950199
+              "duration": 68171600
             },
             "arguments": [],
             "keyword": "When ",
@@ -1010,7 +1010,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1367181899
+              "duration": 1362883800
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1023,7 +1023,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 54662300
+              "duration": 77108200
             },
             "keyword": "After",
             "hidden": true
@@ -1055,7 +1055,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 231326900
+              "duration": 150002599
             },
             "keyword": "Before",
             "hidden": true
@@ -1063,7 +1063,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1348274100
+              "duration": 1272414899
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1076,7 +1076,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4324711199
+              "duration": 4448969399
             },
             "arguments": [],
             "keyword": "And ",
@@ -1089,7 +1089,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 5925100
+              "duration": 19906399
             },
             "arguments": [],
             "keyword": "And ",
@@ -1102,7 +1102,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 80428799
+              "duration": 197655299
             },
             "arguments": [],
             "keyword": "And ",
@@ -1115,7 +1115,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 23322200
+              "duration": 54279499
             },
             "arguments": [],
             "keyword": "When ",
@@ -1128,7 +1128,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1346867500
+              "duration": 1373517500
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1141,7 +1141,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 64285899
+              "duration": 71461800
             },
             "keyword": "After",
             "hidden": true
@@ -1173,7 +1173,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 237249800
+              "duration": 167115999
             },
             "keyword": "Before",
             "hidden": true
@@ -1181,7 +1181,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1272581799
+              "duration": 1178930899
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1194,7 +1194,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4391287199
+              "duration": 4488277000
             },
             "arguments": [],
             "keyword": "And ",
@@ -1207,7 +1207,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 7565300
+              "duration": 8465599
             },
             "arguments": [],
             "keyword": "And ",
@@ -1220,7 +1220,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 73668200
+              "duration": 149010199
             },
             "arguments": [],
             "keyword": "And ",
@@ -1233,7 +1233,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 13807799
+              "duration": 64126699
             },
             "arguments": [],
             "keyword": "When ",
@@ -1246,7 +1246,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 6977099
+              "duration": 30981100
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1259,7 +1259,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 41847799
+              "duration": 75864399
             },
             "keyword": "After",
             "hidden": true
@@ -1291,7 +1291,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 274721400
+              "duration": 145095500
             },
             "keyword": "Before",
             "hidden": true
@@ -1299,7 +1299,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1288252800
+              "duration": 1261159299
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1312,7 +1312,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4382818199
+              "duration": 4475819000
             },
             "arguments": [],
             "keyword": "And ",
@@ -1325,7 +1325,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 9136899
+              "duration": 7616800
             },
             "arguments": [],
             "keyword": "And ",
@@ -1338,7 +1338,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 87509500
+              "duration": 116455000
             },
             "arguments": [],
             "keyword": "And ",
@@ -1351,7 +1351,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 33645700
+              "duration": 41592000
             },
             "arguments": [],
             "keyword": "When ",
@@ -1364,7 +1364,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1877163399
+              "duration": 1360259100
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1377,7 +1377,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 69993799
+              "duration": 77824299
             },
             "keyword": "After",
             "hidden": true
