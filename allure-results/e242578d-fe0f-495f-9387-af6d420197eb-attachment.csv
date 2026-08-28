@@ -1,7 +1,0 @@
-email,password,message
-fake@wave.com,wrong@123,Invalid email or password
-trainer@wave.com,wrong@123,Invalid email or password
-wrong@wave.com,trainer123,Invalid email or password
-,trainer123,Please fill out this field.
-trainer@wave.com,,Please fill out this field.
-,,Please fill out this field.
