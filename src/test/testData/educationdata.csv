@@ -1,0 +1,5 @@
+scenarioType,institution,degree,fieldOfStudy,yearRange,cgpa,institutionError,degreeError
+valid,IIT Madras,Bachelor of Technology,CSE,2020-2024,8.90,,
+missingInstitution,,Bachelor of Technology,CSE,2020,7.80,Institution is required.,
+missingDegree,IIT madars,,CSE,2020,7.80,,Degree is required.
+missingBoth,,,CSE,2020,7.80,Institution is required.,Degree is required.

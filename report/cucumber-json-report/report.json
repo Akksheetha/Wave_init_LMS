@@ -1,0 +1,1480 @@
+<<<<<<< HEAD
+=======
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-adds-a-valid-education-record",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Trainer adds a valid education record",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 166526300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1131543799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 386885200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 90547900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 65757099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3454149899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 109412299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2417868000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 189380500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the trainer fills the education form using \"valid\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 217750500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43152700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the education record from \"valid\" data should be added to the profile",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 35351800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-an-institution",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Trainer tries to add education without an Institution",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 185355300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1223221600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 385857699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 98784799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 86485000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2910968699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55344700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1900714700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 197471199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer fills the education form using \"missingInstitution\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 204672900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16365200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the education form should show the validation errors from \"missingInstitution\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37429200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-a-degree",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Trainer tries to add education without a Degree",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 223916700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1052992699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 860087199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67694200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 108227600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3412144499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 45471999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1886564400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 186592799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the trainer fills the education form using \"missingDegree\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 208147499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17088599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the education form should show the validation errors from \"missingDegree\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38696600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-an-institution-and-a-degree",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Trainer tries to add education without an Institution and a Degree",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 234569400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 966687900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 880662300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 65631199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 91893499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2922963799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53011200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1919816100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 157385500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the trainer fills the education form using \"missingBoth\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 210139899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 17146600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the education form should show the validation errors from \"missingBoth\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36629700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_28AUG2026_Trainer_adds_Education_details_to_their_profile",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Addeducation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-normal-post-and-verifies-it-appears-in-the-correct-tab",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Learner creates a Normal Post and verifies it appears in the correct tab",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 217639899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 880916400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48367599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27263100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enter the valid password as \"sriram123@\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 845446499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3356363499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard page after successfully login",
+            "match": {
+              "location": "src\\test\\step\\login.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 66730800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the learner opens \"My Courses\"",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1383161500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the learner opens the course from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 867585599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the learner clicks on the \"Discussions\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 214613700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the learner selects \"Normal Post\" from the post type dropdown",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11722999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the learner enters the message for \"Normal Post\" from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 256372100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the learner clicks the \"Post\" button",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:101"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 324755799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the posted message should be visible under the \"Discussions\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26304600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the posted message should be visible under the \"All Posts\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32920200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-question-and-verifies-it-appears-in-the-correct-tab",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Learner creates a Question and verifies it appears in the correct tab",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 181338000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 974041599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52166100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 34441699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enter the valid password as \"sriram123@\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 338732799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3347059699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard page after successfully login",
+            "match": {
+              "location": "src\\test\\step\\login.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75887999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the learner opens \"My Courses\"",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 884014800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the learner opens the course from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 880149799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the learner clicks on the \"Discussions\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 228121900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the learner selects \"Question\" from the post type dropdown",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23776200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the learner enters the message for \"Question\" from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 212772700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the learner clicks the \"Post\" button",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:101"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 233570599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the posted message should be visible under the \"Q&A\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 94166199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the posted message should be visible under the \"All Posts\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 42527500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_25AUG2026_Learner Discussions - Create Posts and Verify Visibility",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Discussion.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course;trainer-creates-a-new-module-with-a-valid-title",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Trainer creates a new module with a valid title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 207914400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 991549599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 875460999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 133735000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 56833800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2914273800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 64906699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 880563800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the trainer clicks the course \"react\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 867197099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the trainer clicks the \"Lessons\" tab",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 542157199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the trainer clicks the \"Add Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31089299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the trainer enters \"Advanced Hooks & Context API\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 118532200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the trainer clicks the \"Create Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30020307400,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div').filter({ has: getByText('MODULE', { exact: true }) }).last() to be visible\u001b[22m\n\n    at ModuleCreationPage.getLastModuleRowText (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:137:42)\n    at customworld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:71:55)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the module \"Advanced Hooks & Context API\" should be added as the last module",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:66"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 145430900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course;trainer-tries-to-create-a-module-without-a-title",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Trainer tries to create a module without a title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 184233800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 702724600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 168201100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 138946599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 842601699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4504117299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1897595700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3124777199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the trainer clicks the course \"react\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 877270199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the trainer clicks the \"Lessons\" tab",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 411879199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the trainer clicks the \"Add Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 344600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the trainer enters \"\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 226895399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the trainer clicks the \"Create Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5576389799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the error message \"Title is required\" should be displayed briefly",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:76"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25943599
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_25AUG2026_Trainer_creates_a_Module_inside_a_course",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Modulecreation.feature"
+  }
+]
+>>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35

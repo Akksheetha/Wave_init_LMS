@@ -7,12 +7,14 @@ import { trainerloginPage } from '../pages/trainerloginPage';
 import { courseSearchPage } from '../pages/courseSearchPage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
-import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
+import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
-import { signUpPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
 import { ParticipantPage } from '../pages/ParticpantPage';
+import { MyProfileUpdate } from '../pages/MyProfileUpdate';
+import { EducationPage } from '../pages/AddeducationPage';
 
 export class CustomWorld extends World{
     browser!:Browser
@@ -24,12 +26,16 @@ export class CustomWorld extends World{
     exploretraining!:ExploreTrainingPage
     trainerLogin!: trainerloginPage;
     DiscussionPage!: DiscussionPage;
-    MyProfile!:MyProfileUpdate
     moduleCreation!: ModuleCreationPage;
+    signUp!: SignupPage;
     adminLogin!: adminloginPage;
     ap!: adminloginPage;
     signUp!: signUpPage;
     addTrainer!: addTrainerPage
     pp!: ParticipantPage;
+    addTrainer!: addTrainerPage
+    courseDetails!: courseDetailsPage;
+    MyProfile!:MyProfileUpdate
+    Education!:EducationPage;
 
 }setWorldConstructor(CustomWorld)

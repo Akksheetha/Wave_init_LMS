@@ -7,6 +7,8 @@ import { trainerloginPage } from '../pages/trainerloginPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
 import { ParticipantPage } from '../pages/ParticpantPage';
+import { courseDetailsPage } from '../pages/courseDetailsPage';
+import { EducationPage } from '../pages/AddeducationPage';
 import {
     BeforeAll,
     AfterAll,
@@ -21,7 +23,7 @@ import { courseSearchPage } from '../pages/courseSearchPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { DiscussionPage } from '../pages/discussionpage';
-import { SignupPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/SignupPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -44,7 +46,12 @@ Before(async function (this:CustomWorld) {
     this.ap = new adminloginPage(this.page);
     this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
+<<<<<<< HEAD
     this.pp = new ParticipantPage(this.page);
+=======
+    this.courseDetails = new courseDetailsPage(this.page);
+    this.Education = new EducationPage(this.page);
+>>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35
 })
 
 
