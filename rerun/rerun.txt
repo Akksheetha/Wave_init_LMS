@@ -1,1 +1,4 @@
+<<<<<<< HEAD
+=======
 src\test\feature\Modulecreation.feature:22
+>>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35

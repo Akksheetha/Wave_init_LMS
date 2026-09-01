@@ -1,5 +1,5 @@
 @jeeva
-Feature: JeevaPranesh_26-08-2026_Update the skill in the my profile page
+Feature: JeevaPranesh_26-08-2026_Update the skill in the my profile page-updated_27-08-2026
 
 Feature Description
 
@@ -20,17 +20,25 @@ Feature Description
               And the user click the Add Skill button
              Then the skill should be added to the profile
 
-        Scenario: user add a suggested skill using CSV
+        Scenario: user add a suggested skill
              When the user click the user name in the left bottom coner
               And click the My Profile
               And the user click Add Skill
               And the user select the skill suggestion from CSV
              Then the suggested skill should be added to the profile
 
-     #    Scenario:user delete the existing skill
-     #         When the user click the user name in the left bottom coner
-     #          And click the My Profile
-     #          And the user click the xmake of one skill
-     #          And the user clik the delete button
-     #         Then the particular skill is deleted from the skill position
-          
+        Scenario:user delete the existing skill
+             When the user click the user name in the left bottom coner
+              And click the My Profile
+              And the user click the xmake of one skill
+              And the user clik the delete button
+             Then the particular skill is deleted from the skill position
+
+        Scenario: user unable to update the Skill which is already added
+             When the user click the user name in the left bottom coner
+              And click the My Profile
+              And the user click Add Skill
+              And the user enter the skill which is already added
+              And the user click the Add Skill button
+             Then the user see the message of already listed in the skill
+
