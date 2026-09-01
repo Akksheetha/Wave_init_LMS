@@ -1,0 +1,10 @@
+{
+  "Details": {
+    "name": "Tamil Selvan",
+    "Email": "participant"
+  },
+  "AlreadyExistData": {
+    "name": "Existing User",
+    "Email": "existing@example.com"
+  }
+}

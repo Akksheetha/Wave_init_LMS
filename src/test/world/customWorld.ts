@@ -12,8 +12,9 @@ import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { signUpPage } from '../pages/signUpPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
+import { ParticipantPage } from '../pages/ParticpantPage';
 
-export class customworld extends World{
+export class CustomWorld extends World{
     browser!:Browser
     context!:BrowserContext
     page!:Page
@@ -26,7 +27,9 @@ export class customworld extends World{
     MyProfile!:MyProfileUpdate
     moduleCreation!: ModuleCreationPage;
     adminLogin!: adminloginPage;
+    ap!: adminloginPage;
     signUp!: signUpPage;
     addTrainer!: addTrainerPage
+    pp!: ParticipantPage;
 
-}setWorldConstructor(customworld)
+}setWorldConstructor(CustomWorld)

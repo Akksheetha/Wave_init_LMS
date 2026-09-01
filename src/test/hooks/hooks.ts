@@ -1,11 +1,12 @@
 import { Browser, chromium } from '@playwright/test';
-import { customworld } from '../world/customWorld';
+import { CustomWorld } from '../world/customWorld';
 import { loginpage } from '../pages/loginpage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { trainerloginPage } from '../pages/trainerloginPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
+import { ParticipantPage } from '../pages/ParticpantPage';
 import {
     BeforeAll,
     AfterAll,
@@ -24,10 +25,10 @@ import { SignupPage } from '../pages/signUpPage';
 let browser:Browser
 //
 BeforeAll(async()=>{
-browser=await chromium.launch({headless:false});
+browser=await chromium.launch({headless:true});
 })
 
-Before(async function (this:customworld) {
+Before(async function (this:CustomWorld) {
     this.browser=browser
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
@@ -40,12 +41,14 @@ Before(async function (this:customworld) {
     this.DiscussionPage = new DiscussionPage(this.page);
     this.moduleCreation = new ModuleCreationPage(this.page);
     this.adminLogin = new adminloginPage(this.page);
+    this.ap = new adminloginPage(this.page);
     this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
+    this.pp = new ParticipantPage(this.page);
 })
 
 
-After(async function(this:customworld,{result ,pickle}){
+After(async function(this:CustomWorld,{result ,pickle}){
 
      if (result?.status === Status.FAILED) {
         const img = await this.page.screenshot({

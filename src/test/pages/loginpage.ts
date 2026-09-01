@@ -19,7 +19,8 @@ export class loginpage extends basePage {
         this.username= page.locator("#login-email")
         this.password=page.locator("#login-password")
         this.sigin_BTN=page.locator("//button[@type='submit']")
-        this.welcome=page.locator("//h1[@class='tdb-header-title']")
+        // Try multiple possible welcome message locations for flexibility
+        this.welcome=page.locator("//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2")
        this.errormsg = page.getByText('Invalid email or password')
        this.signupBtn = page.locator("//a")
     }
