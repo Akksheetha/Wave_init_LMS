@@ -316,22 +316,15 @@ export class addTrainerPage extends basePage {
      * Verify the exact trainer using
      * the unique email.
      */
-    async verifyTrainerCreated(
-        email: string
-    ) {
+    async verifyTrainerCreated(email: string) {
 
-        const trainerRow = this.page
-            .locator('tr')
-            .filter({
-                hasText: email
-            })
-            .first();
+    const trainerEmail = this.page.getByText(
+        email,
+        { exact: true }
+    );
 
-
-        await expect(
-            trainerRow
-        ).toBeVisible({
-            timeout: 10000
-        });
-    }
+    await expect(trainerEmail).toBeVisible({
+        timeout: 10000
+    });
+}
 }

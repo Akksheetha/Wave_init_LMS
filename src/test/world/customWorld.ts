@@ -14,6 +14,7 @@ import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { EducationPage } from '../pages/AddeducationPage';
+import {AddTrainingPage}  from '../pages/AddTrainingPage';
 
 export class customworld extends World{
     browser!:Browser
@@ -32,5 +33,6 @@ export class customworld extends World{
     courseDetails!: courseDetailsPage;
     MyProfile!:MyProfileUpdate
     Education!:EducationPage;
+    addTrainingPage!: AddTrainingPage;
 
 }setWorldConstructor(customworld)
