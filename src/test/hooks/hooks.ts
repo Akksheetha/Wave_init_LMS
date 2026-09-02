@@ -9,6 +9,7 @@ import { addTrainerPage } from '../pages/addtrainerPage';
 import { ParticipantPage } from '../pages/ParticpantPage';
 import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { EducationPage } from '../pages/AddeducationPage';
+import {AdminExperiencePage} from '../pages/AdminExperiencePage';
 import {
     BeforeAll,
     AfterAll,
@@ -46,12 +47,10 @@ Before(async function (this:CustomWorld) {
     this.ap = new adminloginPage(this.page);
     this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
-<<<<<<< HEAD
     this.pp = new ParticipantPage(this.page);
-=======
     this.courseDetails = new courseDetailsPage(this.page);
     this.Education = new EducationPage(this.page);
->>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35
+    this.AdminExperience = new AdminExperiencePage(this.page);
 })
 
 

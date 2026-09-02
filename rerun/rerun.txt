@@ -1,4 +1,3 @@
-<<<<<<< HEAD
-=======
-src\test\feature\Modulecreation.feature:22
->>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35
+src\test\feature\Addeducation.feature:11
+src\test\feature\Discussion.feature:23:24
+src\test\feature\Modulecreation.feature:22:35

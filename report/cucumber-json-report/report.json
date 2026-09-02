@@ -1,6 +1,984 @@
-<<<<<<< HEAD
-=======
 [
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-adds-a-valid-experience-record",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Admin adds a valid experience record",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 70741899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1736740699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 70282000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30929200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the admin enters valid admin credentials",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 935122300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3427802700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3742799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60354500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 269427300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2901655300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 62367299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin fills the experience form using \"valid\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 429818300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10911199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the experience record from \"valid\" data should be added to the profile",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:113"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11557099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          },
+          {
+            "name": "@AddExperience",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Admin tries to add experience with missing mandatory fields",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67190099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1558827900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60806200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26499799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the admin enters valid admin credentials",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49824199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3965048300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 68268599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 172452899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 190236000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2046768500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 234848099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingCompany\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 491103999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 337584899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingCompany\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122532200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          },
+          {
+            "name": "@AddExperience",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Admin tries to add experience with missing mandatory fields",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 190103299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1981763499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122543099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 264196900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the admin enters valid admin credentials",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 229979199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4137569700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 86026999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 91503600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 188577199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2539807200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 229100800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingRole\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 521195999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 87515500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingRole\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 54196899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          },
+          {
+            "name": "@AddExperience",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Admin tries to add experience with missing mandatory fields",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 162807000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1793134600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 121991799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 134889300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the admin enters valid admin credentials",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 77426299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3444773200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6005700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52856399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 277514800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2381180899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59294700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingStartDate\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 345781699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11908299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingStartDate\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4586199
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          },
+          {
+            "name": "@AddExperience",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Admin tries to add experience with missing mandatory fields",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 76748599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 998765900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 264173199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37334299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the admin enters valid admin credentials",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 935421900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin clicks the Login button",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3419664600
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2851699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48628100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 276001700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2384330099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3845299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingAllMandatory\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 465154500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16508499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingAllMandatory\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5227099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          },
+          {
+            "name": "@AddExperience",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_02sep2026_admin_adds_experience_to_their_profile",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_02SEP2026_Admin_adds_Experience_to_their_profile",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      },
+      {
+        "name": "@AddExperience",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\AddExperience.feature"
+  },
   {
     "description": "",
     "elements": [
@@ -14,15 +992,16 @@
           {
             "result": {
               "status": "passed",
-              "duration": 166526300
+              "duration": 64763800
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1131543799
+              "status": "failed",
+              "duration": 30017670500,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\TrainerLoginStep.ts:10:33)"
             },
             "arguments": [],
             "keyword": "Given ",
@@ -34,8 +1013,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 386885200
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -47,8 +1026,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 90547900
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -60,8 +1039,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 65757099
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -73,8 +1052,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 3454149899
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -86,8 +1065,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 109412299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -99,8 +1078,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 2417868000
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -112,8 +1091,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 189380500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -125,8 +1104,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 217750500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -138,8 +1117,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 43152700
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -152,7 +1131,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 35351800
+              "duration": 116326600
             },
             "keyword": "After",
             "hidden": true
@@ -176,7 +1155,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 185355300
+              "duration": 64854400
             },
             "keyword": "Before",
             "hidden": true
@@ -184,7 +1163,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1223221600
+              "duration": 2114339399
             },
             "arguments": [],
             "keyword": "Given ",
@@ -197,7 +1176,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 385857699
+              "duration": 66315699
             },
             "arguments": [],
             "keyword": "When ",
@@ -210,7 +1189,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 98784799
+              "duration": 29263300
             },
             "arguments": [],
             "keyword": "And ",
@@ -223,7 +1202,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 86485000
+              "duration": 49179999
             },
             "arguments": [],
             "keyword": "And ",
@@ -236,7 +1215,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2910968699
+              "duration": 3406120499
             },
             "arguments": [],
             "keyword": "Then ",
@@ -249,7 +1228,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 55344700
+              "duration": 36619300
             },
             "arguments": [],
             "keyword": "When ",
@@ -262,7 +1241,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1900714700
+              "duration": 2434394899
             },
             "arguments": [],
             "keyword": "And ",
@@ -275,7 +1254,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 197471199
+              "duration": 51057400
             },
             "arguments": [],
             "keyword": "And ",
@@ -288,7 +1267,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 204672900
+              "duration": 439645400
             },
             "arguments": [],
             "keyword": "And ",
@@ -301,7 +1280,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 16365200
+              "duration": 7595800
             },
             "arguments": [],
             "keyword": "Then ",
@@ -314,7 +1293,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 37429200
+              "duration": 6630300
             },
             "keyword": "After",
             "hidden": true
@@ -338,7 +1317,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 223916700
+              "duration": 67095300
             },
             "keyword": "Before",
             "hidden": true
@@ -346,7 +1325,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1052992699
+              "duration": 1979553100
             },
             "arguments": [],
             "keyword": "Given ",
@@ -359,7 +1338,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 860087199
+              "duration": 64699500
             },
             "arguments": [],
             "keyword": "When ",
@@ -372,7 +1351,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 67694200
+              "duration": 20078499
             },
             "arguments": [],
             "keyword": "And ",
@@ -385,7 +1364,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 108227600
+              "duration": 58504199
             },
             "arguments": [],
             "keyword": "And ",
@@ -398,7 +1377,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 3412144499
+              "duration": 3399221199
             },
             "arguments": [],
             "keyword": "Then ",
@@ -411,7 +1390,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 45471999
+              "duration": 44413000
             },
             "arguments": [],
             "keyword": "When ",
@@ -424,7 +1403,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1886564400
+              "duration": 4205678800
             },
             "arguments": [],
             "keyword": "And ",
@@ -437,7 +1416,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 186592799
+              "duration": 308170699
             },
             "arguments": [],
             "keyword": "And ",
@@ -450,7 +1429,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 208147499
+              "duration": 85004100
             },
             "arguments": [],
             "keyword": "And ",
@@ -463,7 +1442,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 17088599
+              "duration": 14113899
             },
             "arguments": [],
             "keyword": "Then ",
@@ -476,7 +1455,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 38696600
+              "duration": 10419200
             },
             "keyword": "After",
             "hidden": true
@@ -500,7 +1479,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 234569400
+              "duration": 79724399
             },
             "keyword": "Before",
             "hidden": true
@@ -508,7 +1487,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 966687900
+              "duration": 1780280400
             },
             "arguments": [],
             "keyword": "Given ",
@@ -521,7 +1500,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 880662300
+              "duration": 112526799
             },
             "arguments": [],
             "keyword": "When ",
@@ -534,7 +1513,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 65631199
+              "duration": 117181800
             },
             "arguments": [],
             "keyword": "And ",
@@ -547,7 +1526,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 91893499
+              "duration": 59332299
             },
             "arguments": [],
             "keyword": "And ",
@@ -560,7 +1539,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2922963799
+              "duration": 2910017500
             },
             "arguments": [],
             "keyword": "Then ",
@@ -573,7 +1552,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 53011200
+              "duration": 63245100
             },
             "arguments": [],
             "keyword": "When ",
@@ -586,7 +1565,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1919816100
+              "duration": 2433811099
             },
             "arguments": [],
             "keyword": "And ",
@@ -599,7 +1578,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 157385500
+              "duration": 62449699
             },
             "arguments": [],
             "keyword": "And ",
@@ -612,7 +1591,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 210139899
+              "duration": 364049500
             },
             "arguments": [],
             "keyword": "And ",
@@ -625,7 +1604,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 17146600
+              "duration": 13773700
             },
             "arguments": [],
             "keyword": "Then ",
@@ -638,7 +1617,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 36629700
+              "duration": 6275999
             },
             "keyword": "After",
             "hidden": true
@@ -678,7 +1657,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 217639899
+              "duration": 141448199
             },
             "keyword": "Before",
             "hidden": true
@@ -686,7 +1665,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 880916400
+              "duration": 1219520000
             },
             "arguments": [],
             "keyword": "Given ",
@@ -699,7 +1678,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 48367599
+              "duration": 35186600
             },
             "arguments": [],
             "keyword": "When ",
@@ -712,7 +1691,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 27263100
+              "duration": 3748999
             },
             "arguments": [],
             "keyword": "And ",
@@ -725,7 +1704,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 845446499
+              "duration": 156619600
             },
             "arguments": [],
             "keyword": "And ",
@@ -737,8 +1716,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 3356363499
+              "status": "failed",
+              "duration": 6053800,
+              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
             },
             "arguments": [],
             "keyword": "Then ",
@@ -750,8 +1730,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 66730800
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -763,8 +1743,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1383161500
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -776,8 +1756,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 867585599
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -789,8 +1769,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 214613700
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -802,8 +1782,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 11722999
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -815,8 +1795,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 256372100
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -828,8 +1808,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 324755799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -841,8 +1821,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 26304600
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -855,7 +1835,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 32920200
+              "duration": 278616099
             },
             "keyword": "After",
             "hidden": true
@@ -879,7 +1859,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 181338000
+              "duration": 128194300
             },
             "keyword": "Before",
             "hidden": true
@@ -887,7 +1867,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 974041599
+              "duration": 1695250700
             },
             "arguments": [],
             "keyword": "Given ",
@@ -900,7 +1880,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 52166100
+              "duration": 39397299
             },
             "arguments": [],
             "keyword": "When ",
@@ -913,7 +1893,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 34441699
+              "duration": 13622300
             },
             "arguments": [],
             "keyword": "And ",
@@ -926,7 +1906,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 338732799
+              "duration": 41022700
             },
             "arguments": [],
             "keyword": "And ",
@@ -938,8 +1918,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 3347059699
+              "status": "failed",
+              "duration": 3862699,
+              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
             },
             "arguments": [],
             "keyword": "Then ",
@@ -951,8 +1932,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 75887999
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -964,8 +1945,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 884014800
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -977,8 +1958,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 880149799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -990,8 +1971,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 228121900
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
@@ -1003,8 +1984,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 23776200
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1016,8 +1997,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 212772700
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1029,8 +2010,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 233570599
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1042,8 +2023,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 94166199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1056,7 +2037,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 42527500
+              "duration": 133506900
             },
             "keyword": "After",
             "hidden": true
@@ -1096,7 +2077,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 207914400
+              "duration": 67267900
             },
             "keyword": "Before",
             "hidden": true
@@ -1104,7 +2085,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 991549599
+              "duration": 1466024800
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1117,7 +2098,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 875460999
+              "duration": 281952399
             },
             "arguments": [],
             "keyword": "When ",
@@ -1130,7 +2111,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 133735000
+              "duration": 153404399
             },
             "arguments": [],
             "keyword": "And ",
@@ -1143,7 +2124,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 56833800
+              "duration": 56385899
             },
             "arguments": [],
             "keyword": "And ",
@@ -1156,7 +2137,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2914273800
+              "duration": 2915145999
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1169,7 +2150,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 64906699
+              "duration": 57799400
             },
             "arguments": [],
             "keyword": "When ",
@@ -1181,8 +2162,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 880563800
+              "status": "failed",
+              "duration": 30006341400,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('react', { exact: true }).first() to be visible\u001b[22m\n\n    at ModuleCreationPage.openCourse (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:54:26)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:25:35)"
             },
             "arguments": [],
             "keyword": "And ",
@@ -1194,8 +2176,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 867197099
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1207,8 +2189,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 542157199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1220,8 +2202,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 31089299
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1233,8 +2215,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 118532200
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1246,9 +2228,8 @@
           },
           {
             "result": {
-              "status": "failed",
-              "duration": 30020307400,
-              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div').filter({ has: getByText('MODULE', { exact: true }) }).last() to be visible\u001b[22m\n\n    at ModuleCreationPage.getLastModuleRowText (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:137:42)\n    at customworld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:71:55)"
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1261,7 +2242,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 145430900
+              "duration": 80251100
             },
             "keyword": "After",
             "hidden": true
@@ -1285,7 +2266,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 184233800
+              "duration": 137210300
             },
             "keyword": "Before",
             "hidden": true
@@ -1293,7 +2274,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 702724600
+              "duration": 1910932799
             },
             "arguments": [],
             "keyword": "Given ",
@@ -1306,7 +2287,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 168201100
+              "duration": 61582399
             },
             "arguments": [],
             "keyword": "When ",
@@ -1319,7 +2300,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 138946599
+              "duration": 34838600
             },
             "arguments": [],
             "keyword": "And ",
@@ -1332,7 +2313,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 842601699
+              "duration": 59874500
             },
             "arguments": [],
             "keyword": "And ",
@@ -1345,7 +2326,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4504117299
+              "duration": 2910738299
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1358,7 +2339,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1897595700
+              "duration": 43156499
             },
             "arguments": [],
             "keyword": "When ",
@@ -1370,8 +2351,9 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 3124777199
+              "status": "failed",
+              "duration": 30012574099,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('react', { exact: true }).first() to be visible\u001b[22m\n\n    at ModuleCreationPage.openCourse (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:54:26)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:25:35)"
             },
             "arguments": [],
             "keyword": "And ",
@@ -1383,8 +2365,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 877270199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1396,8 +2378,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 411879199
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1409,8 +2391,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 344600
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1422,8 +2404,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 226895399
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
@@ -1435,8 +2417,8 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 5576389799
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
@@ -1449,7 +2431,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 25943599
+              "duration": 50945799
             },
             "keyword": "After",
             "hidden": true
@@ -1477,4 +2459,3 @@
     "uri": "src\\test\\feature\\Modulecreation.feature"
   }
 ]
->>>>>>> 7cac997a88b0b579b99aedfb5ce27cce2b769f35
