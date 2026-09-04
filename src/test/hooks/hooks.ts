@@ -22,6 +22,7 @@ import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { DiscussionPage } from '../pages/discussionpage';
 import { SignupPage } from '../pages/signUpPage';
+import { TrainerCoursePage } from '../pages/TrainerCoursePage';
 let browser:Browser
 //
 BeforeAll(async()=>{
@@ -44,6 +45,7 @@ Before(async function (this:customworld) {
     this.signUp = new SignupPage(this.page);
     this.addTrainer =new addTrainerPage(this.page);
     this.courseDetails = new courseDetailsPage(this.page);
+    this.tcp=new TrainerCoursePage(this.page);
 })
 
 

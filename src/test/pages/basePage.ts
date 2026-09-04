@@ -34,4 +34,20 @@ export class basePage{
         }
     }
 
+    async GetAllTextContents(selector: Locator): Promise<string[]> {
+        try {
+            const texts = await selector.allTextContents();
+
+            const textList = texts
+                .map(text => text.trim())
+                .filter(text => text.length > 0);
+
+
+            return textList;
+
+        } catch (error) {
+            throw error;
+        }
+    }
+
 }

@@ -1,7 +1,0 @@
-username,password,expectedMessage
-invalid@test.com,wrong123,Invalid email or password
-admin@test.com,wrong123,Invalid email or password
-wrong@test.com,admin123,Invalid email or password
-,admin123,Please fill out this field.
-admin@test.com,,Please fill out this field.
-,,Please fill out this field.
