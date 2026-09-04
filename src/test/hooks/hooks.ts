@@ -24,6 +24,7 @@ import { courseSearchPage } from '../pages/courseSearchPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
 import { DiscussionPage } from '../pages/discussionpage';
+import { TrainerCoursePage } from '../pages/TrainerCoursePage';
 import { SignupPage } from '../pages/SignupPage';
 let browser:Browser
 //
@@ -49,6 +50,7 @@ Before(async function (this:CustomWorld) {
     this.addTrainer =new addTrainerPage(this.page);
     this.pp = new ParticipantPage(this.page);
     this.courseDetails = new courseDetailsPage(this.page);
+    this.tcp=new TrainerCoursePage(this.page);
     this.Education = new EducationPage(this.page);
     this.AdminExperience = new AdminExperiencePage(this.page);
 })

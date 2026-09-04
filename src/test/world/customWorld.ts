@@ -12,6 +12,7 @@ import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
+import { TrainerCoursePage } from '../pages/TrainerCoursePage';
 import { ParticipantPage } from '../pages/ParticpantPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { EducationPage } from '../pages/AddeducationPage';
@@ -30,6 +31,9 @@ export class CustomWorld extends World{
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
     adminLogin!: adminloginPage;
+    signUp!: SignupPage;
+    addTrainer!: addTrainerPage;
+    tcp!:TrainerCoursePage;
     ap!: adminloginPage;
     signUp!: signUpPage;
     addTrainer!: addTrainerPage

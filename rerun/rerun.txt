@@ -1,3 +1,6 @@
+src\test\feature\CourseSearch.feature:21:26:40:45:50
+src\test\feature\TrainerCourse.feature:10:14:18:23:28:32
+src\test\feature\courseDetails.feature:10:15:20:25:30
 src\test\feature\Addeducation.feature:11
 src\test\feature\Discussion.feature:23:24
 src\test\feature\Modulecreation.feature:22:35
