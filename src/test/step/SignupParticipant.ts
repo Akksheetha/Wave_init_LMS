@@ -73,16 +73,16 @@
 //Updated Code
 
 import { Given, When, Then } from '@cucumber/cucumber';
-import { customworld } from '../world/customWorld';
+import { CustomWorld } from '../world/customWorld';
 
-Given('the user clicks on sign up as participant link',async function (this: customworld) {
+Given('the user clicks on sign up as participant link',async function (this: CustomWorld) {
         await this.signUp.signupClick();
     }
 );
 
 
 When('the user enters signup details {string}, {string}, {string}, {string}, {string}',async function (
-        this: customworld,
+        this: CustomWorld,
         username: string,
         email: string,
         phone: string,
@@ -100,24 +100,24 @@ When('the user enters signup details {string}, {string}, {string}, {string}, {st
     }
 );
 
-When('the user clicks create account button',async function (this: customworld) {
+When('the user clicks create account button',async function (this: CustomWorld) {
         await this.signUp.submitForm();
     }
 );
 
 
-Then('the user gets a success message',async function (this: customworld) {
+Then('the user gets a success message',async function (this: CustomWorld) {
         await this.signUp.verifySuccessMessage();
     }
 );
 
 
-Then('the user gets the error message',async function (this: customworld) {
+Then('the user gets the error message',async function (this: CustomWorld) {
         await this.signUp.verifyRegisteredErrorMessage();
     }
 );
 
-When('the user enters signup details with mismatched password',async function (this: customworld) {
+When('the user enters signup details with mismatched password',async function (this: CustomWorld) {
         await this.signUp.fillSignupForm(
             'Darshan',
             'darshan10@gmail.com',
@@ -129,13 +129,13 @@ When('the user enters signup details with mismatched password',async function (t
 );
 
 
-Then('the user gets the mismatch error message',async function (this: customworld) {
+Then('the user gets the mismatch error message',async function (this: CustomWorld) {
         await this.signUp.verifyPasswordMismatch();
     }
 );
 
 
-When('the user enters valid signup details without accepting terms',async function (this: customworld) {
+When('the user enters valid signup details without accepting terms',async function (this: CustomWorld) {
         await this.signUp.fillSignupForm(
             'Darshan',
             'darshan10@gmail.com',
@@ -148,7 +148,7 @@ When('the user enters valid signup details without accepting terms',async functi
 );
 
 
-Then('the user gets the terms of service error message',async function (this: customworld) {
+Then('the user gets the terms of service error message',async function (this: CustomWorld) {
         await this.signUp.verifyTermsError();
     }
 );

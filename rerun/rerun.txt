@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 src\test\feature\SignUpParticipant.feature:67:78:79:80:84:91
+=======
+src\test\feature\CourseSearch.feature:21:26:40:45:50
+src\test\feature\TrainerCourse.feature:10:14:18:23:28:32
+src\test\feature\courseDetails.feature:10:15:20:25:30
+src\test\feature\Addeducation.feature:11
+src\test\feature\Discussion.feature:23:24
+src\test\feature\Modulecreation.feature:22:35
+>>>>>>> 06bdca895c6f3032c614b9f3ec18e0aa47b4616a

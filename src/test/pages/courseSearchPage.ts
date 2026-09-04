@@ -7,17 +7,14 @@ export class courseSearchPage extends basePage {
     readonly searchbtn: Locator;
     readonly noCoursesMessage: Locator;
     readonly courseResults: Locator;
+    readonly admin: Locator;
 
     constructor(page: Page) {
         super(page);
 
-        this.mycourses = page.getByRole('button', {
-            name: 'My Courses'
-        });
+        this.mycourses = page.getByRole('button', { name: 'Training Programs' });
 
-        this.searchbtn = page.getByRole('textbox', {
-            name: 'Search courses by title...'
-        });
+        this.searchbtn = page.getByRole('textbox', { name: 'Search by title or trainer...' });
 
         this.noCoursesMessage = page.getByText(
             'No courses found matching your criteria',
@@ -28,8 +25,13 @@ export class courseSearchPage extends basePage {
         this.courseResults = page.locator(
             'h3.tmt-course-name'
         );
+
+        this.admin = page.getByRole('tab', { name: 'Admin' });
     }
 
+    async clickAdmin(){
+        await this.click(this.admin);
+    }
     async clickMycourses() {
         await this.click(this.mycourses);
     }
@@ -47,14 +49,13 @@ export class courseSearchPage extends basePage {
     }
 
     async verifyCourseDisplayed(courseName: string) {
+    const course = this.page.getByRole('cell', {
+        name: courseName,
+        exact: true
+    });
 
-        const course = this.page.getByRole('heading', {
-            name: courseName,
-            exact: true
-        });
-
-        await expect(course).toBeVisible();
-    }
+    await expect(course).toBeVisible();
+}
 
     async verifyNoCoursesMessage() {
         await expect(this.noCoursesMessage).toBeVisible();
@@ -65,10 +66,10 @@ export class courseSearchPage extends basePage {
     }
 
     async verifySearchResultCount() {
-        const resultCount = this.page.getByText(
-            /Showing \d+ courses?/i
-        );
+    const resultCount = this.page.getByText(
+        /Showing \d+–\d+ of \d+ records/i
+    );
 
-        await expect(resultCount).toBeVisible();
-    }
+    await expect(resultCount).toBeVisible();
+}
 }

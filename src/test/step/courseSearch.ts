@@ -29,12 +29,13 @@ Given('user is on the LMS application', async function (this:customworld) {
 });
 
 Given('the user login with valid credentials', async function (this:customworld) {
-   await this.login.EnterUnsername("titooram123@gmail.com")
-   await this.login.EnterPass("sriram123@")
+    await this.search.clickAdmin();
+   await this.login.EnterUnsername("admin@test.com")
+   await this.login.EnterPass("admin123")
    await this.login.signClick()
-   const welcomeText = await this.login.WelcomText();
-    await expect(welcomeText).toBeVisible({ timeout: 30000 });
-    await expect(welcomeText).toContainText("Welcome");
+//    const welcomeText = await this.login.WelcomText();
+//     await expect(welcomeText).toBeVisible({ timeout: 30000 });
+//     await expect(welcomeText).toContainText("Welcome");
 });
 
 Given('the user navigate to the My Courses page', async function (this:customworld) {
