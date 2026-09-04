@@ -8,14 +8,17 @@ import { courseSearchPage } from '../pages/courseSearchPage';
 import { dashboardpage } from '../pages/dashboardpage';
 import { ExploreTrainingPage } from '../pages/ExploreTrainingPage';
 import { ModuleCreationPage } from '../pages/modulecreationpage';
-import { SignupPage } from '../pages/signUpPage';
 import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
-import { SignupPage } from '../pages/signUpPage';
+import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
 import { TrainerCoursePage } from '../pages/TrainerCoursePage';
+import { ParticipantPage } from '../pages/ParticpantPage';
+import { MyProfileUpdate } from '../pages/MyProfileUpdate';
+import { EducationPage } from '../pages/AddeducationPage';
+import {AdminExperiencePage} from '../pages/AdminExperiencePage';
 
-export class customworld extends World{
+export class CustomWorld extends World{
     browser!:Browser
     context!:BrowserContext
     page!:Page
@@ -27,10 +30,18 @@ export class customworld extends World{
     DiscussionPage!: DiscussionPage;
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
-    courseDetails!: courseDetailsPage;
     adminLogin!: adminloginPage;
     signUp!: SignupPage;
     addTrainer!: addTrainerPage;
     tcp!:TrainerCoursePage;
+    ap!: adminloginPage;
+    signUp!: signUpPage;
+    addTrainer!: addTrainerPage
+    pp!: ParticipantPage;
+    addTrainer!: addTrainerPage
+    courseDetails!: courseDetailsPage;
+    MyProfile!:MyProfileUpdate
+    Education!:EducationPage;
+    AdminExperience!:AdminExperiencePage;
 
-}setWorldConstructor(customworld)
+}setWorldConstructor(CustomWorld)

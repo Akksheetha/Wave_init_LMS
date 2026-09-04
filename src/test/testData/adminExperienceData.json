@@ -1,0 +1,57 @@
+[
+    {
+        "scenarioType": "valid",
+        "company": "Amazon",
+        "role": "Software Developer",
+        "startDate": "2020-09-07",
+        "endDate": "2026-08-30",
+        "expectedDisplay": "Sep 2020 - Aug 2026",
+        "companyError": "",
+        "roleError": "",
+        "startDateError": ""
+    },
+    {
+        "scenarioType": "missingCompany",
+        "company": "",
+        "role": "Software Testing",
+        "startDate": "2026-09-13",
+        "endDate": "2026-09-16",
+        "expectedDisplay": "",
+        "companyError": "Company name is required.",
+        "roleError": "",
+        "startDateError": ""
+    },
+    {
+        "scenarioType": "missingRole",
+        "company": "Amazon",
+        "role": "",
+        "startDate": "2026-09-13",
+        "endDate": "2026-09-16",
+        "expectedDisplay": "",
+        "companyError": "",
+        "roleError": "Role / Title is required.",
+        "startDateError": ""
+    },
+    {
+        "scenarioType": "missingStartDate",
+        "company": "Amazon",
+        "role": "Software Developer",
+        "startDate": "",
+        "endDate": "2026-09-16",
+        "expectedDisplay": "",
+        "companyError": "",
+        "roleError": "",
+        "startDateError": "Start date is required."
+    },
+    {
+        "scenarioType": "missingAllMandatory",
+        "company": "",
+        "role": "",
+        "startDate": "",
+        "endDate": "",
+        "expectedDisplay": "",
+        "companyError": "Company name is required.",
+        "roleError": "Role / Title is required.",
+        "startDateError": "Start date is required."
+    }
+]

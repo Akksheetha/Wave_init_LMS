@@ -4,15 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-an-existing-course-using-the-exact-course-name",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-adds-a-valid-experience-record",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "User search for an existing course using the exact course name",
+        "line": 14,
+        "name": "Admin adds a valid experience record",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 628061600
+              "duration": 70741899
             },
             "keyword": "Before",
             "hidden": true
@@ -20,190 +20,163 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1500708000
+              "duration": 1736740699
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1600299900
+              "duration": 70282000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30929200
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4623477600
+              "duration": 935122300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 69190200
+              "duration": 3427802700
             },
             "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user enter the existing course name in the search field",
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:45"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1986348699
+              "duration": 3742799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60354500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 269427300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2901655300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the user search for the course",
+            "name": "the admin clicks the \"Experience\" button on the experience form",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:56"
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 12301699
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the matching course should be displayed in the course list",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:69"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 139665300
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@validcourse",
-            "line": 9
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-a-partial-course-name",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "User search for a course using a partial course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 338225699
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1747297400
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 589150099
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 4268481400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 81603299
+              "duration": 62367299
             },
             "arguments": [],
             "keyword": "When ",
+            "line": 15,
+            "name": "the admin fills the experience form using \"valid\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 429818300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10911199
+            },
+            "arguments": [],
+            "keyword": "Then ",
             "line": 17,
-            "name": "the user enter a partial course name in the search field",
+            "name": "the experience record from \"valid\" data should be added to the profile",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:81"
+              "location": "src\\test\\step\\AdminExperienceStep.ts:113"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 1473119000
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "the courses matching the search text should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:94"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 78475500
+              "duration": 11557099
             },
             "keyword": "After",
             "hidden": true
@@ -211,137 +184,27 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Janani",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@AddExperience",
             "line": 1
-          },
-          {
-            "name": "@partialSearch",
-            "line": 15
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-that-does-not-exist",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "User search for a course that does not exist",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 416241900
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1974947400
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 404669600
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 4069694499
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 44502899
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "the user enter a non-existing course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:106"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5016531899,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No courses found matching your criteria', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No courses found matching your criteria', { exact: true })\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseSearchPage.verifyNoCoursesMessage (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseSearchPage.ts:61:45)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:136:27)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "the user should see \"No courses found matching your criteria\" message",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:119"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 360520400
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@invalidcourse",
-            "line": 20
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-clear-the-course-search-field",
-        "keyword": "Scenario",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
         "line": 26,
-        "name": "User clear the course search field",
+        "name": "Admin tries to add experience with missing mandatory fields",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 378401499
+              "duration": 67190099
             },
             "keyword": "Before",
             "hidden": true
@@ -349,112 +212,163 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1732178099
+              "duration": 1558827900
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 604324000
+              "duration": 60806200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26499799
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4198223500
+              "duration": 49824199
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 43676100
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 27,
-            "name": "the user enter a course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:141"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1969148800
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "the matching course should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:154"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 50272999
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 29,
-            "name": "the user clear the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:167"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 18521500
+              "duration": 3965048300
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
-            "name": "the search field should be empty",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:176"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5014100999,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3.tmt-course-name').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h3.tmt-course-name').first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseSearchPage.verifyCoursesDisplayed (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseSearchPage.ts:65:50)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:189:27)"
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "all available courses should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:185"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 211086999
+              "duration": 68268599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 172452899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 190236000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2046768500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 234848099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingCompany\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 491103999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 337584899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingCompany\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122532200
             },
             "keyword": "After",
             "hidden": true
@@ -462,31 +376,27 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Janani",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@AddExperience",
             "line": 1
-          },
-          {
-            "name": "@clear",
-            "line": 25
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-different-letter-casing",
-        "keyword": "Scenario",
-        "line": 34,
-        "name": "User search for a course using different letter casing",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Admin tries to add experience with missing mandatory fields",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 393298900
+              "duration": 190103299
             },
             "keyword": "Before",
             "hidden": true
@@ -494,85 +404,163 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1945507100
+              "duration": 1981763499
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 568073500
+              "duration": 122543099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 264196900
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4016444600
+              "duration": 229979199
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 103221700
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 35,
-            "name": "the user enter an existing course name with different letter casing in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:193"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1983912099
+              "duration": 4137569700
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 36,
-            "name": "all the matching course should be displayed",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:206"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 10218600
+              "duration": 86026999
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 37,
-            "name": "the search result should match the entered course",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:219"
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 48639199
+              "duration": 91503600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 188577199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2539807200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 229100800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingRole\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 521195999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 87515500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingRole\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 54196899
             },
             "keyword": "After",
             "hidden": true
@@ -580,31 +568,27 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Janani",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@AddExperience",
             "line": 1
-          },
-          {
-            "name": "@casing",
-            "line": 33
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-with-leading-and-trailing-spaces",
-        "keyword": "Scenario",
-        "line": 40,
-        "name": "User search for a course with leading and trailing spaces",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Admin tries to add experience with missing mandatory fields",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 407291799
+              "duration": 162807000
             },
             "keyword": "Before",
             "hidden": true
@@ -612,73 +596,163 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2098340999
+              "duration": 1793134600
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 408530500
+              "duration": 121991799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 134889300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 4077276100
+              "duration": 77426299
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 58223599
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 41,
-            "name": "the user enter an existing course name with spaces in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:231"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5019940299,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No courses found matching your criteria', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No courses found matching your criteria', { exact: true })\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseSearchPage.verifyNoCoursesMessage (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseSearchPage.ts:61:45)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:136:27)"
+              "duration": 3444773200
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 42,
-            "name": "the user should see \"No courses found matching your criteria\" message",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:119"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 220288399
+              "duration": 6005700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52856399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 277514800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2381180899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59294700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingStartDate\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 345781699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11908299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingStartDate\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4586199
             },
             "keyword": "After",
             "hidden": true
@@ -686,31 +760,27 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Janani",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@AddExperience",
             "line": 1
-          },
-          {
-            "name": "@spaces",
-            "line": 39
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-special-characters",
-        "keyword": "Scenario",
-        "line": 45,
-        "name": "User search for a course using special characters",
+        "id": "janani_02sep2026_admin_adds_experience_to_their_profile;admin-tries-to-add-experience-with-missing-mandatory-fields",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Admin tries to add experience with missing mandatory fields",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 394687999
+              "duration": 76748599
             },
             "keyword": "Before",
             "hidden": true
@@ -718,73 +788,163 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2664216899
+              "duration": 998765900
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
+            "line": 4,
+            "name": "the admin is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\AdminLoginStep.ts:8"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 903332999
+              "duration": 264173199
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the admin selects the Admin Login option",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37334299
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user login with valid credentials",
+            "name": "the admin enters valid admin credentials",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
+              "location": "src\\test\\step\\AdminLoginStep.ts:28"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 5094732000
+              "duration": 935421900
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user navigate to the My Courses page",
+            "name": "the admin clicks the Login button",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
+              "location": "src\\test\\step\\AdminLoginStep.ts:70"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 155687099
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 46,
-            "name": "the user enter special characters in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:246"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5011540400,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No courses found matching your criteria', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No courses found matching your criteria', { exact: true })\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseSearchPage.verifyNoCoursesMessage (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseSearchPage.ts:61:45)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:136:27)"
+              "duration": 3419664600
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 47,
-            "name": "the user should see \"No courses found matching your criteria\" message",
+            "line": 8,
+            "name": "the admin should be logged in successfully",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:119"
+              "location": "src\\test\\step\\AdminLoginStep.ts:80"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 373310700
+              "duration": 2851699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin should be redirected to the Admin Dashboard",
+            "match": {
+              "location": "src\\test\\step\\AdminLoginStep.ts:93"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48628100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin opens the account menu",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 276001700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the admin opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2384330099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the admin clicks the \"Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3845299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin fills the experience form using \"missingAllMandatory\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 465154500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin clicks the \"Add Experience\" button on the experience form",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:71"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16508499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the experience form should show the validation errors from \"missingAllMandatory\" data",
+            "match": {
+              "location": "src\\test\\step\\AdminExperienceStep.ts:133"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5227099
             },
             "keyword": "After",
             "hidden": true
@@ -792,343 +952,63 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Janani",
             "line": 1
           },
           {
-            "name": "@searchcourse",
+            "name": "@AddExperience",
             "line": 1
-          },
-          {
-            "name": "@specialcharacters",
-            "line": 44
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-search-for-a-course-using-numeric-characters",
-        "keyword": "Scenario",
-        "line": 50,
-        "name": "User search for a course using numeric characters",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 226445099
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 2076872399
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 621521500
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5238720199
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 102853699
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 51,
-            "name": "the user enter numeric characters in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:258"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5006432399,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No courses found matching your criteria', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No courses found matching your criteria', { exact: true })\u001b[22m\n\n    at captureRawStack (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at courseSearchPage.verifyNoCoursesMessage (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\courseSearchPage.ts:61:45)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:136:27)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 52,
-            "name": "the user should see \"No courses found matching your criteria\" message",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:119"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 423484700
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@numericSearch",
-            "line": 49
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---25th-july---search-courses;user-modify-the-course-search-text-and-verify-updated-results",
-        "keyword": "Scenario",
-        "line": 55,
-        "name": "User modify the course search text and verify updated results",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 229331300
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 3908578399
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1045109100
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 5341725299
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 77172599
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 56,
-            "name": "the user enter the existing course name in the search field",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:45"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1593271699
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 57,
-            "name": "the matching course should be displayed in the course list",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:69"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 42096599
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 58,
-            "name": "the user modify the search text with a partial course name",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:270"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 22057300
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 59,
-            "name": "the courses matching the updated search text should be displayed",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:282"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 88447500
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@searchcourse",
-            "line": 1
-          },
-          {
-            "name": "@modifySearch",
-            "line": 54
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "akksheetha---25th-july---search-courses",
+    "id": "janani_02sep2026_admin_adds_experience_to_their_profile",
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha - 25th July - Search courses",
+    "name": "Janani_02SEP2026_Admin_adds_Experience_to_their_profile",
     "tags": [
       {
-        "name": "@Akksheetha",
+        "name": "@Janani",
         "line": 1
       },
       {
-        "name": "@searchcourse",
+        "name": "@AddExperience",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\CourseSearch.feature"
+    "uri": "src\\test\\feature\\AddExperience.feature"
   },
   {
     "description": "",
     "elements": [
       {
         "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;search-for-a-valid-participant-in-invite-participant",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-adds-a-valid-education-record",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Search for a valid participant in Invite Participant",
+        "line": 11,
+        "name": "Trainer adds a valid education record",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 205862099
+              "duration": 64763800
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 2711846200
+              "status": "failed",
+              "duration": 30017670500,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\TrainerLoginStep.ts:10:33)"
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the trainer is on the login page",
+            "name": "the trainer is on the WaveInit login page",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 492859599
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the trainer enters valid credentials",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 165957500
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the trainer clicks on the login button",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30018699199,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[normalize-space()=\\'My Trainings\\']')\u001b[22m\n\n    at TrainerCoursePage.click (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\basePage.ts:10:28)\n    at TrainerCoursePage.clickMyTrainingModule (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\TrainerCoursePage.ts:62:20)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:64:24)"
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
             }
           },
           {
@@ -1138,10 +1018,740 @@
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
-            "name": "the trainer clicks any course and clicks Invite Participant",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:69"
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the trainer fills the education form using \"valid\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the education record from \"valid\" data should be added to the profile",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 116326600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-an-institution",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Trainer tries to add education without an Institution",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 64854400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2114339399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 66315699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 29263300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49179999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3406120499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36619300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2434394899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51057400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the trainer fills the education form using \"missingInstitution\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 439645400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7595800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the education form should show the validation errors from \"missingInstitution\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6630300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-a-degree",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Trainer tries to add education without a Degree",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67095300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1979553100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 64699500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 20078499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 58504199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3399221199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44413000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4205678800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 308170699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the trainer fills the education form using \"missingDegree\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85004100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14113899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the education form should show the validation errors from \"missingDegree\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10419200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile;trainer-tries-to-add-education-without-an-institution-and-a-degree",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Trainer tries to add education without an Institution and a Degree",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 79724399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1780280400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 112526799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 117181800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59332299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2910017500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 63245100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the trainer opens \"My Profile\"",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2433811099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the trainer clicks the \"Add\" button in the Education section",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 62449699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the trainer fills the education form using \"missingBoth\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:55"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 364049500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the trainer submits the education form",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13773700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the education form should show the validation errors from \"missingBoth\" data",
+            "match": {
+              "location": "src\\test\\step\\Addeducationstep.ts:97"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6275999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_28aug2026_trainer_adds_education_details_to_their_profile",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_28AUG2026_Trainer_adds_Education_details_to_their_profile",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Addeducation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-normal-post-and-verifies-it-appears-in-the-correct-tab",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Learner creates a Normal Post and verifies it appears in the correct tab",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 141448199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1219520000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is lanuch the application",
+            "match": {
+              "location": "src\\test\\step\\login.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 35186600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3748999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enter the valid password as \"sriram123@\"",
+            "match": {
+              "location": "src\\test\\step\\login.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 156619600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 6053800,
+              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard page after successfully login",
+            "match": {
+              "location": "src\\test\\step\\login.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the learner opens \"My Courses\"",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the learner opens the course from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:27"
             }
           },
           {
@@ -1152,111 +1762,9 @@
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the trainer enters a valid participant name",
+            "name": "the learner clicks on the \"Discussions\" tab",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:82"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "only the matching participant should be displayed",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:95"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 376811300
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;search-for-an-invalid-participant-in-invite-participant",
-        "keyword": "Scenario",
-        "line": 14,
-        "name": "Search for an invalid participant in Invite Participant",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 297828399
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 1972279399,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:32:33)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the trainer is on the login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the trainer enters valid credentials",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the trainer clicks on the login button",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
+              "location": "src\\test\\step\\discussionstep.ts:42"
             }
           },
           {
@@ -1267,9 +1775,9 @@
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "the trainer clicks any course and clicks Invite Participant",
+            "name": "the learner selects \"Normal Post\" from the post type dropdown",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:69"
+              "location": "src\\test\\step\\discussionstep.ts:57"
             }
           },
           {
@@ -1280,9 +1788,9 @@
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "the trainer enters an invalid participant name",
+            "name": "the learner enters the message for \"Normal Post\" from test data",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:118"
+              "location": "src\\test\\step\\discussionstep.ts:70"
             }
           },
           {
@@ -1291,62 +1799,11 @@
               "duration": 0
             },
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 17,
-            "name": "no matching participant should be displayed",
+            "name": "the learner clicks the \"Post\" button",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:131"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2972600,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;invite-an-approved-participant-to-the-course",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Invite an approved participant to the course",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 363127999
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 520841799,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:32:33)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the trainer is on the login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
+              "location": "src\\test\\step\\discussionstep.ts:101"
             }
           },
           {
@@ -1355,11 +1812,11 @@
               "duration": 0
             },
             "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the trainer enters valid credentials",
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the posted message should be visible under the \"Discussions\" tab",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
+              "location": "src\\test\\step\\discussionstep.ts:116"
             }
           },
           {
@@ -1369,82 +1826,16 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the trainer clicks on the login button",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
             "line": 19,
-            "name": "the trainer clicks any course and clicks Invite Participant",
+            "name": "the posted message should be visible under the \"All Posts\" tab",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:69"
+              "location": "src\\test\\step\\discussionstep.ts:116"
             }
           },
           {
             "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "the trainer selects an approved participant",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:143"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "the trainer clicks Invite Selected Participants",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:152"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "the participant should be added successfully",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:161"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 1640000,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+              "status": "passed",
+              "duration": 278616099
             },
             "keyword": "After",
             "hidden": true
@@ -1452,11 +1843,7 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
+            "name": "@Janani",
             "line": 1
           }
         ],
@@ -1464,57 +1851,83 @@
       },
       {
         "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;cannot-invite-an-invalid-participant",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Cannot invite an invalid participant",
+        "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility;learner-creates-a-question-and-verifies-it-appears-in-the-correct-tab",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Learner creates a Question and verifies it appears in the correct tab",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 271593299
+              "duration": 128194300
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "failed",
-              "duration": 695605799,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:32:33)"
+              "status": "passed",
+              "duration": 1695250700
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the trainer is on the login page",
+            "name": "user is lanuch the application",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
+              "location": "src\\test\\step\\login.ts:5"
             }
           },
           {
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 39397299
             },
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "the trainer enters valid credentials",
+            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
+              "location": "src\\test\\step\\login.ts:9"
             }
           },
           {
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 13622300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the trainer clicks on the login button",
+            "name": "the user enter the valid password as \"sriram123@\"",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
+              "location": "src\\test\\step\\login.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 41022700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click sigin button",
+            "match": {
+              "location": "src\\test\\step\\login.ts:17"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 3862699,
+              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard page after successfully login",
+            "match": {
+              "location": "src\\test\\step\\login.ts:21"
             }
           },
           {
@@ -1524,10 +1937,36 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
+            "line": 10,
+            "name": "the learner opens \"My Courses\"",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
+              "location": "src\\test\\step\\discussionstep.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the learner opens the course from test data",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the learner clicks on the \"Discussions\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:42"
             }
           },
           {
@@ -1537,10 +1976,10 @@
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
-            "name": "the trainer clicks any course and clicks Invite Participant",
+            "line": 15,
+            "name": "the learner selects \"Question\" from the post type dropdown",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:69"
+              "location": "src\\test\\step\\discussionstep.ts:57"
             }
           },
           {
@@ -1550,10 +1989,23 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
-            "name": "the trainer enters an invalid participant name",
+            "line": 16,
+            "name": "the learner enters the message for \"Question\" from test data",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:118"
+              "location": "src\\test\\step\\discussionstep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the learner clicks the \"Post\" button",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:101"
             }
           },
           {
@@ -1563,10 +2015,352 @@
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
-            "name": "no matching participant should be displayed",
+            "line": 18,
+            "name": "the posted message should be visible under the \"Q&A\" tab",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:131"
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the posted message should be visible under the \"All Posts\" tab",
+            "match": {
+              "location": "src\\test\\step\\discussionstep.ts:116"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 133506900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "janani_25aug2026_learner-discussions---create-posts-and-verify-visibility",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Janani_25AUG2026_Learner Discussions - Create Posts and Verify Visibility",
+    "tags": [
+      {
+        "name": "@Janani",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Discussion.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course;trainer-creates-a-new-module-with-a-valid-title",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Trainer creates a new module with a valid title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67267900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1466024800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 281952399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 153404399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 56385899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2915145999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57799400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30006341400,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('react', { exact: true }).first() to be visible\u001b[22m\n\n    at ModuleCreationPage.openCourse (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:54:26)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:25:35)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the trainer clicks the course \"react\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the trainer clicks the \"Lessons\" tab",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the trainer clicks the \"Add Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the trainer enters \"Advanced Hooks & Context API\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the trainer clicks the \"Create Module\" button",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the module \"Advanced Hooks & Context API\" should be added as the last module",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:66"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 80251100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course;trainer-tries-to-create-a-module-without-a-title",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Trainer tries to create a module without a title",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 137210300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1910932799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the trainer is on the WaveInit login page",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 61582399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the trainer selects Trainer login",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 34838600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the trainer enters valid login details",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 59874500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the trainer clicks the Sign in button",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:52"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2910738299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Trainer Dashboard should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainerLoginStep.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43156499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the trainer clicks \"My Trainings\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30012574099,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('react', { exact: true }).first() to be visible\u001b[22m\n\n    at ModuleCreationPage.openCourse (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\pages\\modulecreationpage.ts:54:26)\n    at CustomWorld.<anonymous> (C:\\Users\\janan\\OneDrive\\Desktop\\Wave_init_LMS\\src\\test\\step\\modulecreationstep.ts:25:35)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the trainer clicks the course \"react\"",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:20"
             }
           },
           {
@@ -1577,73 +2371,9 @@
             "arguments": [],
             "keyword": "And ",
             "line": 27,
-            "name": "the Invite Selected Participants button should not be enabled",
+            "name": "the trainer clicks the \"Lessons\" tab",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:170"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2319600,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;refresh-the-participant-list",
-        "keyword": "Scenario",
-        "line": 28,
-        "name": "Refresh the participant list",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 290141999
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 573214499,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:32:33)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the trainer is on the login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the trainer enters valid credentials",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
+              "location": "src\\test\\step\\modulecreationstep.ts:29"
             }
           },
           {
@@ -1653,10 +2383,10 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the trainer clicks on the login button",
+            "line": 28,
+            "name": "the trainer clicks the \"Add Module\" button",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
             }
           },
           {
@@ -1666,21 +2396,11 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
-            }
-          },
-          {
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
             "line": 29,
-            "name": "the trainer clicks any course and clicks Invite Participants"
+            "name": "the trainer enters \"\" as the module title",
+            "match": {
+              "location": "src\\test\\step\\modulecreationstep.ts:57"
+            }
           },
           {
             "result": {
@@ -1690,9 +2410,9 @@
             "arguments": [],
             "keyword": "And ",
             "line": 30,
-            "name": "the trainer clicks the Refresh button",
+            "name": "the trainer clicks the \"Create Module\" button",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:179"
+              "location": "src\\test\\step\\modulecreationstep.ts:42"
             }
           },
           {
@@ -1703,136 +2423,15 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 31,
-            "name": "the participant list should be refreshed successfully",
+            "name": "the error message \"Title is required\" should be displayed briefly",
             "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:188"
+              "location": "src\\test\\step\\modulecreationstep.ts:76"
             }
           },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2388600,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha-04-09-2026-trainer-course-feature;export-participant-list-as-csv",
-        "keyword": "Scenario",
-        "line": 32,
-        "name": "Export Participant List as CSV",
-        "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 254166499
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 669999099,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at trainerloginPage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\trainerloginPage.ts:40:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\TrainerCourseSteps.ts:32:33)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the trainer is on the login page",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:28"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the trainer enters valid credentials",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:37"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the trainer clicks on the login button",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:53"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the trainer clicks My Training Module",
-            "match": {
-              "location": "src\\test\\step\\TrainerCourseSteps.ts:60"
-            }
-          },
-          {
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 33,
-            "name": "the trainer clicks any course and clicks Invite Participants"
-          },
-          {
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 34,
-            "name": "the trainer clicks Export Participant List as CSV"
-          },
-          {
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 35,
-            "name": "the participant data should be exported to a CSV file"
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2155500,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+              "duration": 50945799
             },
             "keyword": "After",
             "hidden": true
@@ -1840,599 +2439,23 @@
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@TrainerCourse",
+            "name": "@Janani",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "akksheetha-04-09-2026-trainer-course-feature",
+    "id": "janani_25aug2026_trainer_creates_a_module_inside_a_course",
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha 04-09-2026 Trainer Course Feature",
+    "name": "Janani_25AUG2026_Trainer_creates_a_Module_inside_a_course",
     "tags": [
       {
-        "name": "@Akksheetha",
-        "line": 1
-      },
-      {
-        "name": "@TrainerCourse",
+        "name": "@Janani",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\TrainerCourse.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "akksheetha---course-details;user-opens-an-existing-course-from-my-courses",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "User opens an existing course from My Courses",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 334648500
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 997541100,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user select the existing course",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the course details page should be displayed",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:53"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 3637900,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@coursedetails",
-            "line": 1
-          },
-          {
-            "name": "@openCourse",
-            "line": 9
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---course-details;user-verifies-the-course-title",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "User verifies the course title",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 419494899
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 2099342800
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 413505499,
-              "error_message": "locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[@type=\\'submit\\']')\u001b[22m\n\n    at loginpage.click (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\basePage.ts:10:28)\n    at loginpage.signClick (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:53:20)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:35:21)"
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "the user select the existing course",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "the selected course title should be displayed",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:63"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2693999,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@coursedetails",
-            "line": 1
-          },
-          {
-            "name": "@courseTitle",
-            "line": 14
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---course-details;user-verifies-the-course-description",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "User verifies the course description",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 296204700
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1782218299
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 190853800,
-              "error_message": "locator.fill: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('#login-email')\u001b[22m\n\u001b[2m    - locator resolved to <input value=\"\" type=\"text\" required=\"\" id=\"login-email\" autocomplete=\"username\" placeholder=\"Enter your email\" class=\"auth-form-input auth-form-input--has-icon-left auth-form-input--has-icon-right\"/>\u001b[22m\n\n    at loginpage.Type (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\basePage.ts:21:23)\n    at loginpage.EnterUnsername (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:37:26)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:33:21)"
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "the user select the existing course",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "the course description should be displayed",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:77"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 1520099,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@coursedetails",
-            "line": 1
-          },
-          {
-            "name": "@courseDescription",
-            "line": 19
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---course-details;user-verifies-the-course-content",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "User verifies the course content",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 278481599
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 727023900,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "the user select the existing course",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "the course content should be displayed",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:87"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 2544699,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@coursedetails",
-            "line": 1
-          },
-          {
-            "name": "@courseContent",
-            "line": 24
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "akksheetha---course-details;user-starts-an-existing-course",
-        "keyword": "Scenario",
-        "line": 30,
-        "name": "User starts an existing course",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 436433999
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 547336199,
-              "error_message": "page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user login with valid credentials",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:31"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user navigate to the My Courses page",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:41"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 31,
-            "name": "the user select the existing course",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:29"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "the user click the start course button",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:97"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 33,
-            "name": "the course should be started successfully",
-            "match": {
-              "location": "src\\test\\step\\CourseDetails.ts:107"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 5020199,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\akksh\\OneDrive\\Desktop\\Testing modules\\wave_init_lms\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Akksheetha",
-            "line": 1
-          },
-          {
-            "name": "@coursedetails",
-            "line": 1
-          },
-          {
-            "name": "@startCourse",
-            "line": 29
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "akksheetha---course-details",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Akksheetha - Course Details",
-    "tags": [
-      {
-        "name": "@Akksheetha",
-        "line": 1
-      },
-      {
-        "name": "@coursedetails",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\feature\\courseDetails.feature"
+    "uri": "src\\test\\feature\\Modulecreation.feature"
   }
 ]

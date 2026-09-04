@@ -15,6 +15,7 @@ export class adminloginPage extends basePage {
     readonly signInBtn: Locator;
     readonly errorMsg: Locator;
     readonly dashboard: Locator;
+    readonly participantModule: Locator;
 
     constructor(page: Page) {
         super(page);
@@ -42,6 +43,8 @@ export class adminloginPage extends basePage {
         this.dashboard = page.getByRole('button', {
             name: 'Dashboard'
         });
+
+        this.participantModule = page.getByRole('button', { name: 'Participants' }).first();
     }
 
     async launch() {
@@ -120,5 +123,13 @@ export class adminloginPage extends basePage {
                 (element: HTMLInputElement) =>
                     element.validationMessage
             );
+    }
+
+    async clickParticipantModule() {
+        try {
+            await this.click(this.participantModule);
+        } catch (error) {
+            throw error;
+        }
     }
 }
