@@ -31,14 +31,10 @@ export class CustomWorld extends World{
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
     adminLogin!: adminloginPage;
-    signUp!: SignupPage;
     addTrainer!: addTrainerPage;
     tcp!:TrainerCoursePage;
     ap!: adminloginPage;
-    signUp!: signUpPage;
-    addTrainer!: addTrainerPage
     pp!: ParticipantPage;
-    addTrainer!: addTrainerPage
     courseDetails!: courseDetailsPage;
     MyProfile!:MyProfileUpdate
     Education!:EducationPage;
