@@ -4,27 +4,28 @@
     "elements": [
       {
         "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-an-existing-training-course-by-exact-course-name",
+        "id": "darshanraj---participant-sign-up;user-signup-with-valid-details",
         "keyword": "Scenario Outline",
-        "line": 53,
-        "name": "User searches for an existing training course by exact course name",
+        "line": 67,
+        "name": "User signup with valid details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 240685400
+              "duration": 221810700
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1530562699
+              "status": "failed",
+              "duration": 30010839499,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 39,
+            "line": 56,
             "name": "user is on the LMS application",
             "match": {
               "location": "src\\test\\step\\courseSearch.ts:27"
@@ -32,68 +33,15 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 80637500
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 36670200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 78965899
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30008085299,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
               "status": "skipped",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
             "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
             }
           },
           {
@@ -103,609 +51,43 @@
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 48,
-            "name": "the user enters the \"Manual Testing\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:56"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 49,
-            "name": "the matching training course \"Manual Testing\" should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:61"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 223896300
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 35
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 35
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 46
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-an-existing-training-course-by-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 54,
-        "name": "User searches for an existing training course by exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 268685799
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1448574200
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 100510300
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 30926800
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 174822599
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30009298799,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 48,
-            "name": "the user enters the \"manual testing\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:56"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 49,
-            "name": "the matching training course \"Manual Testing\" should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:61"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 197072999
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 35
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 35
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 46
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-an-existing-training-course-by-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 55,
-        "name": "User searches for an existing training course by exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 259547500
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1241234200
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 70778699
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 44795599
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 308524799
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30011488199,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 48,
-            "name": "the user enters the \"MANUAL TESTING\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:56"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 49,
-            "name": "the matching training course \"Manual Testing\" should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:61"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 450852800
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 35
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 35
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 46
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-an-existing-training-course-by-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 56,
-        "name": "User searches for an existing training course by exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 140972899
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1486569400
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 93743700
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 24154200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 199097599
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30012460800,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 48,
-            "name": "the user enters the \"ManUAL TesTIng\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:56"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 49,
-            "name": "the matching training course \"Manual Testing\" should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:61"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 434930099
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 35
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 35
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 46
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-a-training-course-using-an-invalid-course-name",
-        "keyword": "Scenario",
-        "line": 59,
-        "name": "User searches for a training course using an invalid course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 155111699
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1158241500
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 108270500
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 60990299
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 296221199
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 30005653800,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 60,
-            "name": "the user enters the invalid value \"Manual 123\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:67"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
             "line": 61,
-            "name": "the system should display the no matches message",
+            "name": "the user enters signup details \"Darshan\", \"darshan\", \"1234567890\", \"Darshan@10\", \"Darshan@10\"",
             "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:72"
+              "location": "src\\test\\step\\SignupParticipant.ts:84"
             }
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 441097699
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "the user gets a success message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:109"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 30007304499,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -714,42 +96,43 @@
         "tags": [
           {
             "name": "@Darshan",
-            "line": 35
+            "line": 52
           },
           {
-            "name": "@trainingsearch",
-            "line": 35
+            "name": "@Signup",
+            "line": 52
           },
           {
-            "name": "@InvalidSearch",
-            "line": 58
+            "name": "@ValidSignup",
+            "line": 59
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-searches-for-a-training-course-using-a-partial-course-name",
-        "keyword": "Scenario",
-        "line": 64,
-        "name": "User searches for a training course using a partial course name",
+        "id": "darshanraj---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario Outline",
+        "line": 78,
+        "name": "User create account with already registered mail",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 167637799
+              "duration": 190005499
             },
             "keyword": "Before",
             "hidden": true
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 1576648199
+              "status": "failed",
+              "duration": 9643730400,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
             },
             "arguments": [],
             "keyword": "Given ",
-            "line": 39,
+            "line": 56,
             "name": "user is on the LMS application",
             "match": {
               "location": "src\\test\\step\\courseSearch.ts:27"
@@ -757,100 +140,61 @@
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 69187199
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 40,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "line": 72,
+            "name": "the user enters signup details \"Darshan\", \"darshan10@gmail.com\", \"1234567890\", \"Darshan@10\", \"Darshan@10\"",
             "match": {
-              "location": "src\\test\\step\\login.ts:9"
+              "location": "src\\test\\step\\SignupParticipant.ts:84"
             }
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 36404899
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 41,
-            "name": "the user enter the valid password as \"sriram123@\"",
+            "line": 73,
+            "name": "the user clicks create account button",
             "match": {
-              "location": "src\\test\\step\\login.ts:13"
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
             }
           },
           {
             "result": {
-              "status": "passed",
-              "duration": 71863200
+              "status": "skipped",
+              "duration": 0
             },
             "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "the user click sigin button",
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user gets the error message",
             "match": {
-              "location": "src\\test\\step\\login.ts:17"
+              "location": "src\\test\\step\\SignupParticipant.ts:115"
             }
           },
           {
             "result": {
               "status": "failed",
-              "duration": 30005815200,
-              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\']')\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:51"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 65,
-            "name": "the user enters a partial course name \"Manual\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:78"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 66,
-            "name": "the matching training course \"Manual Testing\" should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:61"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 391124899
+              "duration": 5651599,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
             },
             "keyword": "After",
             "hidden": true
@@ -859,34 +203,474 @@
         "tags": [
           {
             "name": "@Darshan",
-            "line": 35
+            "line": 52
           },
           {
-            "name": "@trainingsearch",
-            "line": 35
+            "name": "@Signup",
+            "line": 52
           },
           {
-            "name": "@PartialSearch",
-            "line": 63
+            "name": "@InvalidSignup",
+            "line": 70
+          },
+          {
+            "name": "@SameMailSignUp",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario Outline",
+        "line": 79,
+        "name": "User create account with already registered mail",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 254066299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 2271423699,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "the user enters signup details \"Raj\", \"DarSHan10@GmaIL.COm\", \"0987654321\", \"Darshan@10\", \"Darshan@10\"",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:84"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user gets the error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:115"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 6470900,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 52
+          },
+          {
+            "name": "@Signup",
+            "line": 52
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 70
+          },
+          {
+            "name": "@SameMailSignUp",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---participant-sign-up;user-create-account-with-already-registered-mail",
+        "keyword": "Scenario Outline",
+        "line": 80,
+        "name": "User create account with already registered mail",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 278794699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 1631880100,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "the user enters signup details \"Jayapal\", \"DARSHAN10@GMAIL.COM\", \"1234509876\", \"Darshan@10\", \"Darshan@10\"",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:84"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user gets the error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:115"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 3215499,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 52
+          },
+          {
+            "name": "@Signup",
+            "line": 52
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 70
+          },
+          {
+            "name": "@SameMailSignUp",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---participant-sign-up;user-enters-mismatched-password",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "User enters mismatched password",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 259714699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 1471291299,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "the user enters signup details with mismatched password",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:120"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "the user gets the mismatch error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:132"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 2531600,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 52
+          },
+          {
+            "name": "@Signup",
+            "line": 52
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "darshanraj---participant-sign-up;user-does-not-agree-terms-of-service",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "User does not agree terms of service",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 256045799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 1545308199,
+              "error_message": "page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"https://www.waveinitlms.online/\", waiting until \"load\"\u001b[22m\n\n    at loginpage.launch (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\pages\\loginpage.ts:32:25)\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\courseSearch.ts:28:20)"
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "user is on the LMS application",
+            "match": {
+              "location": "src\\test\\step\\courseSearch.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the user clicks on sign up as participant link",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:78"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "the user enters valid signup details without accepting terms",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:138"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "the user clicks create account button",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:103"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "the user gets the terms of service error message",
+            "match": {
+              "location": "src\\test\\step\\SignupParticipant.ts:151"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 7044899,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at customworld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\hooks\\hooks.ts:55:37)"
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 52
+          },
+          {
+            "name": "@Signup",
+            "line": 52
+          },
+          {
+            "name": "@InvalidSignup",
+            "line": 90
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "darshanraj---25th-july---search-courses",
-    "line": 36,
+    "id": "darshanraj---participant-sign-up",
+    "line": 53,
     "keyword": "Feature",
-    "name": "DarshanRaj - 25th July - Search courses",
+    "name": "DarshanRaj - Participant Sign Up",
     "tags": [
       {
         "name": "@Darshan",
-        "line": 35
+        "line": 52
       },
       {
-        "name": "@trainingsearch",
-        "line": 35
+        "name": "@Signup",
+        "line": 52
       }
     ],
-    "uri": "src\\test\\feature\\TrainingSearch.feature"
+    "uri": "src\\test\\feature\\SignUpParticipant.feature"
   }
 ]
