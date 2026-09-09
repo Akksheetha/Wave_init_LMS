@@ -12,11 +12,14 @@ import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { adminloginPage } from '../pages/adminloginPage';
 import { SignupPage } from '../pages/SignupPage';
 import { addTrainerPage } from '../pages/addtrainerPage';
+import { TrainerCoursePage } from '../pages/TrainerCoursePage';
+import { ParticipantPage } from '../pages/ParticpantPage';
 import { MyProfileUpdate } from '../pages/MyProfileUpdate';
 import { EducationPage } from '../pages/AddeducationPage';
-import {AddTrainingPage}  from '../pages/AddTrainingPage';
+import {AdminExperiencePage} from '../pages/AdminExperiencePage';
+import AddTrainingPage from '../pages/AddTrainingPage';
 
-export class customworld extends World{
+export class CustomWorld extends World{
     browser!:Browser
     context!:BrowserContext
     page!:Page
@@ -29,10 +32,14 @@ export class customworld extends World{
     moduleCreation!: ModuleCreationPage;
     signUp!: SignupPage;
     adminLogin!: adminloginPage;
-    addTrainer!: addTrainerPage
+    addTrainer!: addTrainerPage;
+    tcp!:TrainerCoursePage;
+    ap!: adminloginPage;
+    pp!: ParticipantPage;
     courseDetails!: courseDetailsPage;
     MyProfile!:MyProfileUpdate
     Education!:EducationPage;
     addTrainingPage!: AddTrainingPage;
+    AdminExperience!:AdminExperiencePage;
 
-}setWorldConstructor(customworld)
+}setWorldConstructor(CustomWorld)

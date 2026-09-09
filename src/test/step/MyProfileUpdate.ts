@@ -56,3 +56,31 @@ When('the user select the skill suggestion from CSV', async function (this:custo
 Then('the suggested skill should be added to the profile', async function (this:customworld) {
      await expect(await this.MyProfile.skill(profileSkillData[0].suggestionSkill)).toBeVisible();
 });
+
+
+
+
+When('the user click the xmake of one skill', async function (this:customworld) {
+  await this.MyProfile.Click_Cancel()
+});
+
+When('the user clik the delete button', async function (this:customworld) {
+     await this.MyProfile.click_Delete()
+});
+
+Then('the particular skill is deleted from the skill position', async function (this:customworld) {
+     let act = await this.MyProfile.skill_count()
+     console.log(act)
+     expect (act).toBeTruthy()
+});
+
+
+
+When('the user enter the skill which is already added', async function (this:customworld) {
+  this.MyProfile.skillinput()
+});
+
+Then('the user see the message of already listed in the skill', async function (this:customworld) {
+  let act = await this.MyProfile.duplicateMsg()
+  expect(act).toContainText("already in your skills list.")
+});
