@@ -10,6 +10,7 @@ import { ParticipantPage } from '../pages/ParticpantPage';
 import { courseDetailsPage } from '../pages/courseDetailsPage';
 import { EducationPage } from '../pages/AddeducationPage';
 import {AdminExperiencePage} from '../pages/AdminExperiencePage';
+import {AddTrainingPage} from '../pages/AddTrainingPage';
 import {
     BeforeAll,
     AfterAll,
@@ -52,6 +53,7 @@ Before(async function (this:CustomWorld) {
     this.courseDetails = new courseDetailsPage(this.page);
     this.tcp=new TrainerCoursePage(this.page);
     this.Education = new EducationPage(this.page);
+    this.addTrainingPage =new AddTrainingPage(this.page);
     this.AdminExperience = new AdminExperiencePage(this.page);
 })
 

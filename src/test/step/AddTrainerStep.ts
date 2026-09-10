@@ -250,12 +250,14 @@ When(
     }
 );
 
-
 Then(
     'the trainer should be created successfully',
-
     async function (this: customworld) {
 
+        // Navigate to Trainers page
+        await this.addTrainer.clickTrainers();
+
+        // Verify newly created trainer
         await this.addTrainer.verifyTrainerCreated(
             createdTrainerEmail
         );

@@ -4,595 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 19,
-        "name": "User search for an existing training course by the exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 302952300
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 4792520100
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 84592799
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 14771000
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 470105300
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 120503599,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "the user enters the \"Manual Testing\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the matching training course should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 588286300
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 1
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 1
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 12
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 20,
-        "name": "User search for an existing training course by the exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 211468000
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1832896000
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 115436999
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 44478999
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 92423399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 7623399,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "the user enters the \"manual testing\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the matching training course should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 339231099
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 1
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 1
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 12
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 21,
-        "name": "User search for an existing training course by the exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 109042600
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 3395093400
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 101518399
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 95962200
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 105619800
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 10633500,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "the user enters the \"MANUAL TESTING\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the matching training course should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 370667199
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 1
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 1
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 12
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-exact-course-name",
-        "keyword": "Scenario Outline",
-        "line": 22,
-        "name": "User search for an existing training course by the exact course name",
-        "steps": [
-          {
-            "result": {
-              "status": "passed",
-              "duration": 126733500
-            },
-            "keyword": "Before",
-            "hidden": true
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1764116499
-            },
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user is on the LMS application",
-            "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 82060499
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 35754000
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 69563399
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
-            }
-          },
-          {
-            "result": {
-              "status": "failed",
-              "duration": 8727299,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
-            "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "the user enters the \"ManUAL TesTIng\" in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the matching training course should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 351894500
-            },
-            "keyword": "After",
-            "hidden": true
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Darshan",
-            "line": 1
-          },
-          {
-            "name": "@trainingsearch",
-            "line": 1
-          },
-          {
-            "name": "@ValidSearch",
-            "line": 12
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-an-existing-training-course-by-the-invalid-course-name",
+        "id": "create-training-session;verify-the-training-session-is-created-with-valid-details",
         "keyword": "Scenario",
-        "line": 25,
-        "name": "User search for an existing training course by the invalid course name",
+        "line": 8,
+        "name": "Verify the training session is created with valid details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 138754399
+              "duration": 191426600
             },
             "keyword": "Before",
             "hidden": true
@@ -600,67 +20,41 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1670691700
+              "duration": 6267503400
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user is on the LMS application",
+            "name": "the admin navigates to the Training Programs page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\TrainingStep.ts:24"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 110313900
+              "duration": 490108200
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "line": 9,
+            "name": "the admin clicks the Add Training button",
             "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 37769400
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 76734199
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
+              "location": "src\\test\\step\\TrainingStep.ts:58"
             }
           },
           {
             "result": {
               "status": "failed",
-              "duration": 11599800,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
+              "duration": 1415427500,
+              "error_message": "locator.click: Error: strict mode violation: getByText('John', { exact: true }) resolved to 10 elements:\n    1) <span>John</span> aka getByRole('option', { name: 'John trainer1788367993305@' })\n    2) <span>John</span> aka getByRole('option', { name: 'John trainer1788367973071@' })\n    3) <span>John</span> aka getByRole('option', { name: 'John trainer1788366451678@' })\n    4) <span>John</span> aka getByRole('option', { name: 'John trainer1788366427998@' })\n    5) <span>John</span> aka getByRole('option', { name: 'John trainer1788343257743@' })\n    6) <span>John</span> aka getByRole('option', { name: 'John trainer1788343239300@' })\n    7) <span>John</span> aka getByRole('option', { name: 'John trainer1788285741150@' })\n    8) <span>John</span> aka getByRole('option', { name: 'John trainer1788285723888@' })\n    9) <span>John</span> aka getByRole('option', { name: 'John trainer1788284455414@' })\n    10) <span>John</span> aka getByRole('option', { name: 'John trainer1788284439584@' })\n\nCall log:\n\u001b[2m  - waiting for getByText('John', { exact: true })\u001b[22m\n\n    at AddTrainingPage.selectTrainer (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\AddTrainingPage.ts:269:14)\n    at async customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\TrainingStep.ts:85:9)"
             },
             "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin fills all mandatory training details",
             "match": {
-              "location": "src\\test\\step\\login.ts:21"
+              "location": "src\\test\\step\\TrainingStep.ts:68"
             }
           },
           {
@@ -670,10 +64,125 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
+            "line": 11,
+            "name": "the admin clicks the Create Training Session button",
             "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
+              "location": "src\\test\\step\\TrainingStep.ts:108"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the training session should be created successfully",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:118"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the new training should be displayed in the list",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:128"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100618899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          },
+          {
+            "name": "@CreateTraining",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-training-session;verify-the-admin-can-view-training-session-details",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify the admin can view training session details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 173319800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7011287700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin navigates to the Training Programs page",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 551923200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the admin searches for the training",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:144"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 10023101999,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at AddTrainingPage.clickViewTraining (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\AddTrainingPage.ts:380:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\TrainingStep.ts:168:14)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin clicks the View icon for the training",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:163"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the training details should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:175"
             }
           },
           {
@@ -683,10 +192,125 @@
             },
             "arguments": [],
             "keyword": "When ",
+            "line": 20,
+            "name": "the admin clicks the Close button",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:185"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the training details should be closed",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:195"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 133329999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          },
+          {
+            "name": "@ViewTraining",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-training-session;verify-the-admin-can-edit-all-training-details",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify the admin can edit all training details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 217084200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9328753699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin navigates to the Training Programs page",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 558959999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the admin searches for the training",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:144"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 10010123199,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at AddTrainingPage.clickEditTraining (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\AddTrainingPage.ts:446:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\TrainingStep.ts:214:14)"
+            },
+            "arguments": [],
+            "keyword": "And ",
             "line": 26,
-            "name": "the user enters the invalid value in the search bar field",
+            "name": "the admin clicks the Edit Training button",
             "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:23"
+              "location": "src\\test\\step\\TrainingStep.ts:209"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the admin edits all training details",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:221"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the admin clicks the Save Changes button",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:253"
             }
           },
           {
@@ -696,16 +320,16 @@
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 27,
-            "name": "the system should display no matches message",
+            "line": 29,
+            "name": "the training details should be updated successfully",
             "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:27"
+              "location": "src\\test\\step\\TrainingStep.ts:263"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 378472699
+              "duration": 97975400
             },
             "keyword": "After",
             "hidden": true
@@ -713,31 +337,27 @@
         ],
         "tags": [
           {
-            "name": "@Darshan",
+            "name": "@Vithya",
             "line": 1
           },
           {
-            "name": "@trainingsearch",
-            "line": 1
-          },
-          {
-            "name": "@InvalidSearch",
-            "line": 24
+            "name": "@EditTraining",
+            "line": 23
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "darshanraj---25th-july---search-courses;user-search-for-a-training-course-using-a-partial-course-name",
+        "id": "create-training-session;verify-the-admin-can-search-training-by-title",
         "keyword": "Scenario",
-        "line": 30,
-        "name": "User search for a training course using a partial course name",
+        "line": 32,
+        "name": "Verify the admin can search training by title",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 100678799
+              "duration": 182063699
             },
             "keyword": "Before",
             "hidden": true
@@ -745,112 +365,47 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1602310000
+              "duration": 5840269999
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user is on the LMS application",
+            "name": "the admin navigates to the Training Programs page",
             "match": {
-              "location": "src\\test\\step\\courseSearch.ts:27"
+              "location": "src\\test\\step\\TrainingStep.ts:24"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 86879300
+              "duration": 524067399
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user enter the valid userName as \"titooram123@gmail.com\"",
+            "line": 33,
+            "name": "the admin enters a training title in the search field",
             "match": {
-              "location": "src\\test\\step\\login.ts:9"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 35774899
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the user enter the valid password as \"sriram123@\"",
-            "match": {
-              "location": "src\\test\\step\\login.ts:13"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 68964999
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user click sigin button",
-            "match": {
-              "location": "src\\test\\step\\login.ts:17"
+              "location": "src\\test\\step\\TrainingStep.ts:279"
             }
           },
           {
             "result": {
               "status": "failed",
-              "duration": 8712899,
-              "error_message": "locator.textContent: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h1[@class='tdb-header-title'], h1:has-text('Welcome'), //h1, //h2' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (eval at evaluate (:311:30), <anonymous>:2:29)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\nCall log:\n\u001b[2m  - waiting for locator('//h1[@class=\\'tdb-header-title\\'], h1:has-text(\\'Welcome\\'), //h1, //h2')\u001b[22m\n\n    at Object.queryAll (<anonymous>:6296:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6969:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6956:30)\n    at callMatchedElements (:311:30)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at CustomWorld.<anonymous> (C:\\Users\\dhars\\Documents\\Wave_init_LMS\\src\\test\\step\\login.ts:22:51)"
+              "duration": 10017603300,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at AddTrainingPage.verifySearchResult (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\AddTrainingPage.ts:356:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\TrainingStep.ts:318:14)"
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "the user should see the dashboard page after successfully login",
+            "line": 34,
+            "name": "the matching training should be displayed",
             "match": {
-              "location": "src\\test\\step\\login.ts:21"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user clicks Explore Courses Button",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "When ",
-            "line": 31,
-            "name": "the user enters a partial course name in the search bar field",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:32"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            },
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 32,
-            "name": "the matching training course should be displayed in the list",
-            "match": {
-              "location": "src\\test\\step\\exploreTrainingSearch.ts:18"
+              "location": "src\\test\\step\\TrainingStep.ts:313"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 396724999
+              "duration": 106475999
             },
             "keyword": "After",
             "hidden": true
@@ -858,35 +413,217 @@
         ],
         "tags": [
           {
-            "name": "@Darshan",
+            "name": "@Vithya",
             "line": 1
           },
           {
-            "name": "@trainingsearch",
+            "name": "@SearchTraining",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-training-session;verify-the-admin-can-search-training-by-trainer",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Verify the admin can search training by trainer",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 176599300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6215015400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin navigates to the Training Programs page",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 550052200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "the admin enters a trainer name in the search field",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:298"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 852369300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the matching training should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:313"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23867800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
             "line": 1
           },
           {
-            "name": "@PartialSearch",
-            "line": 29
+            "name": "@SearchTrainer",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-training-session;verify-the-admin-can-delete-a-training-session",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Verify the admin can delete a training session",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 182761599
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7160297300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin navigates to the Training Programs page",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 542902700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "the admin searches for the training",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:144"
+            }
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 10014232000,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr').filter({ hasText: 'Playwright TypeScript Automation' }).first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeVisible (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at AddTrainingPage.clickDeleteTraining (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\pages\\AddTrainingPage.ts:558:11)\n    at customworld.<anonymous> (C:\\Users\\vithy\\Desktop\\Expleo\\Wave_init_LMS\\src\\test\\step\\TrainingStep.ts:337:14)"
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the admin clicks the Delete Training button",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:329"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the delete confirmation should be displayed",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:344"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "the admin confirms the training deletion",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:354"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the training should be deleted successfully",
+            "match": {
+              "location": "src\\test\\step\\TrainingStep.ts:364"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 97924700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          },
+          {
+            "name": "@DeleteTraining",
+            "line": 41
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "darshanraj---25th-july---search-courses",
+    "id": "create-training-session",
     "line": 2,
     "keyword": "Feature",
-    "name": "DarshanRaj - 25th July - Search courses",
+    "name": "Create Training Session",
     "tags": [
       {
-        "name": "@Darshan",
-        "line": 1
-      },
-      {
-        "name": "@trainingsearch",
+        "name": "@Vithya",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\TrainingSearch.feature"
+    "uri": "src\\test\\feature\\AddTraining.feature"
   }
 ]
