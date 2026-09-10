@@ -140,55 +140,19 @@ export class SignupPage extends basePage {
 
     constructor(page: Page) {
         super(page);
-
-        this.sign = page.getByRole('link', {
-            name: 'Sign up as Participant'
-        });
-
-        this.fullName = page.getByRole('textbox', {
-            name: 'Full Name'
-        });
-
-        this.email = page.getByRole('textbox', {
-            name: 'Email Address'
-        });
-
-        this.phone = page.getByRole('textbox', {
-            name: 'Phone Number'
-        });
-
-        this.password = page.getByRole('textbox', {
-            name: 'Password',
-            exact: true
-        });
-
-        this.confirmPassword = page.getByRole('textbox', {
-            name: 'Confirm Password',
-            exact: true
-        });
-
+         this.sign = page.getByRole('link', {name: 'Sign up as Participant'});
+        this.fullName = page.getByRole('textbox', {name: 'Full Name'});
+        this.email = page.getByRole('textbox', {name: 'Email Address'});
+        this.phone = page.getByRole('textbox', {name: 'Phone Number'});
+        this.password = page.getByRole('textbox', {name: 'Password',exact: true});
+        this.confirmPassword = page.getByRole('textbox', {name: 'Confirm Password',exact: true});
         this.terms = page.getByRole('checkbox');
+        this.createAccount = page.getByRole('button', {name: 'Create Account'});
+        this.successMessage = page.locator("//div/div[2]/div[2]/div[1]/h2")
+        this.registeredErrorMessage = page.locator("//span[contains(text(),'already exists')]")
+        this.passwordMismatchError = page.locator("//p[text()='Passwords do not match']")
+        this.termsError = page.locator("//span[text()='You must agree to the terms']")
 
-        this.createAccount = page.getByRole('button', {
-            name: 'Create Account'
-        });
-
-        this.successMessage = page.getByRole('heading');
-
-        this.registeredErrorMessage = page.getByText(
-            'already registered',
-            { exact: false }
-        );
-
-        this.passwordMismatchError = page.getByText(
-            'Passwords do not match',
-            { exact: true }
-        );
-
-        this.termsError = page.getByText(
-            'You must agree to the terms',
-            { exact: true }
-        );
     }
 
     async signupClick() {
